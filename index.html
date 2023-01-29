@@ -558,7 +558,7 @@
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control" id="name"  placeholder="Your Name">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
@@ -576,13 +576,9 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <select class="form-select" id="select1">
-                                          <option value="1">People 1</option>
-                                          <option value="2">People 2</option>
-                                          <option value="3">People 3</option>
-                                        </select>
-                                        <label for="select1">No Of People</label>
-                                      </div>
+                                    <input type="number" class="form-control " id="people" placeholder="No. Of People" />
+                                    <label for="people">No. Of People</label>
+                                </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
@@ -591,7 +587,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                    <button class="btn btn-primary w-100 py-3" onclick="whatsapp();" type="button">Book Now</button>
                                 </div>
                             </div>
                         </form>
@@ -826,6 +822,24 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        function whatsapp(){
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var date3 = document.getElementById("date3").value;
+        var people = document.getElementById("people").value;
+        var message = document.getElementById("message").value;
+
+        var Url = "https://wa.me/201278833452?text="
+        +"*Name :*"+name+"%0a";
+        +"*Email :*"+email+"%0a";
+        +"*Date  :*"+date3+"%0a";
+        +"*No *of People :"+people+"%0a";
+        +"*Note :*"+message+"%0a";
+
+        window.open(Url,'_blank').focus();
+    }
+    </script>
 </body>
 
 </html>
