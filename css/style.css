@@ -25,6 +25,13 @@
     bottom: 45px;
     z-index: 99;
 }
+.whatsapp{
+    position: fixed;
+    display: none;
+    left: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
 
 
 /*** Spinner ***/
