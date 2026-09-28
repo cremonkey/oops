@@ -1,0 +1,10 @@
+{
+  "name": "nexus-crm-promo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node build/render.mjs out/nexus-crm-promo-video.mp4",
+    "render:nocap": "node build/render.mjs out/nexus-crm-promo-video-nocaptions.mp4 --no-captions"
+  },
+  "dependencies": { "playwright": "1.56.1" }
+}

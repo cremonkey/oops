@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Nexus CRM — From Leads to Revenue</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@font-face{font-family:'Cairo';font-weight:400;src:url(../fonts/Cairo-400.ttf)}
+@font-face{font-family:'Cairo';font-weight:600;src:url(../fonts/Cairo-600.ttf)}
+@font-face{font-family:'Cairo';font-weight:700;src:url(../fonts/Cairo-700.ttf)}
+@font-face{font-family:'Cairo';font-weight:800;src:url(../fonts/Cairo-800.ttf)}
+@font-face{font-family:'Inter';font-weight:400;src:url(../fonts/Inter-400.ttf)}
+@font-face{font-family:'Inter';font-weight:500;src:url(../fonts/Inter-500.ttf)}
+@font-face{font-family:'Inter';font-weight:600;src:url(../fonts/Inter-600.ttf)}
+@font-face{font-family:'Inter';font-weight:700;src:url(../fonts/Inter-700.ttf)}
+@font-face{font-family:'Inter';font-weight:800;src:url(../fonts/Inter-800.ttf)}
+html,body{margin:0;background:#000}
+canvas{display:block}
+body.preview canvas{height:88vh;width:auto;margin:1vh auto}
+#ui{display:none;color:#9ab;font:14px Inter,sans-serif;text-align:center}
+body.preview #ui{display:block}
+</style></head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<div id="ui"><input id="s" type="range" min="0" max="1799" value="0" style="width:60vw"> <span id="n">0</span>
+ <button id="p">play</button> <label><input id="cap" type="checkbox" checked> captions</label></div>
+<script src="timeline.js"></script>
+<script src="nexus.js"></script>
+<script>
+// Preview mode: open index.html?preview in a browser to scrub the timeline.
+if (location.search.includes('preview')) {
+  document.body.classList.add('preview');
+  nexusInit.then(() => {
+    const s = document.getElementById('s'), n = document.getElementById('n');
+    let playing = false, f = 0, t0 = 0;
+    const draw = v => { f = +v; n.textContent = f + '  (' + (f / 30).toFixed(2) + 's)'; renderFrame(f); };
+    s.oninput = () => draw(s.value);
+    document.getElementById('cap').onchange = e => { setCaptions(e.target.checked); draw(f); };
+    document.getElementById('p').onclick = () => { playing = !playing; t0 = performance.now() - f / 30 * 1000;
+      const tick = () => { if (!playing) return; const v = Math.floor((performance.now() - t0) / 1000 * 30) % 1800; s.value = v; draw(v); requestAnimationFrame(tick); }; tick(); };
+    draw(0);
+  });
+}
+</script>
+</body></html>
