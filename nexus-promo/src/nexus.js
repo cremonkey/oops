@@ -239,8 +239,10 @@ function buildCaptions() {
     if (!v.chunks.length) continue;
     const total = v.chunks.reduce((n, c) => n + c.length, 0);
     let t = v.start;
-    for (const text of v.chunks) {
-      const d = v.dur * text.length / total;
+    for (let ci = 0; ci < v.chunks.length; ci++) {
+      const text = v.chunks[ci];
+      let d = v.dur * text.length / total;
+      if (v.marks) { t = v.start + v.marks[ci]; d = (ci + 1 < v.marks.length ? v.marks[ci + 1] : v.dur) - v.marks[ci]; }
       // tokens: merge consecutive Latin words into one LTR run
       const raw = text.split(' '), toks = [];
       for (const w of raw) { if (/^[A-Za-z]/.test(w) && toks.length && /^[A-Za-z]/.test(toks[toks.length - 1])) toks[toks.length - 1] += ' ' + w; else toks.push(w); }

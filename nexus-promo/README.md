@@ -26,7 +26,7 @@ build/render.mjs   headless Chromium → JPEG frames → H.264
 build/audio.py     SFX synthesis, VO placement, ducking, -14 LUFS master
 build/mux.sh       video + audio/mix.wav → final MP4
 audio/             vo1..vo7.*, music.* (inputs); mix.wav, stems/ (outputs)
-out/               rendered deliverables
+out/               rendered deliverables (+ out/stems/*.flac: voice-over, music, SFX)
 ```
 
 ## Build
@@ -42,3 +42,10 @@ build/mux.sh out/video_nocaptions.mp4 out/nexus-crm-promo-nocaptions.mp4
 ```
 
 `audio.py mix` uses `audio/music.*` if present. Otherwise it synthesizes a placeholder bed that follows the brief's music arc. Each `audio/voN.*` file is placed at its scene start. It is sped up by at most 12 % if it overruns its scene, and the music is ducked under it.
+
+## Audio in the current render
+
+- **Voice-over:** Egyptian Arabic, generated in Magnific (`audio/vo1..vo7.mp3`). Line 2 is sped up by 1.3 % to fit its scene; the other lines are untouched.
+- **Music:** generated in Magnific (`audio/music.mp3`). It is ducked about 13 dB under the voice.
+- **Master:** about -14 LUFS.
+- **Captions:** the chunk breaks (`marks` in `src/timeline.js`) are aligned to the pauses in the recording.
