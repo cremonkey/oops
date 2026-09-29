@@ -2,3 +2,4 @@ node_modules/
 out/video_*.mp4
 audio/*.wav
 audio/stems/
+__pycache__/
