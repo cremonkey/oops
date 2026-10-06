@@ -68,6 +68,14 @@ Crop states are a scale on the non-timed `#cam` wrapper, origin 50% 30% (eyes/ch
 | 20 | 55.63–56.83 | 77.70–78.90 | Payoff | A | حياته اتغيرت | 1.13 | «حياته **اتغيرت**» (green) | — | hard cut | — |
 | 21 | 56.83–61.07 | 79.28–83.51 | CTA | A + CTA card | فدي كانت قصة نجاح تستحق إن احنا نعرفها لكم | 1.06 → eases to 1.00 | «فدي كانت» · «قصة **نجاح**» · «تستحق» → card «**شاركيها** · ابعتي القصة دي لحد محتاجها» + share icon | card grows from the teal line (58.97), holds ~13 f after «لكم», collapses back into the line | line grows → frame 0 | sentence + visual + motion loop |
 
+## Revision 2 (2026-10-06): zooms and text behind the doctor
+
+**Zoom choreography** (user request: zoom in/out during speech). Every Dr. Fatma window now runs word-synced moves on the shared camera (`#cam` + `#camfg`), stored per window in `timing-map.json → visual_windows[].zoom_keys`. Push-ins (power3.out, 0.22–0.35 s) land on «واحد / ليه؟ / كرش / 55 / السلم / يصلي / الكرسي / عجز / تحاليلنا / 140 / الفروض / اتغيرت / نجاح». Pull-outs (power2.inOut, 0.4–0.7 s) follow «لأنه / وبيقعد / مش قادر / وبدأنا / كل / يقدر». Slow glides cover «عم حسن» and «هو كان بيقول». The range is 1.00–1.17× (576p source, so no deeper punch). The CTA still eases back to 1.00× so the loop frame matches frame 0.
+
+**Text behind Dr. Fatma** (user request). Six phrases sit on the wall layer, and a local u2net subject matte (`tools/make_mattes.py`, frame-exact, never uploaded) rides the same camera above them, so her head overlaps their lower edge: «كان عنده · أمل واحد», «مش بيقدر يقف · يصلي», «ده · عجز» (offset so the dot of ج is never hidden), «من وزن · 140 كيلو», «بقى يقف يصلي · كل الفروض», «حياته · اتغيرت».
+
+**B-roll** (requested from Magnific stock, existing footage only, no generation). Blocked: the Magnific/Freepik file CDN `videocdn.cdnpk.net` is denied by this environment's network policy, so no clip has been placed yet.
+
 ## Removed source ranges
 
 0.00–7.05 (preamble «الفيديو ده مختلف… قصة نجاح في عيادتنا», its idea returns in the CTA line), 7.92–8.43, 10.46–10.49, 12.29–12.57, 15.10–15.23 (pauses), 21.63–24.02 («مش قادر يوطي يربط الجزمة» repeats the hook), 26.92–27.04, 28.94–30.16 (hesitation «آآآ»), 31.73–33.93 («مش بيقدر ينام على ضهره كمان», the third consecutive «مش بيقدر»), 43.23–43.72, 47.29–48.09, 51.02–51.37, 58.70–59.82, 63.49–63.56 (pauses), 69.13–73.07 (false start «كان بيبقى مش بيح-- بيقول»), 76.34–77.70, 78.90–79.28 (pauses), 83.51–85.06 (dead tail).

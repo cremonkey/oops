@@ -129,6 +129,28 @@ for k, win in enumerate(WINDOWS):
     win["duration"] = round(win["end"] - win["start"], 4)
 CTA_START = W(165, -0.12)
 
+IN, OUT, GLIDE = "power3.out", "power2.inOut", "sine.inOut"
+ZOOMS = {  # A-window start -> (initial scale, keys); push-ins land on emphasis words, pull-outs open the frame
+    0.0: (1.00, [("start", 1.12, 0.72, IN), (32, 1.17, 0.30, IN)]),
+    W(38, -0.06): (1.00, [(38, 1.10, 0.25, IN), (39, 1.02, 0.40, OUT), (42, 1.13, 0.28, IN)]),
+    seg_start("s02"): (1.06, [("start", 1.10, 0.85, GLIDE)]),
+    seg_start("s03"): (1.00, [(17, 1.12, 0.30, IN)]),
+    seg_start("s06"): (1.04, [(52, 1.16, 0.30, IN)]),
+    seg_start("s09"): (1.00, [(75, 1.10, 0.30, IN), (76, 1.02, 0.45, OUT), (78, 1.08, 0.35, IN)]),
+    W(89): (1.04, [(90, 1.17, 0.22, IN), (91, 1.07, 0.50, OUT)]),
+    seg_start("s10"): (1.00, [(96, 1.09, 0.35, IN), (97, 1.00, 0.55, OUT)]),
+    seg_start("s12"): (1.02, [(110, 1.15, 0.25, IN)]),
+    seg_start("s13"): (1.00, [("start", 1.09, 0.85, IN), (122, 1.03, 0.45, OUT), (125, 1.13, 0.30, IN)]),
+    seg_start("s14"): (1.10, [(127, 1.00, 0.70, OUT)]),
+    seg_start("s15"): (1.00, [("start", 1.07, 1.00, GLIDE)]),
+    seg_start("s16"): (1.04, [(159, 1.16, 0.25, IN)]),
+    seg_start("s17"): (1.06, [(163, 1.12, 0.30, IN), ("final", 1.00, None, OUT)]),
+}
+for w in WINDOWS:
+    if w["kind"] == "A":
+        key = next(k for k in ZOOMS if abs(k - w["start"]) < 1e-3)
+        w["crop"] = {"zoom": ZOOMS[key]}
+
 # ---------------------------------------------------------------- text behind Dr. Fatma (matte over typography)
 # (A-window start, kicker, main phrase, word index that triggers it, tone)
 BEHIND_SPEC = [
@@ -323,23 +345,26 @@ cam = []
 for w in WINDOWS:
     if w["kind"] != "A":
         continue
-    c, st, du = w["crop"], w["start"], w["duration"]
-    if "set" in c:
-        cam.append(f'tl.set(CAMS, {{ scale: {c["set"]} }}, {st});')
-    if "push" in c:
-        a, b, d = c["push"]
-        cam.append(f'tl.fromTo(CAMS, {{ scale: {a} }}, {{ scale: {b}, duration: {d}, ease: "power3.out", immediateRender: false }}, {st});')
-    if "punch" in c:
-        i, b, d = c["punch"]
-        cam.append(f'tl.to(CAMS, {{ scale: {b}, duration: {d}, ease: "power2.out" }}, {fq(wout(i) - 0.04)});')
-    if "drift" in c:
-        a, b = c["drift"]
-        cam.append(f'tl.fromTo(CAMS, {{ scale: {a} }}, {{ scale: {b}, duration: {du}, ease: "none", immediateRender: false }}, {st});')
-    if "outro" in c:
-        a, b = c["outro"]
-        hold = fq(wout(168, "end") - st)
-        cam.append(f'tl.set(CAMS, {{ scale: {a} }}, {st});')
-        cam.append(f'tl.to(CAMS, {{ scale: {b}, duration: {fq(du - hold + 0.6)}, ease: "power2.inOut" }}, {fq(st + hold - 0.6)});')
+    st, en = w["start"], round(w["start"] + w["duration"], 4)
+    s0, keys = w["crop"]["zoom"]
+    times = []
+    for anchor, sc, d, ease in keys:
+        if anchor == "start":
+            t = st
+        elif anchor == "final":
+            t = fq(wout(168, "end") - 0.6)
+            d = round(en - t, 3)
+        else:
+            t = fq(max(st, wout(anchor) - 0.04))
+        times.append((t, sc, d, ease))
+    cam.append(f'tl.set(CAMS, {{ scale: {s0} }}, {st});')
+    prev = s0
+    for k, (t, sc, d, ease) in enumerate(times):
+        limit = times[k + 1][0] if k + 1 < len(times) else en
+        d = round(max(0.05, min(d, limit - t)), 3)  # never overlap the next key or leave the window
+        cam.append(f'tl.fromTo(CAMS, {{ scale: {prev} }}, {{ scale: {sc}, duration: {d}, ease: "{ease}", immediateRender: false }}, {t});')
+        prev = sc
+    w["zoom_keys"] = [{"t": t, "scale": sc, "ease": e} for t, sc, _, e in times]
 
 # Render guard: the renderer can miss the very first decoded frames of the opening clip, so the
 # exact source frames 457/458 (s01 in-point) sit under the video for frames 0-1 only.
