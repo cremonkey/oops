@@ -12,3 +12,5 @@ review/
 .hyperframes/
 node_modules
 .thumbnails/
+assets/mattes/
+assets/broll/

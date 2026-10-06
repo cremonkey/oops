@@ -129,6 +129,25 @@ for k, win in enumerate(WINDOWS):
     win["duration"] = round(win["end"] - win["start"], 4)
 CTA_START = W(165, -0.12)
 
+# ---------------------------------------------------------------- text behind Dr. Fatma (matte over typography)
+# (A-window start, kicker, main phrase, word index that triggers it, tone)
+BEHIND_SPEC = [
+    (0.0, "كان عنده", "أمل واحد", 30, "teal"),
+    (seg_start("s09"), "مش بيقدر يقف", "يصلي", 75, "ink"),
+    (W(89), "ده", "عجز", 90, "warm", 230),  # shifted so the head never hides the dot of ج
+    (seg_start("s12"), "من وزن", "140 كيلو", 110, "ink"),
+    (seg_start("s13"), "بقى يقف يصلي", "كل الفروض", 122, "teal"),
+    (seg_start("s16"), "حياته", "اتغيرت", 159, "teal"),
+]
+BEHIND = []
+for k, (wst, kicker, main, wi, tone, *dx) in enumerate(BEHIND_SPEC):
+    win = next(w for w in WINDOWS if w["kind"] == "A" and abs(w["start"] - wst) < 1e-3)
+    seg = next(sg for sg in segs if sg["out_start"] - 1e-3 <= win["start"] < sg["out_start"] + sg["duration"] - 1e-3)
+    f0 = round((seg["src_in"] + win["start"] - seg["out_start"]) * FPS)
+    BEHIND.append({"id": f"b{k + 1}", "start": win["start"], "duration": win["duration"], "src_frame": f0,
+                   "frames": round(win["duration"] * FPS), "kicker": kicker, "main": main, "tone": tone, "dx": dx[0] if dx else 0,
+                   "at": round(max(0.0, wout(wi) - win["start"] - 0.08), 3)})
+
 # scene-local cues (seconds from scene start), consumed by the templates
 def local(scene, i, key="start", off=0.0):
     win = next(w for w in WINDOWS if w.get("scene") == scene)
@@ -254,6 +273,7 @@ json.dump({
     "removed_source_ranges": removed,
     "visual_windows": [{k: v for k, v in w.items()} for w in WINDOWS],
     "cta": {"start": CTA_START, "end": TOTAL},
+    "behind_text": BEHIND,
     "scene_cues": CUES,
     "sfx": [{"sound": s, "at": a, "volume": v} for s, a, v in SFX],
 }, open("timing-map.json", "w"), ensure_ascii=False, indent=1)
@@ -272,6 +292,8 @@ for w in WINDOWS:
     if w["kind"] == "G":
         render_template(f"{w['scene']}.html", f"compositions/{w['scene']}.html", CUES[w["scene"]], w["duration"])
 render_template("cta.html", "compositions/cta.html", CUES["cta"], fq(TOTAL - CTA_START))
+render_template("behind.html", "compositions/behind.html", {"total": TOTAL}, TOTAL,
+                {"__ITEMS__": json.dumps(BEHIND, ensure_ascii=False)})
 render_template("captions.html", "compositions/captions.html", {"total": TOTAL}, TOTAL,
                 {"__CAPS__": json.dumps(caps, ensure_ascii=False)})
 
@@ -303,21 +325,21 @@ for w in WINDOWS:
         continue
     c, st, du = w["crop"], w["start"], w["duration"]
     if "set" in c:
-        cam.append(f'tl.set("#cam", {{ scale: {c["set"]} }}, {st});')
+        cam.append(f'tl.set(CAMS, {{ scale: {c["set"]} }}, {st});')
     if "push" in c:
         a, b, d = c["push"]
-        cam.append(f'tl.fromTo("#cam", {{ scale: {a} }}, {{ scale: {b}, duration: {d}, ease: "power3.out", immediateRender: false }}, {st});')
+        cam.append(f'tl.fromTo(CAMS, {{ scale: {a} }}, {{ scale: {b}, duration: {d}, ease: "power3.out", immediateRender: false }}, {st});')
     if "punch" in c:
         i, b, d = c["punch"]
-        cam.append(f'tl.to("#cam", {{ scale: {b}, duration: {d}, ease: "power2.out" }}, {fq(wout(i) - 0.04)});')
+        cam.append(f'tl.to(CAMS, {{ scale: {b}, duration: {d}, ease: "power2.out" }}, {fq(wout(i) - 0.04)});')
     if "drift" in c:
         a, b = c["drift"]
-        cam.append(f'tl.fromTo("#cam", {{ scale: {a} }}, {{ scale: {b}, duration: {du}, ease: "none", immediateRender: false }}, {st});')
+        cam.append(f'tl.fromTo(CAMS, {{ scale: {a} }}, {{ scale: {b}, duration: {du}, ease: "none", immediateRender: false }}, {st});')
     if "outro" in c:
         a, b = c["outro"]
         hold = fq(wout(168, "end") - st)
-        cam.append(f'tl.set("#cam", {{ scale: {a} }}, {st});')
-        cam.append(f'tl.to("#cam", {{ scale: {b}, duration: {fq(du - hold + 0.6)}, ease: "power2.inOut" }}, {fq(st + hold - 0.6)});')
+        cam.append(f'tl.set(CAMS, {{ scale: {a} }}, {st});')
+        cam.append(f'tl.to(CAMS, {{ scale: {b}, duration: {fq(du - hold + 0.6)}, ease: "power2.inOut" }}, {fq(st + hold - 0.6)});')
 
 # Render guard: the renderer can miss the very first decoded frames of the opening clip, so the
 # exact source frames 457/458 (s01 in-point) sit under the video for frames 0-1 only.
@@ -328,9 +350,14 @@ stills = "\n".join(
     for k in range(2))
 videos = stills + "\n" + videos
 
+mattes = "\n".join(
+    f'        <video id="matte-{b["id"]}" class="clip" src="assets/mattes/{b["id"]}.webm" data-start="{b["start"]}" '
+    f'data-duration="{b["duration"]}" data-media-start="0" data-track-index="8" muted playsinline></video>'
+    for b in BEHIND)
+
 index = open("tools/templates/index.html").read()
 index = (index.replace("__TOTAL__", str(TOTAL)).replace("__VIDEOS__", videos).replace("__HOSTS__", hosts)
-         .replace("__SFX__", sfx_html).replace("__CAM__", "\n      ".join(cam))
+         .replace("__SFX__", sfx_html).replace("__MATTES__", mattes).replace("__CAM__", "\n      ".join(cam))
          .replace("__CTA_START__", str(CTA_START)).replace("__CTA_DUR__", str(fq(TOTAL - CTA_START))))
 open("index.html", "w").write(index)
 

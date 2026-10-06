@@ -13,6 +13,10 @@
       #cam { position: absolute; inset: 0; transform-origin: 50% 30%; z-index: 1; }
       #cam .arole-still { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; z-index: 0; }
       #cam video { z-index: 1; position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      /* foreground camera: subject mattes ride the exact same crop as #cam, over the behind-text layer */
+      #camfg { position: absolute; inset: 0; transform-origin: 50% 30%; z-index: 3; pointer-events: none; }
+      #camfg video { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      #host-behind { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 2; }
       .scene-host { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 10; }
       #host-captions { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 5; }
       #host-cta { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 12; }
@@ -23,6 +27,13 @@
       <!-- Track 0 · A-roll: Dr. Fatma, hard-cut source ranges (see timing-map.json) -->
       <div data-hf-id="hf-3k72" id="cam">
 __VIDEOS__
+      </div>
+
+      <!-- Track 9 · key phrases set behind Dr. Fatma -->
+      <div id="host-behind" class="clip" data-composition-id="behind" data-composition-src="compositions/behind.html" data-start="0" data-duration="__TOTAL__" data-track-index="9" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <!-- Track 8 · subject mattes (local u2net cut-outs of the same source frames) -->
+      <div id="camfg">
+__MATTES__
       </div>
 
       <!-- Track 2 · full-screen editorial scenes -->
@@ -38,8 +49,9 @@ __HOSTS__
 __SFX__
     </div>
     <script>
+      const CAMS = ["#cam", "#camfg"];
       const tl = gsap.timeline({ paused: true });
-      tl.set("#cam", { scale: 1 }, 0);
+      tl.set(CAMS, { scale: 1 }, 0);
       __CAM__
       window.__timelines["main"] = tl;
     </script>

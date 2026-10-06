@@ -480,6 +480,80 @@
   "start": 58.9333,
   "end": 61.0667
  },
+ "behind_text": [
+  {
+   "id": "b1",
+   "start": 0.0,
+   "duration": 2.4667,
+   "src_frame": 457,
+   "frames": 74,
+   "kicker": "كان عنده",
+   "main": "أمل واحد",
+   "tone": "teal",
+   "dx": 0,
+   "at": 0.647
+  },
+  {
+   "id": "b2",
+   "start": 20.0,
+   "duration": 3.2667,
+   "src_frame": 1018,
+   "frames": 98,
+   "kicker": "مش بيقدر يقف",
+   "main": "يصلي",
+   "tone": "ink",
+   "dx": 0,
+   "at": 0.827
+  },
+  {
+   "id": "b3",
+   "start": 27.1333,
+   "duration": 2.1667,
+   "src_frame": 1232,
+   "frames": 65,
+   "kicker": "ده",
+   "main": "عجز",
+   "tone": "warm",
+   "dx": 230,
+   "at": 0.594
+  },
+  {
+   "id": "b4",
+   "start": 35.7667,
+   "duration": 3.2333,
+   "src_frame": 1541,
+   "frames": 97,
+   "kicker": "من وزن",
+   "main": "140 كيلو",
+   "tone": "ink",
+   "dx": 0,
+   "at": 1.533
+  },
+  {
+   "id": "b5",
+   "start": 43.1,
+   "duration": 3.6667,
+   "src_frame": 1795,
+   "frames": 110,
+   "kicker": "بقى يقف يصلي",
+   "main": "كل الفروض",
+   "tone": "teal",
+   "dx": 0,
+   "at": 1.307
+  },
+  {
+   "id": "b6",
+   "start": 55.6,
+   "duration": 1.2,
+   "src_frame": 2331,
+   "frames": 36,
+   "kicker": "حياته",
+   "main": "اتغيرت",
+   "tone": "teal",
+   "dx": 0,
+   "at": 0.38
+  }
+ ],
  "scene_cues": {
   "g01-hope": {
    "lace": 0.0,

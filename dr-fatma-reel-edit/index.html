@@ -13,6 +13,10 @@
       #cam { position: absolute; inset: 0; transform-origin: 50% 30%; z-index: 1; }
       #cam .arole-still { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; z-index: 0; }
       #cam video { z-index: 1; position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      /* foreground camera: subject mattes ride the exact same crop as #cam, over the behind-text layer */
+      #camfg { position: absolute; inset: 0; transform-origin: 50% 30%; z-index: 3; pointer-events: none; }
+      #camfg video { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+      #host-behind { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 2; }
       .scene-host { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 10; }
       #host-captions { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 5; }
       #host-cta { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 12; }
@@ -41,6 +45,18 @@
       <video id="v-s15" class="clip arole" src="assets/rawreel_1080.mp4" data-start="52.3333" data-duration="3.2667" data-media-start="73.0667" data-track-index="0" playsinline data-has-audio="true" data-automation='{"version": 1, "lanes": [{"target": "volume", "points": [{"t": 0, "v": 0}, {"t": 0.02, "v": 1}, {"t": 3.247, "v": 1}, {"t": 3.2667, "v": 0}]}]}'></video>
       <video id="v-s16" class="clip arole" src="assets/rawreel_1080.mp4" data-start="55.6" data-duration="1.2" data-media-start="77.7" data-track-index="1" playsinline data-has-audio="true" data-automation='{"version": 1, "lanes": [{"target": "volume", "points": [{"t": 0, "v": 0}, {"t": 0.02, "v": 1}, {"t": 1.18, "v": 1}, {"t": 1.2, "v": 0}]}]}'></video>
       <video id="v-s17" class="clip arole" src="assets/rawreel_1080.mp4" data-start="56.8" data-duration="4.2667" data-media-start="79.2667" data-track-index="0" playsinline data-has-audio="true" data-automation='{"version": 1, "lanes": [{"target": "volume", "points": [{"t": 0, "v": 0}, {"t": 0.02, "v": 1}, {"t": 4.247, "v": 1}, {"t": 4.2667, "v": 0}]}]}'></video>
+      </div>
+
+      <!-- Track 9 · key phrases set behind Dr. Fatma -->
+      <div id="host-behind" class="clip" data-composition-id="behind" data-composition-src="compositions/behind.html" data-start="0" data-duration="61.0667" data-track-index="9" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+      <!-- Track 8 · subject mattes (local u2net cut-outs of the same source frames) -->
+      <div id="camfg">
+        <video id="matte-b1" class="clip" src="assets/mattes/b1.webm" data-start="0.0" data-duration="2.4667" data-media-start="0" data-track-index="8" muted playsinline></video>
+        <video id="matte-b2" class="clip" src="assets/mattes/b2.webm" data-start="20.0" data-duration="3.2667" data-media-start="0" data-track-index="8" muted playsinline></video>
+        <video id="matte-b3" class="clip" src="assets/mattes/b3.webm" data-start="27.1333" data-duration="2.1667" data-media-start="0" data-track-index="8" muted playsinline></video>
+        <video id="matte-b4" class="clip" src="assets/mattes/b4.webm" data-start="35.7667" data-duration="3.2333" data-media-start="0" data-track-index="8" muted playsinline></video>
+        <video id="matte-b5" class="clip" src="assets/mattes/b5.webm" data-start="43.1" data-duration="3.6667" data-media-start="0" data-track-index="8" muted playsinline></video>
+        <video id="matte-b6" class="clip" src="assets/mattes/b6.webm" data-start="55.6" data-duration="1.2" data-media-start="0" data-track-index="8" muted playsinline></video>
       </div>
 
       <!-- Track 2 · full-screen editorial scenes -->
@@ -83,24 +99,25 @@
     <audio id="sfx-20-lock" src="assets/sfx/lock.wav" data-start="59.2333" data-duration="0.32" data-track-index="6" data-volume="0.2"></audio>
     </div>
     <script>
+      const CAMS = ["#cam", "#camfg"];
       const tl = gsap.timeline({ paused: true });
-      tl.set("#cam", { scale: 1 }, 0);
-      tl.fromTo("#cam", { scale: 1.0 }, { scale: 1.12, duration: 0.72, ease: "power3.out", immediateRender: false }, 0.0);
-      tl.set("#cam", { scale: 1.0 }, 4.2667);
-      tl.to("#cam", { scale: 1.08, duration: 0.28, ease: "power2.out" }, 5.3333);
-      tl.set("#cam", { scale: 1.06 }, 6.4);
-      tl.set("#cam", { scale: 1.0 }, 7.2667);
-      tl.set("#cam", { scale: 1.08 }, 13.6333);
-      tl.fromTo("#cam", { scale: 1.0 }, { scale: 1.04, duration: 3.2667, ease: "none", immediateRender: false }, 20.0);
-      tl.set("#cam", { scale: 1.15 }, 27.1333);
-      tl.fromTo("#cam", { scale: 1.0 }, { scale: 1.04, duration: 3.5333, ease: "none", immediateRender: false }, 29.3);
-      tl.set("#cam", { scale: 1.1 }, 35.7667);
-      tl.fromTo("#cam", { scale: 1.0 }, { scale: 1.09, duration: 0.85, ease: "power3.out", immediateRender: false }, 43.1);
-      tl.set("#cam", { scale: 1.06 }, 46.7667);
-      tl.set("#cam", { scale: 1.0 }, 52.3333);
-      tl.set("#cam", { scale: 1.13 }, 55.6);
-      tl.set("#cam", { scale: 1.06 }, 56.8);
-      tl.to("#cam", { scale: 1.0, duration: 1.5, ease: "power2.inOut" }, 59.5667);
+      tl.set(CAMS, { scale: 1 }, 0);
+      tl.fromTo(CAMS, { scale: 1.0 }, { scale: 1.12, duration: 0.72, ease: "power3.out", immediateRender: false }, 0.0);
+      tl.set(CAMS, { scale: 1.0 }, 4.2667);
+      tl.to(CAMS, { scale: 1.08, duration: 0.28, ease: "power2.out" }, 5.3333);
+      tl.set(CAMS, { scale: 1.06 }, 6.4);
+      tl.set(CAMS, { scale: 1.0 }, 7.2667);
+      tl.set(CAMS, { scale: 1.08 }, 13.6333);
+      tl.fromTo(CAMS, { scale: 1.0 }, { scale: 1.04, duration: 3.2667, ease: "none", immediateRender: false }, 20.0);
+      tl.set(CAMS, { scale: 1.15 }, 27.1333);
+      tl.fromTo(CAMS, { scale: 1.0 }, { scale: 1.04, duration: 3.5333, ease: "none", immediateRender: false }, 29.3);
+      tl.set(CAMS, { scale: 1.1 }, 35.7667);
+      tl.fromTo(CAMS, { scale: 1.0 }, { scale: 1.09, duration: 0.85, ease: "power3.out", immediateRender: false }, 43.1);
+      tl.set(CAMS, { scale: 1.06 }, 46.7667);
+      tl.set(CAMS, { scale: 1.0 }, 52.3333);
+      tl.set(CAMS, { scale: 1.13 }, 55.6);
+      tl.set(CAMS, { scale: 1.06 }, 56.8);
+      tl.to(CAMS, { scale: 1.0, duration: 1.5, ease: "power2.inOut" }, 59.5667);
       window.__timelines["main"] = tl;
     </script>
   </body>
