@@ -1,0 +1,38 @@
+# روقان (Rouqan)
+
+> روقان دليل عربي (مصري) لكافيهات ومطاعم القاهرة والجيزة. بيرتب 62 مكان في 14 منطقة حسب النوع والميزانية ونوع القعدة، وكل مكان ليه رابط مباشر على جوجل ماب.
+> Rouqan is an Arabic guide to cafés and restaurants in Cairo & Giza, Egypt — a trivago-style comparison of places by area, budget and vibe.
+
+## المناطق (Areas)
+- [كافيهات ومطاعم الزمالك – Zamalek](https://cremonkey.github.io/oops/rouqan/area/zamalek/): جزيرة وسط النيل فيها أشهر كافيهات ومطاعم القاهرة الهادية، شوارع شجر وإطلالات نيل وأماكن تاريخية زي سيموندس وماسون توماس.
+- [كافيهات ومطاعم وسط البلد – Downtown Cairo](https://cremonkey.github.io/oops/rouqan/area/downtown/): قلب القاهرة الخديوية: مقاهي تاريخية زي ريش وزهرة البستان، وأشهر كشري وفول وطعمية في مصر بأسعار في المتناول.
+- [كافيهات ومطاعم خان الخليلي والحسين – Khan el-Khalili & El Hussein](https://cremonkey.github.io/oops/rouqan/area/khan-el-khalili/): القاهرة الفاطمية بسهرها وقهاويها التاريخية: الفيشاوي ونجيب محفوظ والدهان، تجربة لازم تتعاش مرة على الأقل.
+- [كافيهات ومطاعم جاردن سيتي – Garden City](https://cremonkey.github.io/oops/rouqan/area/garden-city/): حي هادي على كورنيش النيل فيه مطاعم الفنادق الكبيرة وأماكن عائلية راقية بإطلالة على النيل.
+- [كافيهات ومطاعم المعادي – Maadi](https://cremonkey.github.io/oops/rouqan/area/maadi/): حي أخضر ومحبوب للعائلات والجاليات، شارع 9 فيه كافيهات وبرجر وبرانش لطيفة.
+- [كافيهات ومطاعم مصر الجديدة – Heliopolis](https://cremonkey.github.io/oops/rouqan/area/heliopolis/): حي البارون والكوربة: حلواني ومقاهي كلاسيكية جنب كافيهات حديثة في شارع بغداد والميرغني.
+- [كافيهات ومطاعم التجمع الخامس – New Cairo](https://cremonkey.github.io/oops/rouqan/area/new-cairo/): أكبر تجمع للكافيهات الحديثة في القاهرة: مولات ووجهات زي ووتر واي وبوينت 90 وكايرو فستيفال سيتي.
+- [كافيهات ومطاعم الشيخ زايد – Sheikh Zayed](https://cremonkey.github.io/oops/rouqan/area/sheikh-zayed/): وجهة غرب القاهرة للخروجات: أركان بلازا ومولات فيها كافيهات ومطاعم من كل الأنواع.
+- [كافيهات ومطاعم الهرم والأهرامات – Giza Pyramids](https://cremonkey.github.io/oops/rouqan/area/giza-pyramids/): اتغدى أو اشرب قهوتك قدام الأهرامات مباشرة، من مطاعم الهضبة لحد مشويات المريوطية.
+- [كافيهات ومطاعم المهندسين – Mohandessin](https://cremonkey.github.io/oops/rouqan/area/mohandessin/): شوارع جامعة الدول وشهاب وسوريا مليانة كافيهات وسلاسل مطاعم مفتوحة لآخر الليل.
+- [كافيهات ومطاعم إمبابة – Imbaba](https://cremonkey.github.io/oops/rouqan/area/imbaba/): حي شعبي أصيل فيه واحد من أشهر مطاعم الأكل المصري في القاهرة كلها.
+- [كافيهات ومطاعم السيدة زينب – Sayeda Zeinab](https://cremonkey.github.io/oops/rouqan/area/sayeda-zeinab/): منطقة شعبية تاريخية فيها أشهر عربيات ومحلات الفول وأكلات الصبح المصرية.
+- [كافيهات ومطاعم شبرا وروض الفرج – Shubra](https://cremonkey.github.io/oops/rouqan/area/shubra/): حي شعبي كبير مشهور بالأكل المصري البيتي والمشويات.
+- [كافيهات ومطاعم حديقة الأزهر – Al-Azhar Park](https://cremonkey.github.io/oops/rouqan/area/al-azhar-park/): أجمل حديقة في القاهرة بإطلالة على القلعة والمآذن، فيها مطاعم وكافيهات على البحيرة.
+
+## القوائم (Curated lists)
+- [أفضل كافيهات في القاهرة](https://cremonkey.github.io/oops/rouqan/list/best-cafes-cairo/): قايمة بأشهر الكافيهات في القاهرة والجيزة: من مقاهي وسط البلد التاريخية لحد كافيهات القهوة المختصة في التجمع والشيخ زايد.
+- [أفضل مطاعم في القاهرة](https://cremonkey.github.io/oops/rouqan/list/best-restaurants-cairo/): أشهر مطاعم القاهرة لكل ميزانية: أكل مصري أصيل، مشويات، أكل بحري، وأماكن راقية بإطلالة نيل.
+- [كافيهات هادية للمذاكرة والشغل](https://cremonkey.github.io/oops/rouqan/list/study-cafes/): لو بتدور على كافيه هادي فيه قعدة مريحة تذاكر أو تشتغل فيه باللابتوب، دي أكتر الأماكن اللي الناس بترشحها في القاهرة.
+- [مطاعم وكافيهات على النيل](https://cremonkey.github.io/oops/rouqan/list/nile-view/): أحلى قعدات على النيل في القاهرة: مراكب ومطاعم على الكورنيش في الزمالك وجاردن سيتي، مثالية للغروب والسهرة.
+- [مطاعم بإطلالة على الأهرامات](https://cremonkey.github.io/oops/rouqan/list/pyramids-view/): اتغدى أو اشرب قهوتك والأهرامات قدامك مباشرة، أماكن مناسبة للسياح والعيلة وللصور.
+- [مقاهي القاهرة التاريخية](https://cremonkey.github.io/oops/rouqan/list/historic-cafes/): مقاهي ومطاعم عمرها عشرات السنين شهدت تاريخ القاهرة: الفيشاوي وريش وجروبي وسيموندس وغيرهم.
+- [أفضل أكل مصري في القاهرة](https://cremonkey.github.io/oops/rouqan/list/egyptian-food/): كشري وفول وطعمية وملوخية وحمام ومشويات: أشهر الأماكن اللي بتقدم الأكل المصري الأصيل من الشعبي للراقي.
+- [خروجات رخيصة في القاهرة](https://cremonkey.github.io/oops/rouqan/list/budget-outings/): أماكن حلوة ومشهورة من غير ما تصرف كتير: قهاوي شعبية وكشري وفول وحلويات بأسعار في متناول الكل.
+- [أماكن سهر في القاهرة](https://cremonkey.github.io/oops/rouqan/list/late-night/): القاهرة مدينة مابتنامش: كافيهات ومطاعم معروفة بالسهر لساعات متأخرة. اتأكد من مواعيد اليوم على جوجل ماب قبل ما تنزل.
+- [فطار وبرانش في القاهرة](https://cremonkey.github.io/oops/rouqan/list/breakfast-brunch/): من الفول والطعمية لحد البانكيك والكرواسون: أحلى أماكن الفطار والبرانش في القاهرة.
+- [أماكن خروج للعيلة](https://cremonkey.github.io/oops/rouqan/list/family-outings/): أماكن واسعة ومريحة للعيلة والأطفال: حدايق ومولات ومطاعم بقعدات كبيرة.
+- [أشهر وجهات الخروج والمولات](https://cremonkey.github.io/oops/rouqan/list/outing-hubs/): وجهات فيها عشرات الكافيهات والمطاعم في مكان واحد، مثالية لو مش عارف هتقعد فين بالظبط.
+
+## Optional
+- [كل الأماكن بالتفصيل](https://cremonkey.github.io/oops/rouqan/llms-full.txt)
+- [Sitemap](https://cremonkey.github.io/oops/rouqan/sitemap.xml)

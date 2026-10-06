@@ -1,0 +1,539 @@
+# روقان – كل الأماكن (2026-10-06)
+
+## الزمالك (Zamalek)
+جزيرة وسط النيل فيها أشهر كافيهات ومطاعم القاهرة الهادية، شوارع شجر وإطلالات نيل وأماكن تاريخية زي سيموندس وماسون توماس.
+
+### سيموندس (Simonds)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: تاريخي، فطار وبرانش، للمذاكرة والشغل
+- من أقدم كافيهات الزمالك في شارع 26 يوليو، إسبريسو وكرواسون وقعدة صبح كلاسيكية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/simonds/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Simonds%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### ميزون توما (Maison Thomas)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: تاريخي، إيطالي، سهر
+- بيتزا الزمالك الأشهر من عشرينات القرن الماضي، وفروع في أكتر من منطقة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/maison-thomas/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Maison%20Thomas%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### أبو السيد (Abou El Sid)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: أكل مصري، عائلي
+- مطعم مصري بديكور شرقي دافي، ملوخية وحمام وفتة بتقديم راقي. مناسب جداً لضيوف من بره مصر.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/abou-el-sid/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Abou%20El%20Sid%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### زوبا (Zooba)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، فطار وبرانش، رخيص
+- أكل الشارع المصري بلمسة عصرية: طعمية ملونة وكشري وحواوشي بتصميم مبهج، وله فروع في القاهرة وبره مصر.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/zooba/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Zooba%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### ليفت بانك (Left Bank)
+- النوع: كافيه
+- الميزانية: فوق المتوسط
+- مناسب لـ: على النيل، فطار وبرانش
+- كافيه ومطعم على النيل مباشرة في الزمالك، قعدة برانش أو غروب بإطلالة مفتوحة على المية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/left-bank/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Left%20Bank%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### سيكويا (Sequoia)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: على النيل، سهر
+- على الطرف الشمالي للزمالك ووسط النيل، مساحة مفتوحة كبيرة وأكل متوسطي وسهرة على المية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/sequoia/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Sequoia%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### لو باشا 1901 (Le Pacha 1901)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: على النيل، سهر، عائلي
+- مركب راسي على كورنيش الزمالك فيه مجموعة مطاعم بأنواع أكل مختلفة تحت سقف واحد.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/le-pacha-1901/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Le%20Pacha%201901%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### نايل ماكسيم (Nile Maxim)
+- النوع: مطعم
+- الميزانية: راقي
+- مناسب لـ: على النيل، عائلي
+- رحلة عشا نيلية على مركب، عرض حي وأكل وجولة في النيل بالليل. مناسبة للمناسبات.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/nile-maxim/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Nile%20Maxim%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### ديوان الزمالك (Diwan Bookstore Café)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: للمذاكرة والشغل، كتب
+- مكتبة ديوان بكافيه صغير، مثالي لكتاب وقهوة وساعتين هدوء.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/diwan-zamalek/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Diwan%20Bookstore%20Caf%C3%A9%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### نولا كب كيك (Nola Cupcakes)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: حلويات
+- كب كيك بأشكال ونكهات كتير، بداية شهرتها كانت من الزمالك.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/nola-cupcakes/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Nola%20Cupcakes%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+### سيلانترو (Cilantro)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: للمذاكرة والشغل، فروع كتير، فطار وبرانش
+- سلسلة كافيهات مصرية منتشرة في القاهرة، واي فاي ومكان مريح، اختيار كلاسيكي للمذاكرة والشغل.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/cilantro/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Cilantro%2C%20Zamalek%2C%20Cairo%2C%20Egypt
+
+## وسط البلد (Downtown Cairo)
+قلب القاهرة الخديوية: مقاهي تاريخية زي ريش وزهرة البستان، وأشهر كشري وفول وطعمية في مصر بأسعار في المتناول.
+
+### مقهى ريش (Café Riche)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: تاريخي، أكل مصري
+- مقهى تاريخي في شارع طلعت حرب، كان ملتقى المثقفين والأدباء لعقود. صور وحكايات على كل حيطة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/cafe-riche/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Riche%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### قهوة زهرة البستان (Zahret El Bostan)
+- النوع: كافيه
+- الميزانية: اقتصادي
+- مناسب لـ: تاريخي، رخيص، سهر
+- قهوة المثقفين والفنانين في ممر جنب ريش، شاي وطاولة وكلام في الأدب والسياسة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/zahret-el-bostan/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Zahret%20El%20Bostan%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### جروبي (Groppi)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: تاريخي، حلويات، فطار وبرانش
+- حلواني وكافيه أسطوري في ميدان طلعت حرب من أوائل القرن العشرين، شيكولاتة وجاتوه بطعم زمان.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/groppi/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Groppi%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### حلواني العبد (El Abd Patisserie)
+- النوع: كافيه
+- الميزانية: اقتصادي
+- مناسب لـ: حلويات، رخيص، تاريخي
+- أشهر حلواني شعبي في وسط البلد، طابور الجاتوه والبسبوسة والآيس كريم دليل كفاية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/el-abd/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=El%20Abd%20Patisserie%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### كشري أبو طارق (Koshary Abou Tarek)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: أكل مصري، رخيص، سهر
+- أشهر كشري في مصر في شارع شامبليون، مبنى كامل للكشري وزوار من كل الدنيا.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/koshary-abou-tarek/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Koshary%20Abou%20Tarek%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### فلفلة (Felfela)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، عائلي، رخيص
+- مطعم مصري كلاسيكي في شارع هدى شعراوي من السبعينات، فول وطعمية وملوخية وديكور ريفي مميز.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/felfela/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Felfela%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### فسحة سمية (Fasahet Somaya)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، أكل بيتي
+- مطعم صغير بيقدم أكل بيتي مصري بمنيو بيتغير يومياً، زي ما تكون بتتغدى عند حد من العيلة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/fasahet-somaya/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Fasahet%20Somaya%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### عيش وملح (Eish + Malh)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: إيطالي، للمذاكرة والشغل، فطار وبرانش
+- كافيه ومطعم إيطالي في عمارة قديمة بشارع عدلي، سقف عالي وإضاءة حلوة ومكان مريح للشغل والمذاكرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/eish-malh/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Eish%20%2B%20Malh%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### آخر ساعة (Akher Saa)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: أكل مصري، رخيص، سهر، فطار وبرانش
+- فول وطعمية وسندوتشات مصرية في وسط البلد، معروف إنه بيفضل فاتح لساعات متأخرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/akher-saa/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Akher%20Saa%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### استوريل (Estoril)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: تاريخي
+- مطعم قديم في ممر طلعت حرب بأجواء القاهرة الكوزموبوليتانية، مازات وأكل بحري وطابع خاص.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/estoril/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Estoril%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### لو جريون (Le Grillon)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: تاريخي، أكل مصري
+- مطعم وجنينة في ممر قصر النيل، قعدة هادية في قلب وسط البلد وأكل مصري وشرقي.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/le-grillon/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Le%20Grillon%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### قزاز (Kazaz)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: رخيص، سهر، أكل مصري
+- سندوتشات وأكل مصري سريع في وسط البلد، اختيار شهير لأكلة على السريع بسعر معقول.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/kazaz/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Kazaz%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### جاد (Gad)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: أكل مصري، فروع كتير، رخيص، فطار وبرانش، سهر
+- أشهر سلسلة فول وطعمية وسندوتشات مصرية، موجودة في كل حي تقريباً.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/gad/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Gad%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+### كشري التحرير (Koshary El Tahrir)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: أكل مصري، فروع كتير، رخيص، سهر
+- سلسلة كشري مشهورة بفروع كتير في القاهرة، طبق مصري مشبع بسعر قليل.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/koshary-el-tahrir/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Koshary%20El%20Tahrir%2C%20Downtown%20Cairo%2C%20Cairo%2C%20Egypt
+
+## خان الخليلي والحسين (Khan el-Khalili & El Hussein)
+القاهرة الفاطمية بسهرها وقهاويها التاريخية: الفيشاوي ونجيب محفوظ والدهان، تجربة لازم تتعاش مرة على الأقل.
+
+### مقهى الفيشاوي (El Fishawy Café)
+- النوع: كافيه
+- الميزانية: اقتصادي
+- مناسب لـ: تاريخي، سهر، أكل مصري
+- من أقدم مقاهي القاهرة في قلب خان الخليلي، مرايات قديمة وشاي بالنعناع وسهر لحد الفجر. أيقونة لأي زيارة للحسين.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/el-fishawy/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=El%20Fishawy%20Caf%C3%A9%2C%20Khan%20el-Khalili%20%26%20El%20Hussein%2C%20Cairo%2C%20Egypt
+
+### مقهى ومطعم نجيب محفوظ (Naguib Mahfouz Café)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: تاريخي، أكل مصري، عائلي
+- مكان هادي بديكور مملوكي جوه خان الخليلي، أكل مصري وشرقي وتجربة مريحة بعيد عن زحمة السوق.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/naguib-mahfouz-cafe/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Naguib%20Mahfouz%20Caf%C3%A9%2C%20Khan%20el-Khalili%20%26%20El%20Hussein%2C%20Cairo%2C%20Egypt
+
+### الدهان (El Dahan)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، مشويات، سهر
+- من أشهر محلات الكباب والكفتة في منطقة الحسين، وجهة كلاسيكية لعشاق المشويات المصرية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/el-dahan/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=El%20Dahan%2C%20Khan%20el-Khalili%20%26%20El%20Hussein%2C%20Cairo%2C%20Egypt
+
+### فرحات (Farahat)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، مشويات
+- اسم معروف للحمام المحشي والمشوي في منطقة الأزهر، تجربة أكل شعبي أصيلة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/farahat/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Farahat%2C%20Khan%20el-Khalili%20%26%20El%20Hussein%2C%20Cairo%2C%20Egypt
+
+## جاردن سيتي (Garden City)
+حي هادي على كورنيش النيل فيه مطاعم الفنادق الكبيرة وأماكن عائلية راقية بإطلالة على النيل.
+
+### بيرد كيدج (Bird Cage)
+- النوع: مطعم
+- الميزانية: راقي
+- مناسب لـ: آسيوي، عائلي
+- مطعم تايلاندي معروف في فندق سميراميس على الكورنيش، من أقدم وأشهر مطاعم الأكل الآسيوي في القاهرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/bird-cage/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Bird%20Cage%2C%20Garden%20City%2C%20Cairo%2C%20Egypt
+
+### زيتوني (Zitouni)
+- النوع: مطعم
+- الميزانية: راقي
+- مناسب لـ: أكل مصري، على النيل، عائلي
+- مطعم مصري راقي في فندق فورسيزونز نايل بلازا، أكل مصري بتقديم فاخر وإطلالة نيل.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/zitouni/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Zitouni%2C%20Garden%20City%2C%20Cairo%2C%20Egypt
+
+### تبولة (Taboula)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: لبناني، عائلي
+- مطعم لبناني في جاردن سيتي، مازات وحمص ومشاوي في قعدة دافية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/taboula/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Taboula%2C%20Garden%20City%2C%20Cairo%2C%20Egypt
+
+### روم آرت سبيس (Room Art Space & Café)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: للمذاكرة والشغل، فن ومزيكا، سهر
+- كافيه ومساحة فنية بتستضيف حفلات صغيرة وعروض، جو مختلف لعشاق الفن والمزيكا.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/room-art-space/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Room%20Art%20Space%20%26%20Caf%C3%A9%2C%20Garden%20City%2C%20Cairo%2C%20Egypt
+
+### المطعم الدوار - جراند نايل تاور (Revolving Restaurant, Grand Nile Tower)
+- النوع: مطعم
+- الميزانية: راقي
+- مناسب لـ: على النيل، روف، عائلي
+- مطعم بيلف 360 درجة فوق برج على النيل، بانوراما كاملة للقاهرة وقت الغروب.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/grand-nile-revolving/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Revolving%20Restaurant%2C%20Grand%20Nile%20Tower%2C%20Garden%20City%2C%20Cairo%2C%20Egypt
+
+## المعادي (Maadi)
+حي أخضر ومحبوب للعائلات والجاليات، شارع 9 فيه كافيهات وبرجر وبرانش لطيفة.
+
+### لوسيلز (Lucille's)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: برجر، فطار وبرانش، عائلي
+- مطعم أمريكي في شارع 9 بالمعادي، مشهور بالبرجر والفطار والبانكيك من سنين.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/lucilles/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Lucille's%2C%20Maadi%2C%20Cairo%2C%20Egypt
+
+## مصر الجديدة (Heliopolis)
+حي البارون والكوربة: حلواني ومقاهي كلاسيكية جنب كافيهات حديثة في شارع بغداد والميرغني.
+
+### أمفتريون (Amphitrion)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: تاريخي، سهر
+- كافيه تاريخي في الكوربة بمصر الجديدة، تراس مفتوح وقعدة كلاسيكية من أيام زمان.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/amphitrion/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Amphitrion%2C%20Heliopolis%2C%20Cairo%2C%20Egypt
+
+### لو شانتيي (Le Chantilly)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: فطار وبرانش، عائلي، حلويات
+- كافيه ومطعم بجنينة في مصر الجديدة، معروف بالفطار والحلويات وقعدة العيلة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/le-chantilly/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Le%20Chantilly%2C%20Heliopolis%2C%20Cairo%2C%20Egypt
+
+### بينوز (Beano's Café)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: للمذاكرة والشغل، فروع كتير
+- سلسلة كافيهات مصرية بقعدات واسعة، مناسبة للمذاكرة والاجتماعات الصغيرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/beanos/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Beano's%20Caf%C3%A9%2C%20Heliopolis%2C%20Cairo%2C%20Egypt
+
+### مؤمن (Mo'men)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: فروع كتير، سهر
+- سلسلة سندوتشات ووجبات سريعة مصرية قديمة ومعروفة بفروع في كل القاهرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/mo-men/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Mo'men%2C%20Heliopolis%2C%20Cairo%2C%20Egypt
+
+## التجمع الخامس (New Cairo)
+أكبر تجمع للكافيهات الحديثة في القاهرة: مولات ووجهات زي ووتر واي وبوينت 90 وكايرو فستيفال سيتي.
+
+### إسبريسو لاب (Espresso Lab)
+- النوع: كافيه
+- الميزانية: فوق المتوسط
+- مناسب لـ: قهوة مختصة، للمذاكرة والشغل، فروع كتير
+- قهوة مختصة مصرية بتحمص البن بنفسها، فروع في التجمع والشيخ زايد ومناطق تانية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/espresso-lab/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Espresso%20Lab%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+### كوستا كافيه (Costa Coffee)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: للمذاكرة والشغل، فروع كتير
+- سلسلة قهوة عالمية بفروع كتير في القاهرة والجيزة، اختيار مضمون في أي حتة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/costa/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Costa%20Coffee%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+### ذا بيكري شوب TBS (The Bakery Shop (TBS))
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: فطار وبرانش، فروع كتير، حلويات
+- مخبز وكافيه مصري بفروع كتير، عيش وكرواسون وفطار خفيف.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/tbs/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=The%20Bakery%20Shop%20(TBS)%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+### توم وبصل (Tom & Basal)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، فروع كتير، رخيص
+- سندوتشات مصرية بلمسة عصرية، شاورما وكبدة وسجق في فروع متعددة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/tom-basal/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Tom%20%26%20Basal%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+### ذا ووتر واي (The Waterway)
+- النوع: وجهة خروج
+- الميزانية: فوق المتوسط
+- مناسب لـ: مول / وجهة، سهر، عائلي
+- وجهة خروج في التجمع الخامس فيها عشرات الكافيهات والمطاعم حوالين ممرات مية ومساحات مفتوحة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/waterway/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=The%20Waterway%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+### بوينت 90 مول (Point 90 Mall)
+- النوع: وجهة خروج
+- الميزانية: متوسط
+- مناسب لـ: مول / وجهة، عائلي، للمذاكرة والشغل
+- مول قريب من الجامعة الأمريكية فيه كافيهات وسينما ومطاعم، مكان شعبي للطلبة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/point-90/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Point%2090%20Mall%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+### كايرو فستيفال سيتي (Cairo Festival City)
+- النوع: وجهة خروج
+- الميزانية: فوق المتوسط
+- مناسب لـ: مول / وجهة، عائلي
+- مول ضخم في التجمع بمنطقة مطاعم ونافورة راقصة، مناسب لخروجة العيلة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/cfc/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Cairo%20Festival%20City%2C%20New%20Cairo%2C%20Cairo%2C%20Egypt
+
+## الشيخ زايد (Sheikh Zayed)
+وجهة غرب القاهرة للخروجات: أركان بلازا ومولات فيها كافيهات ومطاعم من كل الأنواع.
+
+### ستاربكس (Starbucks)
+- النوع: كافيه
+- الميزانية: فوق المتوسط
+- مناسب لـ: للمذاكرة والشغل، فروع كتير
+- سلسلة القهوة العالمية بفروع في المولات والشوارع الرئيسية في القاهرة الكبرى.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/starbucks/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Starbucks%2C%20Sheikh%20Zayed%2C%20Cairo%2C%20Egypt
+
+### بول (PAUL)
+- النوع: كافيه
+- الميزانية: فوق المتوسط
+- مناسب لـ: فطار وبرانش، فروع كتير، فرنسي
+- مخبز وكافيه فرنسي شهير بفروع في القاهرة، برانش ومخبوزات وحلويات.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/paul/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=PAUL%2C%20Sheikh%20Zayed%2C%20Cairo%2C%20Egypt
+
+### أركان بلازا (Arkan Plaza)
+- النوع: وجهة خروج
+- الميزانية: فوق المتوسط
+- مناسب لـ: مول / وجهة، عائلي، سهر
+- أشهر وجهة كافيهات ومطاعم في الشيخ زايد، ساحات مفتوحة وزحمة حلوة بالليل.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/arkan-plaza/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Arkan%20Plaza%2C%20Sheikh%20Zayed%2C%20Cairo%2C%20Egypt
+
+### مول مصر (Mall of Egypt)
+- النوع: وجهة خروج
+- الميزانية: فوق المتوسط
+- مناسب لـ: مول / وجهة، عائلي
+- مول كبير على طريق الواحات فيه مطاعم وكافيهات كتير وسكي إيجيبت.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/mall-of-egypt/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Mall%20of%20Egypt%2C%20Sheikh%20Zayed%2C%20Cairo%2C%20Egypt
+
+## الهرم والأهرامات (Giza Pyramids)
+اتغدى أو اشرب قهوتك قدام الأهرامات مباشرة، من مطاعم الهضبة لحد مشويات المريوطية.
+
+### خوفو (Khufu's)
+- النوع: مطعم
+- الميزانية: راقي
+- مناسب لـ: قدام الأهرامات، أكل مصري
+- مطعم على هضبة الجيزة بإطلالة مباشرة على الأهرامات، أكل مصري بتقديم عصري.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/khufus/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Khufu's%2C%20Giza%20Pyramids%2C%20Cairo%2C%20Egypt
+
+### 9 بيراميدز لاونج (9 Pyramids Lounge)
+- النوع: كافيه
+- الميزانية: فوق المتوسط
+- مناسب لـ: قدام الأهرامات، فطار وبرانش
+- كافيه ومطعم جوه منطقة الأهرامات، فطار أو قهوة قدام الأهرامات التسعة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/9-pyramids-lounge/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=9%20Pyramids%20Lounge%2C%20Giza%20Pyramids%2C%20Cairo%2C%20Egypt
+
+### أندريا المريوطية (Andrea El Mariouteya)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، مشويات، عائلي
+- فراخ مشوية وفطير مشلتت في جنينة على ترعة المريوطية، خروجة عائلية كلاسيكية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/andrea-mariouteya/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Andrea%20El%20Mariouteya%2C%20Giza%20Pyramids%2C%20Cairo%2C%20Egypt
+
+## المهندسين (Mohandessin)
+شوارع جامعة الدول وشهاب وسوريا مليانة كافيهات وسلاسل مطاعم مفتوحة لآخر الليل.
+
+### كريف (Crave)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: فطار وبرانش، فروع كتير، عائلي
+- مطعم وكافيه عالمي الطابع بمنيو كبير من الفطار للعشا، فروع في القاهرة والجيزة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/crave/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Crave%2C%20Mohandessin%2C%20Cairo%2C%20Egypt
+
+### بافلو برجر (Buffalo Burger)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: برجر، فروع كتير، سهر
+- سلسلة برجر مصرية كبيرة بفروع وتوصيل في معظم مناطق القاهرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/buffalo-burger/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Buffalo%20Burger%2C%20Mohandessin%2C%20Cairo%2C%20Egypt
+
+### عربياتا (Arabiata)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: أكل مصري، فروع كتير، رخيص، سهر
+- سلسلة فول وطعمية وسندوتشات شعبية منتشرة في القاهرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/arabiata/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Arabiata%2C%20Mohandessin%2C%20Cairo%2C%20Egypt
+
+## إمبابة (Imbaba)
+حي شعبي أصيل فيه واحد من أشهر مطاعم الأكل المصري في القاهرة كلها.
+
+### مطعم البرنس (El Prince)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، سهر، مشويات
+- من أشهر مطاعم الأكل المصري في القاهرة، طواجن وكبدة ومحاشي وزحمة دايمة لآخر الليل.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/el-prince/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=El%20Prince%2C%20Imbaba%2C%20Cairo%2C%20Egypt
+
+## السيدة زينب (Sayeda Zeinab)
+منطقة شعبية تاريخية فيها أشهر عربيات ومحلات الفول وأكلات الصبح المصرية.
+
+### فول الجحش (El Gahsh)
+- النوع: مطعم
+- الميزانية: اقتصادي
+- مناسب لـ: أكل مصري، رخيص، فطار وبرانش، سهر
+- فول وطعمية في السيدة زينب، اسم معروف لأي حد بيدور على فطار مصري أصلي.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/el-gahsh/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=El%20Gahsh%2C%20Sayeda%20Zeinab%2C%20Cairo%2C%20Egypt
+
+### أبو شقرة (Abou Shakra)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، مشويات
+- من أعرق محلات الكباب في القاهرة في شارع القصر العيني، وله فروع تانية.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/abou-shakra/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Abou%20Shakra%2C%20Sayeda%20Zeinab%2C%20Cairo%2C%20Egypt
+
+## شبرا وروض الفرج (Shubra)
+حي شعبي كبير مشهور بالأكل المصري البيتي والمشويات.
+
+### صبحي كابر (Sobhy Kaber)
+- النوع: مطعم
+- الميزانية: متوسط
+- مناسب لـ: أكل مصري، مشويات، سهر
+- مطعم مشويات وأكل مصري شهير في روض الفرج، كبدة وكفتة وطواجن بزحمة مستمرة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/sobhy-kaber/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Sobhy%20Kaber%2C%20Shubra%2C%20Cairo%2C%20Egypt
+
+## حديقة الأزهر (Al-Azhar Park)
+أجمل حديقة في القاهرة بإطلالة على القلعة والمآذن، فيها مطاعم وكافيهات على البحيرة.
+
+### سيتاديل فيو (Citadel View)
+- النوع: مطعم
+- الميزانية: فوق المتوسط
+- مناسب لـ: أكل مصري، عائلي، إطلالة
+- مطعم في حديقة الأزهر بإطلالة على القلعة ومآذن القاهرة الإسلامية، وقت الغروب تحفة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/citadel-view/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Citadel%20View%2C%20Al-Azhar%20Park%2C%20Cairo%2C%20Egypt
+
+### ليكسايد كافيه (Lakeside Café)
+- النوع: كافيه
+- الميزانية: متوسط
+- مناسب لـ: عائلي، إطلالة
+- كافيه على بحيرة حديقة الأزهر، قعدة خضرا هادية بعيد عن دوشة المدينة.
+- صفحة روقان: https://cremonkey.github.io/oops/rouqan/place/lakeside-cafe/
+- جوجل ماب: https://www.google.com/maps/search/?api=1&query=Lakeside%20Caf%C3%A9%2C%20Al-Azhar%20Park%2C%20Cairo%2C%20Egypt

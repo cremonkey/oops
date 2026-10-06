@@ -1,0 +1,19 @@
+# robots.txt only takes effect at a domain root; copy it there when Rouqan gets its own domain.
+User-agent: *
+Allow: /
+
+# AI crawlers are welcome (GEO / LLM visibility)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://cremonkey.github.io/oops/rouqan/sitemap.xml
