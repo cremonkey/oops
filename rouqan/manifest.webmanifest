@@ -1,0 +1,11 @@
+{
+  "name": "روقان – كافيهات ومطاعم القاهرة",
+  "short_name": "روقان",
+  "lang": "ar-EG",
+  "dir": "rtl",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#150e0a",
+  "theme_color": "#1b120d",
+  "icons": [{ "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
