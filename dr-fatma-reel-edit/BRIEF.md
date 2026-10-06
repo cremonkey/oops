@@ -2,12 +2,12 @@
 workflow: general-video
 flow: automation
 storyboard: no
-message: "TBD — derived from the verified transcript (blocked: no transcript yet)"
+message: "His only hope was to tie his own shoes — 3–4 months later, at 55, he says he feels 45."
 destination: instagram-reels / tiktok
 aspect: 1080x1920
 language: ar-EG
 audience: Egyptian women interested in nutrition, weight management and body health
-length: driven by retained speech (source is 85.06s; typical target 20–45s)
+length: 61.07s (driven by retained speech; source 85.06s)
 angle: premium medical-editorial talking-head reel with nutrition infographics
 ---
 
@@ -41,4 +41,5 @@ or Canva-template look.
 - No fabricated claims, stats, patient imagery or exaggerated medical wording.
 - Reordering source ranges allowed only when meaning is preserved; no word-splicing.
 - Only approval pause: final HyperFrames Studio preview, before rendering final_reel.mp4.
-- BLOCKED (2026-10-06): word-level transcription unavailable in this environment — see source-analysis.md.
+- Transcription: local ASR models were blocked by the network policy; the user approved ElevenLabs Scribe v1 (2026-10-06, ≈468 credits). See source-analysis.md.
+- Font: Cairo 400–900 (local woff2, OFL) + IBM Plex Mono 700 (HyperFrames-bundled) for Latin labels.

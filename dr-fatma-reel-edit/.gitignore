@@ -6,3 +6,9 @@ node_modules/
 .hyperframes/
 renders/
 *.mp4
+assets/stills/
+snapshots/
+review/
+.hyperframes/
+node_modules
+.thumbnails/

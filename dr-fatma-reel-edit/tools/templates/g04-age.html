@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+/*__BRAND__*/
+        #g04-root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
+        #g04-root .g04-ghost { top: 1000px; left: -30px; font-size: 640px; direction: ltr; }
+        #g04-root .g04-block { position: absolute; left: 90px; right: 90px; direction: rtl; display: flex; align-items: baseline; gap: 28px; }
+        #g04-root .g04-b1 { top: 330px; }
+        #g04-root .g04-b2 { top: 760px; }
+        #g04-root .g04-label { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 56px; color: var(--ink-soft); width: 300px; flex: none; }
+        #g04-root .g04-num { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 300px; line-height: 1.05; color: var(--ink); letter-spacing: -0.03em; }
+        #g04-root .g04-num2 { color: var(--warm-ink); }
+        #g04-root .g04-unit { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 70px; color: var(--ink); }
+        #g04-root .g04-ruler { position: absolute; left: 0; top: 1250px; width: 1080px; height: 260px; overflow: visible; }
+      </style>
+      <div id="g04-root" data-composition-id="g04-age" data-width="1080" data-height="1920">
+        <div class="fs-paper"><div class="fs-grid"></div><div data-layout-ignore aria-hidden="true" class="fs-ghost g04-ghost">65</div></div>
+        <div class="fs-top"><div class="fs-eyebrow"><span class="fs-dot"></span>العمر</div><div class="fs-meta">CASE FILE · 04</div></div>
+        <div class="fs-rule g04-rule"></div>
+        <div class="g04-block g04-b1"><span class="g04-label g04-l1">عمره</span><span class="fs-mask"><span class="fs-line g04-num g04-n1">55</span></span><span class="g04-unit g04-u1">سنة</span></div>
+        <div class="g04-block g04-b2"><span class="g04-label g04-l2">وحاسس إنه</span><span class="fs-mask"><span class="fs-line g04-num g04-num2 g04-n2">65</span></span><span class="g04-unit g04-u2">سنة</span></div>
+        <svg class="g04-ruler" viewBox="0 0 1080 260" fill="none">
+          <line x1="140" y1="120" x2="940" y2="120" stroke="#172328" stroke-width="4" />
+          <g stroke="#45545A" stroke-width="4">
+            <line x1="140" y1="104" x2="140" y2="136" /><line x1="273" y1="108" x2="273" y2="132" /><line x1="407" y1="104" x2="407" y2="136" />
+            <line x1="540" y1="108" x2="540" y2="132" /><line x1="673" y1="104" x2="673" y2="136" /><line x1="807" y1="108" x2="807" y2="132" /><line x1="940" y1="104" x2="940" y2="136" />
+          </g>
+          <g font-family="IBM Plex Mono" font-weight="700" font-size="28" fill="#45545A" text-anchor="middle">
+            <text x="140" y="186">40</text><text x="273" y="186">45</text><text x="407" y="186">50</text><text x="540" y="186">55</text><text x="673" y="186">60</text><text x="807" y="186">65</text><text x="940" y="186">70</text>
+          </g>
+          <rect class="g04-span" x="540" y="112" width="267" height="16" rx="8" fill="#EFB88D" />
+          <g class="g04-m1"><circle cx="540" cy="120" r="20" fill="#167493" /><path d="M540 92 L526 70 H554 Z" fill="#167493" /></g>
+          <g class="g04-m2"><circle cx="540" cy="120" r="20" fill="#D98245" /><path d="M540 92 L526 70 H554 Z" fill="#D98245" /></g>
+          <text class="g04-delta" x="673" y="56" text-anchor="middle" font-family="IBM Plex Mono" font-weight="700" font-size="40" fill="#B9622A">+10</text>
+        </svg>
+        <div class="fs-sig"><span class="fs-sig-name">د. فاطمة السقا</span><span class="fs-sig-tag">قصة نجاح من العيادة</span></div>
+        <div class="fs-grain"></div>
+      </div>
+      <script>
+        (function () {
+          const C = __CUES__;
+          const D = __DUR__;
+          const q = (s) => document.querySelector("#g04-root " + s);
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo(q(".g04-rule"), { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "power3.out" }, 0);
+          tl.fromTo(q(".fs-top"), { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.26, ease: "power2.out" }, 0.02);
+          tl.fromTo(q(".g04-l1"), { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.28, ease: "power3.out" }, 0.05);
+          tl.fromTo(q(".g04-ruler"), { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.34, ease: "power3.out" }, 0.1);
+          tl.fromTo(q(".g04-n1"), { yPercent: 105 }, { yPercent: 0, duration: 0.34, ease: "power3.out" }, C.age - 0.06);
+          tl.fromTo(q(".g04-u1"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, C.age + 0.12);
+          tl.fromTo(q(".g04-m1"), { scale: 0, transformOrigin: "50% 100%" }, { scale: 1, duration: 0.24, ease: "back.out(1.6)" }, C.age);
+          tl.set(q(".g04-m2"), { opacity: 0 }, 0);
+          tl.fromTo(q(".g04-l2"), { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.28, ease: "power3.out" }, C.feltLabel - 0.04);
+          tl.fromTo(q(".g04-n2"), { yPercent: 105 }, { yPercent: 0, duration: 0.34, ease: "power3.out" }, C.felt - 0.06);
+          tl.fromTo(q(".g04-u2"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, C.felt + 0.12);
+          tl.set(q(".g04-m2"), { opacity: 1 }, C.felt - 0.02);
+          tl.fromTo(q(".g04-m2"), { x: 0 }, { x: 267, duration: 0.5, ease: "power3.inOut" }, C.felt - 0.02);
+          tl.fromTo(q(".g04-span"), { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.5, ease: "power3.inOut" }, C.felt - 0.02);
+          tl.fromTo(q(".g04-delta"), { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.24, ease: "power2.out" }, C.felt + 0.42);
+          tl.fromTo(q(".g04-ghost"), { x: 0 }, { x: 50, duration: D, ease: "none" }, 0);
+          window.__timelines["g04-age"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

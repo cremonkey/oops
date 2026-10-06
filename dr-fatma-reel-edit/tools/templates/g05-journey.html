@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+/*__BRAND__*/
+        #g05-root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
+        #g05-root .g05-ghost { top: 1160px; left: -40px; font-size: 470px; }
+        #g05-root .g05-text { position: absolute; left: 90px; right: 90px; top: 330px; direction: rtl; text-align: center; }
+        #g05-root .g05-pre { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 66px; color: var(--ink-soft); line-height: 1.2; }
+        #g05-root .g05-range { display: flex; justify-content: center; align-items: baseline; gap: 40px; direction: rtl; height: 330px; }
+        #g05-root .g05-n { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 300px; line-height: 1.05; color: var(--ink); display: inline-block; }
+        #g05-root .g05-to { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 110px; color: var(--ink-soft); display: inline-block; }
+        #g05-root .g05-months { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 150px; color: var(--teal); line-height: 1.1; }
+        #g05-root .g05-path { position: absolute; left: 0; top: 1130px; width: 1080px; height: 360px; overflow: visible; }
+      </style>
+      <div id="g05-root" data-composition-id="g05-journey" data-width="1080" data-height="1920">
+        <div class="fs-paper"><div class="fs-grid"></div><div data-layout-ignore aria-hidden="true" class="fs-ghost g05-ghost">رحلة</div></div>
+        <div class="fs-top"><div class="fs-eyebrow"><span class="fs-dot"></span>الرحلة</div><div class="fs-meta">CASE FILE · 05</div></div>
+        <div class="fs-rule g05-rule"></div>
+        <div class="g05-text">
+          <div class="fs-mask"><div class="fs-line g05-pre" data-layout-allow-overlap>استغرقنا من</div></div>
+          <div class="g05-range"><span class="g05-n g05-n3" data-layout-allow-overlap>3</span><span class="g05-to">لـ</span><span class="g05-n g05-n4" data-layout-allow-overlap>4</span></div>
+          <div class="fs-mask"><div class="fs-line g05-months" data-layout-allow-overlap>شهور</div></div>
+        </div>
+        <svg class="g05-path" viewBox="0 0 1080 360" fill="none">
+          <path d="M960,120 C780,120 720,250 540,250 C360,250 300,120 120,120" stroke="#DDD1C5" stroke-width="14" stroke-linecap="round" />
+          <path class="g05-prog" d="M960,120 C780,120 720,250 540,250 C360,250 300,120 120,120" stroke="#167493" stroke-width="14" stroke-linecap="round" />
+          <g class="g05-start"><circle cx="960" cy="120" r="30" fill="#167493" /><circle cx="960" cy="120" r="12" fill="#FFF9F3" /></g>
+          <g class="g05-end"><circle cx="120" cy="120" r="30" fill="#0E566D" /><path d="M106 120 L116 131 L136 108" stroke="#FFF9F3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></g>
+          <text x="960" y="200" text-anchor="middle" font-family="Cairo" font-weight="800" font-size="38" fill="#45545A">التحاليل</text>
+          <text class="g05-endlabel" x="120" y="200" text-anchor="middle" font-family="Cairo" font-weight="800" font-size="38" fill="#0E566D">رحلتنا</text>
+        </svg>
+        <div class="fs-sig"><span class="fs-sig-name">د. فاطمة السقا</span><span class="fs-sig-tag">قصة نجاح من العيادة</span></div>
+        <div class="fs-grain"></div>
+      </div>
+      <script>
+        (function () {
+          const C = __CUES__;
+          const D = __DUR__;
+          const q = (s) => document.querySelector("#g05-root " + s);
+          const prog = q(".g05-prog");
+          const L = prog.getTotalLength();
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo(q(".g05-rule"), { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "power3.out" }, 0);
+          tl.fromTo(q(".fs-top"), { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.26, ease: "power2.out" }, 0.02);
+          tl.fromTo(q(".g05-pre"), { yPercent: 105 }, { yPercent: 0, duration: 0.32, ease: "power3.out" }, 0.04);
+          tl.fromTo(q(".g05-start"), { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.24, ease: "back.out(1.6)" }, 0.1);
+          tl.fromTo(prog, { strokeDasharray: L, strokeDashoffset: L }, { strokeDashoffset: 0, duration: Math.max(0.6, C.months + 0.35 - 0.15), ease: "power1.inOut" }, 0.15);
+          tl.fromTo(q(".g05-n3"), { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, C.n3 - 0.06);
+          tl.fromTo(q(".g05-to"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, C.n3 + 0.06);
+          tl.fromTo(q(".g05-n4"), { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, C.n4 - 0.06);
+          tl.fromTo(q(".g05-months"), { yPercent: 105 }, { yPercent: 0, duration: 0.34, ease: "power3.out" }, C.months - 0.06);
+          tl.fromTo(q(".g05-end"), { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.24, ease: "back.out(1.6)" }, C.months + 0.2);
+          tl.fromTo(q(".g05-endlabel"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, C.months + 0.3);
+          tl.fromTo(q(".g05-ghost"), { x: 0 }, { x: 50, duration: D, ease: "none" }, 0);
+          window.__timelines["g05-journey"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

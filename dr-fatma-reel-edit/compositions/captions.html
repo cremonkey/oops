@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 400; font-display: block; src: url("assets/fonts/cairo-arabic-400-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 400; font-display: block; src: url("assets/fonts/cairo-latin-400-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 500; font-display: block; src: url("assets/fonts/cairo-arabic-500-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 500; font-display: block; src: url("assets/fonts/cairo-latin-500-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 600; font-display: block; src: url("assets/fonts/cairo-arabic-600-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 600; font-display: block; src: url("assets/fonts/cairo-latin-600-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 700; font-display: block; src: url("assets/fonts/cairo-arabic-700-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 700; font-display: block; src: url("assets/fonts/cairo-latin-700-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 800; font-display: block; src: url("assets/fonts/cairo-arabic-800-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 800; font-display: block; src: url("assets/fonts/cairo-latin-800-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 900; font-display: block; src: url("assets/fonts/cairo-arabic-900-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 900; font-display: block; src: url("assets/fonts/cairo-latin-900-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+:root {
+  --teal: #167493; --teal-dark: #0E566D; --teal-soft: #5EA4AF;
+  --cream: #FFF9F3; --paper: #F1E8DF; --paper-dark: #DDD1C5;
+  --ink: #172328; --ink-soft: #45545A;
+  --green: #7B9B72; --green-soft: #C6D5BC;
+  --warm: #D98245; --warm-soft: #EFB88D; --beige: #EADBCB; --white: #FFFFFF; --warm-ink: #B9622A;
+  --caption: #FFFDF8;
+}
+.fs-paper { position: absolute; inset: 0; background: radial-gradient(120% 80% at 70% 18%, #FFFDF9 0%, var(--cream) 46%, #F6EEE5 100%); overflow: hidden; }
+.fs-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(221, 209, 197, 0.55) 2px, transparent 2px), linear-gradient(90deg, rgba(221, 209, 197, 0.55) 2px, transparent 2px); background-size: 120px 120px; background-position: 60px 40px; opacity: 0.55; }
+.fs-grain { position: absolute; inset: -40px; opacity: 0.16; mix-blend-mode: multiply; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.27 0 0 0 0 0.24 0 0 0 0 0.2 0 0 0 0.9 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>"); }
+.fs-ghost { position: absolute; font-family: "Cairo", sans-serif; font-weight: 900; color: var(--beige); line-height: 1; white-space: nowrap; direction: rtl; opacity: 0.6; }
+.fs-top { position: absolute; top: 150px; left: 90px; right: 90px; height: 56px; display: flex; align-items: center; justify-content: space-between; direction: rtl; }
+.fs-eyebrow { display: flex; align-items: center; gap: 16px; font-family: "Cairo", sans-serif; font-weight: 700; font-size: 34px; color: var(--teal-dark); direction: rtl; }
+.fs-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--teal); display: block; }
+.fs-meta { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 24px; letter-spacing: 0.12em; color: var(--ink-soft); direction: ltr; }
+.fs-rule { position: absolute; top: 230px; left: 90px; right: 90px; height: 3px; background: var(--ink); transform-origin: right center; }
+.fs-sig { position: absolute; bottom: 300px; left: 90px; right: 90px; display: flex; align-items: center; justify-content: space-between; direction: rtl; font-family: "Cairo", sans-serif; }
+.fs-sig-name { font-weight: 800; font-size: 32px; color: var(--ink); }
+.fs-sig-tag { font-weight: 600; font-size: 26px; color: var(--ink-soft); }
+.fs-ar { font-family: "Cairo", sans-serif; direction: rtl; }
+.fs-mask { overflow: hidden; display: block; padding: 0.06em 0 0.12em; }
+.fs-line { display: block; will-change: transform; }
+
+        #captions-root { position: absolute; inset: 0; pointer-events: none; }
+        #cap-scrim { position: absolute; left: 0; right: 0; top: 1080px; height: 700px;
+          background: linear-gradient(180deg, rgba(23, 35, 40, 0) 0%, rgba(23, 35, 40, 0.42) 42%, rgba(23, 35, 40, 0.5) 62%, rgba(23, 35, 40, 0) 100%); }
+        #cap-loop { position: absolute; left: 190px; width: 700px; top: 1236px; height: 8px; border-radius: 4px; background: var(--teal-soft); }
+        .cap { position: absolute; left: 80px; right: 80px; top: 1282px; height: 130px; display: flex; align-items: center; justify-content: center; opacity: 0; }
+        .cap-line { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 84px; line-height: 1.2; color: var(--caption); direction: rtl; text-align: center; white-space: nowrap;
+          text-shadow: 0 3px 18px rgba(23, 35, 40, 0.55), 0 1px 2px rgba(23, 35, 40, 0.6); letter-spacing: -0.01em; }
+        .cap-w { display: inline-block; position: relative; }
+        .cap-hl { padding: 0 0.16em; margin: 0 0.02em; }
+        .cap-hlbg { position: absolute; left: 0; right: 0; top: 0.12em; bottom: 0.02em; border-radius: 0.16em; transform-origin: 100% 50%; display: block; }
+        .cap-txt { position: relative; display: inline-block; }
+      </style>
+      <div id="captions-root" data-composition-id="captions" data-width="1080" data-height="1920">
+        <div id="cap-scrim"></div>
+        <div id="cap-loop"></div>
+        <div id="cap-stack"></div>
+      </div>
+      <script>
+        (function () {
+          const CAPS = [{"id": "cap00", "start": 0.1, "end": 0.7, "tone": "", "words": [{"t": "كان", "hl": false, "at": 0.027}, {"t": "عنده", "hl": false, "at": 0.247}]}, {"id": "cap01", "start": 0.7, "end": 2.4667, "tone": "teal", "words": [{"t": "أمل", "hl": false, "at": 0.027}, {"t": "واحد", "hl": true, "at": 0.446}, {"t": "بس", "hl": false, "at": 0.927}]}, {"id": "cap02", "start": 4.3, "end": 4.6333, "tone": "teal", "words": [{"t": "ليه", "hl": true, "at": 0.027}]}, {"id": "cap03", "start": 4.6333, "end": 5.3333, "tone": "", "words": [{"t": "لأنه", "hl": false, "at": 0.054}, {"t": "كان", "hl": false, "at": 0.314}, {"t": "عنده", "hl": false, "at": 0.474}]}, {"id": "cap04", "start": 5.3333, "end": 6.4667, "tone": "warm", "words": [{"t": "كرش", "hl": true, "at": 0.034}, {"t": "كبير", "hl": false, "at": 0.414}]}, {"id": "cap05", "start": 6.4667, "end": 7.2333, "tone": "teal", "words": [{"t": "عم", "hl": false, "at": 0.046}, {"t": "حسن", "hl": true, "at": 0.306}]}, {"id": "cap06", "start": 7.2333, "end": 9.3, "tone": "teal", "words": [{"t": "كان", "hl": false, "at": 0.04}, {"t": "عنده", "hl": false, "at": 0.44}, {"t": "55", "hl": true, "at": 0.76}, {"t": "سنة", "hl": false, "at": 1.62}]}, {"id": "cap07", "start": 13.6667, "end": 14.1667, "tone": "", "words": [{"t": "مش", "hl": false, "at": 0.033}, {"t": "بيقدر", "hl": false, "at": 0.193}]}, {"id": "cap08", "start": 14.1667, "end": 15.0, "tone": "teal", "words": [{"t": "يطلع", "hl": false, "at": 0.033}, {"t": "السلم", "hl": true, "at": 0.373}]}, {"id": "cap09", "start": 19.9667, "end": 20.5667, "tone": "", "words": [{"t": "مش", "hl": false, "at": 0.033}, {"t": "بيقدر", "hl": false, "at": 0.18}]}, {"id": "cap10", "start": 20.5667, "end": 22.0667, "tone": "teal", "words": [{"t": "يقف", "hl": false, "at": 0.04}, {"t": "يصلي", "hl": true, "at": 0.34}]}, {"id": "cap11", "start": 22.0667, "end": 23.2667, "tone": "teal", "words": [{"t": "وبيقعد", "hl": false, "at": 0.04}, {"t": "على", "hl": false, "at": 0.38}, {"t": "الكرسي", "hl": true, "at": 0.56}]}, {"id": "cap12", "start": 27.1333, "end": 28.5333, "tone": "warm", "words": [{"t": "ده", "hl": false, "at": 0.054}, {"t": "عجز", "hl": true, "at": 0.674}]}, {"id": "cap13", "start": 28.6, "end": 29.3333, "tone": "", "words": [{"t": "مش", "hl": false, "at": 0.027}, {"t": "قادر", "hl": false, "at": 0.207}]}, {"id": "cap14", "start": 29.3333, "end": 30.4667, "tone": "", "words": [{"t": "لما", "hl": false, "at": 0.054}, {"t": "جينا", "hl": false, "at": 0.374}]}, {"id": "cap15", "start": 30.4667, "end": 31.5333, "tone": "teal", "words": [{"t": "عملنا", "hl": false, "at": 0.04}, {"t": "تحاليلنا", "hl": true, "at": 0.36}]}, {"id": "cap16", "start": 31.5333, "end": 32.8333, "tone": "teal", "words": [{"t": "وبدأنا", "hl": false, "at": 0.054}, {"t": "رحلتنا", "hl": true, "at": 0.514}]}, {"id": "cap17", "start": 35.8333, "end": 37.3333, "tone": "", "words": [{"t": "من", "hl": false, "at": 0.047}, {"t": "وزن", "hl": false, "at": 0.847}]}, {"id": "cap18", "start": 37.3333, "end": 39.0, "tone": "teal", "words": [{"t": "140", "hl": true, "at": 0.047}, {"t": "كيلو", "hl": false, "at": 0.887}]}, {"id": "cap19", "start": 43.1333, "end": 44.4333, "tone": "teal", "words": [{"t": "بقى", "hl": false, "at": 0.054}, {"t": "يقف", "hl": false, "at": 0.214}, {"t": "يصلي", "hl": true, "at": 0.514}]}, {"id": "cap20", "start": 44.4333, "end": 45.7, "tone": "", "words": [{"t": "كل", "hl": false, "at": 0.054}, {"t": "الصلوات", "hl": false, "at": 0.294}]}, {"id": "cap21", "start": 45.7667, "end": 46.8333, "tone": "teal", "words": [{"t": "كل", "hl": false, "at": 0.04}, {"t": "الفروض", "hl": true, "at": 0.24}]}, {"id": "cap22", "start": 46.8333, "end": 47.6, "tone": "", "words": [{"t": "بيمشي", "hl": false, "at": 0.027}]}, {"id": "cap23", "start": 47.6, "end": 48.3, "tone": "teal", "words": [{"t": "يقدر", "hl": false, "at": 0.04}, {"t": "يمشي", "hl": true, "at": 0.4}]}, {"id": "cap24", "start": 52.3333, "end": 53.0333, "tone": "", "words": [{"t": "هو", "hl": false, "at": 0.054}, {"t": "كان", "hl": false, "at": 0.314}, {"t": "بيقول", "hl": false, "at": 0.494}]}, {"id": "cap25", "start": 53.0333, "end": 53.4333, "tone": "", "words": [{"t": "لي", "hl": false, "at": 0.034}, {"t": "كده", "hl": false, "at": 0.174}]}, {"id": "cap26", "start": 55.7333, "end": 56.8667, "tone": "green", "words": [{"t": "حياته", "hl": false, "at": 0.047}, {"t": "اتغيرت", "hl": true, "at": 0.327}]}, {"id": "cap27", "start": 56.8667, "end": 57.5667, "tone": "", "words": [{"t": "فدي", "hl": false, "at": 0.046}, {"t": "كانت", "hl": false, "at": 0.406}]}, {"id": "cap28", "start": 57.5667, "end": 58.4667, "tone": "teal", "words": [{"t": "قصة", "hl": false, "at": 0.026}, {"t": "نجاح", "hl": true, "at": 0.386}]}, {"id": "cap29", "start": 58.4667, "end": 58.9333, "tone": "", "words": [{"t": "تستحق", "hl": false, "at": 0.026}]}];
+          const TOTAL = 61.0667;
+          const TONES = { teal: ["#167493", "#FFFDF8"], warm: ["#D98245", "#172328"], green: ["#7B9B72", "#172328"], "": ["#167493", "#FFFDF8"] };
+          const stack = document.getElementById("cap-stack");
+          const tl = gsap.timeline({ paused: true });
+          CAPS.forEach((c) => {
+            const box = document.createElement("div");
+            box.className = "cap";
+            box.id = "captions-" + c.id;
+            const line = document.createElement("div");
+            line.className = "cap-line";
+            c.words.forEach((w, k) => {
+              const s = document.createElement("span");
+              s.className = "cap-w" + (w.hl ? " cap-hl" : "");
+              const txt = document.createElement("span");
+              txt.className = "cap-txt";
+              txt.textContent = w.t;
+              if (w.hl) {
+                const bg = document.createElement("span");
+                bg.className = "cap-hlbg";
+                const [fill, ink] = TONES[c.tone];
+                bg.style.background = fill;
+                s.appendChild(bg);
+                tl.set(bg, { scaleX: 0 }, 0);
+                const at = c.start + Math.max(0, w.at - 0.03);
+                tl.fromTo(bg, { scaleX: 0 }, { scaleX: 1, duration: 0.13, ease: "power3.out", immediateRender: false }, at);
+                tl.set(txt, { color: ink, textShadow: "none" }, at + 0.03);
+              }
+              s.appendChild(txt);
+              line.appendChild(s);
+              if (k < c.words.length - 1) line.appendChild(document.createTextNode(" "));
+            });
+            box.appendChild(line);
+            stack.appendChild(box);
+            tl.fromTo(box, { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.1, ease: "power2.out", immediateRender: false }, c.start);
+            tl.set(box, { opacity: 0 }, c.end);
+          });
+          // loop seam: the line retracts at frame 0 and re-grows into the final frame
+          tl.fromTo("#cap-loop", { scaleX: 1, transformOrigin: "0% 50%" }, { scaleX: 0, duration: 0.5, ease: "power2.in" }, 0);
+          tl.fromTo("#cap-loop", { scaleX: 0, transformOrigin: "100% 50%" }, { scaleX: 1, duration: 0.42, ease: "power2.out", immediateRender: false }, TOTAL - 0.45);
+          window.__timelines["captions"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

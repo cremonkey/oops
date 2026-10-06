@@ -1,0 +1,1 @@
+highpass=f=70,acompressor=threshold=-24dB:ratio=2.2:attack=10:release=150:makeup=3:knee=4,volume=3.1dB,alimiter=limit=0.83:attack=4:release=60:level=disabled

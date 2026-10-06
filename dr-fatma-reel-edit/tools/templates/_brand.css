@@ -1,0 +1,35 @@
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 400; font-display: block; src: url("assets/fonts/cairo-arabic-400-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 400; font-display: block; src: url("assets/fonts/cairo-latin-400-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 500; font-display: block; src: url("assets/fonts/cairo-arabic-500-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 500; font-display: block; src: url("assets/fonts/cairo-latin-500-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 600; font-display: block; src: url("assets/fonts/cairo-arabic-600-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 600; font-display: block; src: url("assets/fonts/cairo-latin-600-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 700; font-display: block; src: url("assets/fonts/cairo-arabic-700-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 700; font-display: block; src: url("assets/fonts/cairo-latin-700-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 800; font-display: block; src: url("assets/fonts/cairo-arabic-800-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 800; font-display: block; src: url("assets/fonts/cairo-latin-800-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 900; font-display: block; src: url("assets/fonts/cairo-arabic-900-normal.woff2") format("woff2"); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: "Cairo"; font-style: normal; font-weight: 900; font-display: block; src: url("assets/fonts/cairo-latin-900-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+:root {
+  --teal: #167493; --teal-dark: #0E566D; --teal-soft: #5EA4AF;
+  --cream: #FFF9F3; --paper: #F1E8DF; --paper-dark: #DDD1C5;
+  --ink: #172328; --ink-soft: #45545A;
+  --green: #7B9B72; --green-soft: #C6D5BC;
+  --warm: #D98245; --warm-soft: #EFB88D; --beige: #EADBCB; --white: #FFFFFF; --warm-ink: #B9622A;
+  --caption: #FFFDF8;
+}
+.fs-paper { position: absolute; inset: 0; background: radial-gradient(120% 80% at 70% 18%, #FFFDF9 0%, var(--cream) 46%, #F6EEE5 100%); overflow: hidden; }
+.fs-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(221, 209, 197, 0.55) 2px, transparent 2px), linear-gradient(90deg, rgba(221, 209, 197, 0.55) 2px, transparent 2px); background-size: 120px 120px; background-position: 60px 40px; opacity: 0.55; }
+.fs-grain { position: absolute; inset: -40px; opacity: 0.16; mix-blend-mode: multiply; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' seed='7' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.27 0 0 0 0 0.24 0 0 0 0 0.2 0 0 0 0.9 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>"); }
+.fs-ghost { position: absolute; font-family: "Cairo", sans-serif; font-weight: 900; color: var(--beige); line-height: 1; white-space: nowrap; direction: rtl; opacity: 0.6; }
+.fs-top { position: absolute; top: 150px; left: 90px; right: 90px; height: 56px; display: flex; align-items: center; justify-content: space-between; direction: rtl; }
+.fs-eyebrow { display: flex; align-items: center; gap: 16px; font-family: "Cairo", sans-serif; font-weight: 700; font-size: 34px; color: var(--teal-dark); direction: rtl; }
+.fs-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--teal); display: block; }
+.fs-meta { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 24px; letter-spacing: 0.12em; color: var(--ink-soft); direction: ltr; }
+.fs-rule { position: absolute; top: 230px; left: 90px; right: 90px; height: 3px; background: var(--ink); transform-origin: right center; }
+.fs-sig { position: absolute; bottom: 300px; left: 90px; right: 90px; display: flex; align-items: center; justify-content: space-between; direction: rtl; font-family: "Cairo", sans-serif; }
+.fs-sig-name { font-weight: 800; font-size: 32px; color: var(--ink); }
+.fs-sig-tag { font-weight: 600; font-size: 26px; color: var(--ink-soft); }
+.fs-ar { font-family: "Cairo", sans-serif; direction: rtl; }
+.fs-mask { overflow: hidden; display: block; padding: 0.06em 0 0.12em; }
+.fs-line { display: block; will-change: transform; }

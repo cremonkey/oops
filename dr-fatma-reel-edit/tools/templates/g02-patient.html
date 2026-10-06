@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+/*__BRAND__*/
+        #g02-root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
+        #g02-root .g02-ghost { top: 1180px; left: -60px; font-size: 420px; }
+        #g02-root .g02-card { position: absolute; left: 90px; right: 90px; top: 300px; height: 1230px; background: var(--white); border: 3px solid var(--paper-dark); border-radius: 40px; box-shadow: 0 40px 90px rgba(23, 35, 40, 0.10); padding: 64px 64px 0; direction: rtl; }
+        #g02-root .g02-head { display: flex; align-items: center; gap: 36px; height: 200px; }
+        #g02-root .g02-mono { width: 170px; height: 170px; border-radius: 50%; background: var(--teal); color: var(--cream); display: flex; align-items: center; justify-content: center; font-family: "Cairo", sans-serif; font-weight: 900; font-size: 96px; line-height: 1; flex: none; }
+        #g02-root .g02-namebox { display: flex; flex-direction: column; }
+        #g02-root .g02-kicker { font-family: "Cairo", sans-serif; font-weight: 700; font-size: 34px; color: var(--teal-dark); line-height: 1.2; }
+        #g02-root .g02-name { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 132px; color: var(--ink); line-height: 1.05; letter-spacing: -0.02em; }
+        #g02-root .g02-row { position: relative; display: flex; align-items: center; justify-content: space-between; height: 270px; border-top: 3px solid var(--paper-dark); }
+        #g02-root .g02-row:first-of-type { margin-top: 40px; }
+        #g02-root .g02-label { font-family: "Cairo", sans-serif; font-weight: 700; font-size: 40px; color: var(--ink-soft); width: 230px; flex: none; }
+        #g02-root .g02-val { flex: 1; display: flex; flex-direction: column; align-items: flex-start; }
+        #g02-root .g02-big { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 92px; color: var(--ink); line-height: 1.1; }
+        #g02-root .g02-latin { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 58px; color: var(--teal); direction: ltr; line-height: 1.2; }
+        #g02-root .g02-sub { font-family: "Cairo", sans-serif; font-weight: 600; font-size: 36px; color: var(--ink-soft); line-height: 1.3; }
+        #g02-root .g02-ir { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 74px; color: var(--ink); line-height: 1.1; }
+        #g02-root .g02-diagram { width: 330px; height: 220px; flex: none; overflow: visible; }
+      </style>
+      <div id="g02-root" data-composition-id="g02-patient" data-width="1080" data-height="1920">
+        <div class="fs-paper"><div class="fs-grid"></div><div data-layout-ignore aria-hidden="true" class="fs-ghost g02-ghost">الحالة</div></div>
+        <div class="fs-top"><div class="fs-eyebrow"><span class="fs-dot"></span>ملف الحالة</div><div class="fs-meta">PATIENT FILE · 02</div></div>
+        <div class="g02-card">
+          <div class="g02-head">
+            <div class="g02-mono">ح</div>
+            <div class="g02-namebox"><span class="g02-kicker">دخل لنا العيادة</span><span class="g02-name">عم حسن</span></div>
+          </div>
+          <div class="g02-row g02-r1">
+            <div class="g02-label">السن</div>
+            <div class="g02-val"><span class="g02-big">55 سنة</span></div>
+          </div>
+          <div class="g02-row g02-r2">
+            <div class="g02-label">الحالة</div>
+            <div class="g02-val"><span class="g02-latin">Pre-diabetic</span><span class="g02-sub">مرحلة ما قبل السكري</span></div>
+          </div>
+          <div class="g02-row g02-r3">
+            <div class="g02-val"><span class="g02-ir">مقاومة إنسولين</span><span class="g02-sub">Insulin resistance</span></div>
+            <svg class="g02-diagram" viewBox="0 0 330 220" fill="none">
+              <circle cx="110" cy="110" r="92" fill="#F1E8DF" stroke="#172328" stroke-width="6" />
+              <rect x="186" y="88" width="34" height="44" rx="6" fill="#FFFFFF" stroke="#172328" stroke-width="6" />
+              <g class="g02-key">
+                <rect x="258" y="96" width="62" height="28" rx="12" fill="#167493" />
+                <circle cx="318" cy="110" r="24" fill="#167493" />
+                <circle cx="318" cy="110" r="9" fill="#FFFFFF" />
+              </g>
+              <g class="g02-x"><path d="M224 62 L250 88 M250 62 L224 88" stroke="#D98245" stroke-width="8" stroke-linecap="round" /></g>
+              <text x="110" y="122" text-anchor="middle" font-family="Cairo" font-weight="800" font-size="34" fill="#45545A">خلية</text>
+            </svg>
+          </div>
+        </div>
+        <div class="fs-sig"><span class="fs-sig-name">د. فاطمة السقا</span><span class="fs-sig-tag">قصة نجاح من العيادة</span></div>
+        <div class="fs-grain"></div>
+      </div>
+      <script>
+        (function () {
+          const C = __CUES__;
+          const D = __DUR__;
+          const q = (s) => document.querySelector("#g02-root " + s);
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo(q(".fs-top"), { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.26, ease: "power2.out" }, 0);
+          tl.fromTo(q(".g02-card"), { y: 70, opacity: 0 }, { y: 0, opacity: 1, duration: 0.34, ease: "power3.out" }, 0);
+          tl.fromTo(q(".g02-mono"), { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(1.4)" }, 0.12);
+          tl.fromTo(q(".g02-namebox"), { x: 40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, 0.16);
+          [[".g02-r1", C.row1], [".g02-r2", C.row2], [".g02-r3", C.row3]].forEach(([sel, at]) => {
+            tl.fromTo(q(sel), { x: 50, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, Math.max(0.2, at - 0.04));
+          });
+          tl.fromTo(q(".g02-key"), { x: 70 }, { x: 0, duration: Math.max(0.3, C.key - C.row3), ease: "power2.inOut" }, C.row3);
+          tl.fromTo(q(".g02-x"), { opacity: 0, scale: 0.4, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.2, ease: "power2.out" }, C.key);
+          tl.fromTo(q(".g02-ghost"), { x: 0 }, { x: 50, duration: D, ease: "none" }, 0);
+          tl.fromTo(q(".g02-card"), { scale: 1, transformOrigin: "50% 40%" }, { scale: 1.035, duration: D, ease: "none" }, 0);
+          tl.fromTo(q(".fs-grid"), { y: 0 }, { y: -36, duration: D, ease: "none" }, 0);
+          window.__timelines["g02-patient"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 # Source analysis — rawreel
 
-Status: **inspection complete, transcription BLOCKED** (see bottom).
+Status: **inspection complete · transcript verified** (ElevenLabs Scribe v1, approved by the user).
 
 ## ffprobe — original (`../rawreel.mp4`, copy of uploaded `VID-20261005-WA0004.mp4`)
 
@@ -59,7 +59,7 @@ Candidate trims (to be validated against words + mouth + gesture once the transc
 dead head 0.00–0.33, dead tail ≥ 82.9, and the longer gaps at 7.89, 17.02, 58.54, 76.35–78.86.
 **Not cut yet** — the brief forbids cutting from numeric silence alone.
 
-## BLOCKER — transcription
+## Transcription history (resolved)
 
 Required: accurate Egyptian-Arabic word-level transcript (`transcript.json`) reviewed against audio.
 
@@ -72,5 +72,21 @@ Required: accurate Egyptian-Arabic word-level transcript (`transcript.json`) rev
 4. Sending the audio to the connected ElevenLabs Scribe connector was refused by the session's
    permission policy (it counts as sending data to an outside service), so that route is closed unless the user allows it.
 
-Without the words, the hook, cuts, captions, storyboard and timing map can't be derived
-truthfully. Per the brief's failure conditions, work stops here.
+5. **Resolved:** the user approved ElevenLabs. Scribe v1 returned 169 words with per-word timestamps
+   (language `ara`, p = 0.966). Audio was uploaded as a 128 kbps mono MP3 of the source.
+
+## Transcript review
+
+- Content: a patient success story. «عم حسن», 55, pre-diabetic with insulin resistance. His only hope
+  was to tie his shoes. He couldn't climb stairs, was badly breathless, choked during sleep, couldn't pray
+  standing and felt 65. After lab tests and 3–4 months he went from 140 kg to about 87–86 kg. He now
+  prays every prayer standing, walks 1–2 km a day at the club and says he feels 45.
+- Corrections: «حدودة» → «حدوتة» (Egyptian "tale"); "pre diabetic" kept as the English medical
+  term she says (displayed "Pre-diabetic", glossed «مرحلة ما قبل السكري»); «آآآ» tagged filler;
+  «بيح--» tagged false start.
+- Medical wording is unambiguous: «pre diabetic», «مقاومة إنسولين», «اختناق أثناء النوم» (kept as her
+  wording; no apnea diagnosis added), «تحاليلنا». Numbers 55 / 65 / 45, 140 → «حوالي 87… أو 86», 3–4 months
+  and 1–2 km are shown exactly as spoken, with «حوالي» and «أو 86» preserved.
+- Timestamp audit: every cut was snapped to a 10 ms RMS minimum. Scribe places «مش» (w66) at 31.64,
+  but the energy profile shows «النوم» decaying to −42 dB at 31.72 with the next onset at ~31.77, so the
+  s08 out-point (31.727) holds only the tail of «النوم». w66 is excluded from the edit.

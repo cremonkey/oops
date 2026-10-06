@@ -1,0 +1,639 @@
+{
+ "fps": 30,
+ "source": "../rawreel.mp4",
+ "working_media": "assets/rawreel_1080.mp4",
+ "source_duration": 85.057,
+ "output_duration": 61.0667,
+ "segments": [
+  {
+   "id": "s01",
+   "src_in": 15.2333,
+   "src_out": 21.6333,
+   "out_start": 0.0,
+   "duration": 6.4,
+   "frames": 192,
+   "beat": "hook",
+   "out_end": 6.4,
+   "text": "كان عنده أمل واحد بس إن هو يعرف يربط الجزمة ليه لأنه كان عنده كرش كبير"
+  },
+  {
+   "id": "s02",
+   "src_in": 7.0667,
+   "src_out": 7.9334,
+   "out_start": 6.4,
+   "duration": 0.8667,
+   "frames": 26,
+   "beat": "context",
+   "out_end": 7.2667,
+   "text": "عم حسن"
+  },
+  {
+   "id": "s03",
+   "src_in": 8.4333,
+   "src_out": 10.4666,
+   "out_start": 7.2667,
+   "duration": 2.0333,
+   "frames": 61,
+   "beat": "context",
+   "out_end": 9.3,
+   "text": "كان عنده 55 سنة"
+  },
+  {
+   "id": "s04",
+   "src_in": 10.5,
+   "src_out": 12.3,
+   "out_start": 9.3,
+   "duration": 1.8,
+   "frames": 54,
+   "beat": "context",
+   "out_end": 11.1,
+   "text": "مريض دخل لنا العيادة"
+  },
+  {
+   "id": "s05",
+   "src_in": 12.5667,
+   "src_out": 15.1,
+   "out_start": 11.1,
+   "duration": 2.5333,
+   "frames": 76,
+   "beat": "context",
+   "out_end": 13.6333,
+   "text": "Pre-diabetic عنده مقاومة إنسولين"
+  },
+  {
+   "id": "s06",
+   "src_in": 24.0333,
+   "src_out": 26.9,
+   "out_start": 13.6333,
+   "duration": 2.8667,
+   "frames": 86,
+   "beat": "problem",
+   "out_end": 16.5,
+   "text": "مش بيقدر يطلع السلم بينهج بشكل قوي"
+  },
+  {
+   "id": "s07",
+   "src_in": 27.0333,
+   "src_out": 28.9666,
+   "out_start": 16.5,
+   "duration": 1.9333,
+   "frames": 58,
+   "beat": "problem",
+   "out_end": 18.4333,
+   "text": "مش عارف ينام عشان بيجي له"
+  },
+  {
+   "id": "s08",
+   "src_in": 30.1667,
+   "src_out": 31.7334,
+   "out_start": 18.4333,
+   "duration": 1.5667,
+   "frames": 47,
+   "beat": "problem",
+   "out_end": 20.0,
+   "text": "اختناق أثناء النوم"
+  },
+  {
+   "id": "s09",
+   "src_in": 33.9333,
+   "src_out": 43.2333,
+   "out_start": 20.0,
+   "duration": 9.3,
+   "frames": 279,
+   "beat": "problem",
+   "out_end": 29.3,
+   "text": "مش بيقدر يقف يصلي وبيقعد على الكرسي وهو عنده 55 سنة وحاسس إن هو عنده 65 سنة ده عجز مش قادر"
+  },
+  {
+   "id": "s10",
+   "src_in": 43.7333,
+   "src_out": 47.2666,
+   "out_start": 29.3,
+   "duration": 3.5333,
+   "frames": 106,
+   "beat": "turn",
+   "out_end": 32.8333,
+   "text": "لما جينا عملنا تحاليلنا وبدأنا رحلتنا"
+  },
+  {
+   "id": "s11",
+   "src_in": 48.1,
+   "src_out": 51.0333,
+   "out_start": 32.8333,
+   "duration": 2.9334,
+   "frames": 88,
+   "beat": "journey",
+   "out_end": 35.7667,
+   "text": "وقعدنا استغرقنا من 3 ل 4 شهور في رحلتنا"
+  },
+  {
+   "id": "s12",
+   "src_in": 51.3667,
+   "src_out": 58.7,
+   "out_start": 35.7667,
+   "duration": 7.3333,
+   "frames": 220,
+   "beat": "proof",
+   "out_end": 43.1,
+   "text": "من وزن 140 كيلو وصلنا لحوالي 87 كيلو أو 86 كيلو"
+  },
+  {
+   "id": "s13",
+   "src_in": 59.8333,
+   "src_out": 63.5,
+   "out_start": 43.1,
+   "duration": 3.6667,
+   "frames": 110,
+   "beat": "payoff",
+   "out_end": 46.7667,
+   "text": "بقى يقف يصلي كل الصلوات كل الفروض"
+  },
+  {
+   "id": "s14",
+   "src_in": 63.5667,
+   "src_out": 69.1334,
+   "out_start": 46.7667,
+   "duration": 5.5666,
+   "frames": 167,
+   "beat": "payoff",
+   "out_end": 52.3333,
+   "text": "بيمشي يقدر يمشي كيلو أو 2 كيلو في اليوم في النادي بيلف التراك مرة واتنين"
+  },
+  {
+   "id": "s15",
+   "src_in": 73.0667,
+   "src_out": 76.3334,
+   "out_start": 52.3333,
+   "duration": 3.2667,
+   "frames": 98,
+   "beat": "payoff",
+   "out_end": 55.6,
+   "text": "هو كان بيقول لي كده أنا حاسس إن أنا عندي 45 سنة"
+  },
+  {
+   "id": "s16",
+   "src_in": 77.7,
+   "src_out": 78.9,
+   "out_start": 55.6,
+   "duration": 1.2,
+   "frames": 36,
+   "beat": "payoff",
+   "out_end": 56.8,
+   "text": "حياته اتغيرت"
+  },
+  {
+   "id": "s17",
+   "src_in": 79.2667,
+   "src_out": 83.5334,
+   "out_start": 56.8,
+   "duration": 4.2667,
+   "frames": 128,
+   "beat": "cta",
+   "out_end": 61.0667,
+   "text": "فدي كانت قصة نجاح تستحق إن احنا نعرفها لكم"
+  }
+ ],
+ "reordered": [
+  "s02"
+ ],
+ "removed_source_ranges": [
+  [
+   0.0,
+   7.067
+  ],
+  [
+   7.933,
+   8.433
+  ],
+  [
+   10.467,
+   10.5
+  ],
+  [
+   12.3,
+   12.567
+  ],
+  [
+   15.1,
+   15.233
+  ],
+  [
+   21.633,
+   24.033
+  ],
+  [
+   26.9,
+   27.033
+  ],
+  [
+   28.967,
+   30.167
+  ],
+  [
+   31.733,
+   33.933
+  ],
+  [
+   43.233,
+   43.733
+  ],
+  [
+   47.267,
+   48.1
+  ],
+  [
+   51.033,
+   51.367
+  ],
+  [
+   58.7,
+   59.833
+  ],
+  [
+   63.5,
+   63.567
+  ],
+  [
+   69.133,
+   73.067
+  ],
+  [
+   76.333,
+   77.7
+  ],
+  [
+   78.9,
+   79.267
+  ],
+  [
+   83.533,
+   85.057
+  ]
+ ],
+ "visual_windows": [
+  {
+   "kind": "A",
+   "start": 0.0,
+   "crop": {
+    "push": [
+     1.0,
+     1.12,
+     0.72
+    ]
+   },
+   "end": 2.4667,
+   "duration": 2.4667
+  },
+  {
+   "kind": "G",
+   "start": 2.4667,
+   "scene": "g01-hope",
+   "end": 4.2667,
+   "duration": 1.8
+  },
+  {
+   "kind": "A",
+   "start": 4.2667,
+   "crop": {
+    "set": 1.0,
+    "punch": [
+     42,
+     1.08,
+     0.28
+    ]
+   },
+   "end": 6.4,
+   "duration": 2.1333
+  },
+  {
+   "kind": "A",
+   "start": 6.4,
+   "crop": {
+    "set": 1.06
+   },
+   "end": 7.2667,
+   "duration": 0.8667
+  },
+  {
+   "kind": "A",
+   "start": 7.2667,
+   "crop": {
+    "set": 1.0
+   },
+   "end": 9.3,
+   "duration": 2.0333
+  },
+  {
+   "kind": "G",
+   "start": 9.3,
+   "scene": "g02-patient",
+   "end": 13.6333,
+   "duration": 4.3333
+  },
+  {
+   "kind": "A",
+   "start": 13.6333,
+   "crop": {
+    "set": 1.08
+   },
+   "end": 15.0,
+   "duration": 1.3667
+  },
+  {
+   "kind": "G",
+   "start": 15.0,
+   "scene": "g03-limits",
+   "end": 20.0,
+   "duration": 5.0
+  },
+  {
+   "kind": "A",
+   "start": 20.0,
+   "crop": {
+    "drift": [
+     1.0,
+     1.04
+    ]
+   },
+   "end": 23.2667,
+   "duration": 3.2667
+  },
+  {
+   "kind": "G",
+   "start": 23.2667,
+   "scene": "g04-age",
+   "end": 27.1333,
+   "duration": 3.8666
+  },
+  {
+   "kind": "A",
+   "start": 27.1333,
+   "crop": {
+    "set": 1.15
+   },
+   "end": 29.3,
+   "duration": 2.1667
+  },
+  {
+   "kind": "A",
+   "start": 29.3,
+   "crop": {
+    "drift": [
+     1.0,
+     1.04
+    ]
+   },
+   "end": 32.8333,
+   "duration": 3.5333
+  },
+  {
+   "kind": "G",
+   "start": 32.8333,
+   "scene": "g05-journey",
+   "end": 35.7667,
+   "duration": 2.9334
+  },
+  {
+   "kind": "A",
+   "start": 35.7667,
+   "crop": {
+    "set": 1.1
+   },
+   "end": 39.0,
+   "duration": 3.2333
+  },
+  {
+   "kind": "G",
+   "start": 39.0,
+   "scene": "g06-weight",
+   "end": 43.1,
+   "duration": 4.1
+  },
+  {
+   "kind": "A",
+   "start": 43.1,
+   "crop": {
+    "push": [
+     1.0,
+     1.09,
+     0.85
+    ]
+   },
+   "end": 46.7667,
+   "duration": 3.6667
+  },
+  {
+   "kind": "A",
+   "start": 46.7667,
+   "crop": {
+    "set": 1.06
+   },
+   "end": 48.3,
+   "duration": 1.5333
+  },
+  {
+   "kind": "G",
+   "start": 48.3,
+   "scene": "g07-track",
+   "end": 52.3333,
+   "duration": 4.0333
+  },
+  {
+   "kind": "A",
+   "start": 52.3333,
+   "crop": {
+    "set": 1.0
+   },
+   "end": 53.4333,
+   "duration": 1.1
+  },
+  {
+   "kind": "G",
+   "start": 53.4333,
+   "scene": "g08-age45",
+   "end": 55.6,
+   "duration": 2.1667
+  },
+  {
+   "kind": "A",
+   "start": 55.6,
+   "crop": {
+    "set": 1.13
+   },
+   "end": 56.8,
+   "duration": 1.2
+  },
+  {
+   "kind": "A",
+   "start": 56.8,
+   "crop": {
+    "outro": [
+     1.06,
+     1.0
+    ]
+   },
+   "end": 61.0667,
+   "duration": 4.2667
+  }
+ ],
+ "cta": {
+  "start": 58.9333,
+  "end": 61.0667
+ },
+ "scene_cues": {
+  "g01-hope": {
+   "lace": 0.0,
+   "word": 0.88,
+   "noun": 1.18
+  },
+  "g02-patient": {
+   "row1": 0.12,
+   "row2": 1.933,
+   "row3": 3.193,
+   "key": 3.633
+  },
+  "g03-limits": {
+   "row1": 0.0,
+   "row2": 0.18,
+   "row3": 2.147,
+   "row3sub": 3.507
+  },
+  "g04-age": {
+   "age": 0.9,
+   "feltLabel": 1.74,
+   "felt": 2.72
+  },
+  "g05-journey": {
+   "path": 0.0,
+   "n3": 1.34,
+   "n4": 1.78,
+   "months": 1.86
+  },
+  "g06-weight": {
+   "count": 0.0,
+   "land": 1.16,
+   "alt": 2.76
+  },
+  "g07-track": {
+   "n2": 0.419,
+   "day": 0.98,
+   "club": 1.38,
+   "lap1": 3.08,
+   "lap2": 3.38
+  },
+  "g08-age45": {
+   "felt": 0.994
+  },
+  "cta": {
+   "word": 0.46,
+   "end": 1.24
+  }
+ },
+ "sfx": [
+  {
+   "sound": "whoosh",
+   "at": 2.4333,
+   "volume": 0.2
+  },
+  {
+   "sound": "lock",
+   "at": 3.6333,
+   "volume": 0.22
+  },
+  {
+   "sound": "whoosh",
+   "at": 9.2667,
+   "volume": 0.2
+  },
+  {
+   "sound": "tick",
+   "at": 11.2333,
+   "volume": 0.2
+  },
+  {
+   "sound": "tick",
+   "at": 12.5,
+   "volume": 0.2
+  },
+  {
+   "sound": "lock",
+   "at": 12.9333,
+   "volume": 0.18
+  },
+  {
+   "sound": "whoosh",
+   "at": 14.9667,
+   "volume": 0.2
+  },
+  {
+   "sound": "tick",
+   "at": 15.1667,
+   "volume": 0.2
+  },
+  {
+   "sound": "tick",
+   "at": 17.1333,
+   "volume": 0.2
+  },
+  {
+   "sound": "whoosh",
+   "at": 23.2333,
+   "volume": 0.2
+  },
+  {
+   "sound": "lock",
+   "at": 26.0,
+   "volume": 0.22
+  },
+  {
+   "sound": "whoosh",
+   "at": 32.8,
+   "volume": 0.2
+  },
+  {
+   "sound": "lock",
+   "at": 34.7,
+   "volume": 0.2
+  },
+  {
+   "sound": "whoosh",
+   "at": 38.9667,
+   "volume": 0.2
+  },
+  {
+   "sound": "lock",
+   "at": 40.1667,
+   "volume": 0.24
+  },
+  {
+   "sound": "whoosh",
+   "at": 48.2667,
+   "volume": 0.2
+  },
+  {
+   "sound": "tick",
+   "at": 51.3667,
+   "volume": 0.2
+  },
+  {
+   "sound": "tick",
+   "at": 51.6667,
+   "volume": 0.2
+  },
+  {
+   "sound": "whoosh",
+   "at": 53.4,
+   "volume": 0.2
+  },
+  {
+   "sound": "lock",
+   "at": 54.4333,
+   "volume": 0.22
+  },
+  {
+   "sound": "lock",
+   "at": 59.2333,
+   "volume": 0.2
+  }
+ ]
+}

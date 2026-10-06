@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+/*__BRAND__*/
+        #g07-root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
+        #g07-root .g07-ghost { top: 1400px; left: -40px; font-size: 380px; }
+        #g07-root .g07-text { position: absolute; left: 90px; right: 90px; top: 300px; direction: rtl; }
+        #g07-root .g07-pre { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 62px; color: var(--ink-soft); line-height: 1.2; }
+        #g07-root .g07-range { display: flex; align-items: baseline; gap: 30px; direction: rtl; height: 250px; }
+        #g07-root .g07-n { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 220px; color: var(--ink); line-height: 1.08; display: inline-block; }
+        #g07-root .g07-or { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 84px; color: var(--ink-soft); display: inline-block; }
+        #g07-root .g07-unit { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 110px; color: var(--ink); display: inline-block; }
+        #g07-root .g07-day { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 92px; color: var(--teal); line-height: 1.2; }
+        #g07-root .g07-track { position: absolute; left: 0; top: 930px; width: 1080px; height: 600px; overflow: visible; }
+        #g07-root .g07-center { position: absolute; left: 0; right: 0; top: 1150px; text-align: center; direction: rtl; }
+        #g07-root .g07-club { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 74px; color: var(--ink); line-height: 1.2; }
+        #g07-root .g07-laps { font-family: "IBM Plex Mono", monospace; font-weight: 700; font-size: 44px; color: var(--teal-dark); direction: ltr; display: flex; justify-content: center; gap: 30px; margin-top: 8px; }
+      </style>
+      <div id="g07-root" data-composition-id="g07-track" data-width="1080" data-height="1920">
+        <div class="fs-paper"><div class="fs-grid"></div><div data-layout-ignore aria-hidden="true" class="fs-ghost g07-ghost">يمشي</div></div>
+        <div class="fs-top"><div class="fs-eyebrow"><span class="fs-dot"></span>الحركة</div><div class="fs-meta">CASE FILE · 07</div></div>
+        <div class="fs-rule g07-rule"></div>
+        <div class="g07-text">
+          <div class="g07-pre" data-layout-allow-overlap>يقدر يمشي</div>
+          <div class="g07-range"><span class="g07-n g07-n1" data-layout-allow-overlap>1</span><span class="g07-or">أو</span><span class="g07-n g07-n2" data-layout-allow-overlap>2</span><span class="g07-unit">كيلو</span></div>
+          <div class="fs-mask"><div class="fs-line g07-day" data-layout-allow-overlap>في اليوم</div></div>
+        </div>
+        <svg class="g07-track" viewBox="0 0 1080 600" fill="none">
+          <rect x="100" y="40" width="880" height="520" rx="260" stroke="#DDD1C5" stroke-width="22" />
+          <rect x="160" y="100" width="760" height="400" rx="200" stroke="#EADBCB" stroke-width="22" />
+          <rect class="g07-lap1" x="100" y="40" width="880" height="520" rx="260" stroke="#167493" stroke-width="22" stroke-linecap="round" />
+          <rect class="g07-lap2" x="160" y="100" width="760" height="400" rx="200" stroke="#5EA4AF" stroke-width="22" stroke-linecap="round" />
+        </svg>
+        <div class="g07-center">
+          <div class="g07-club" data-layout-allow-overlap>في النادي</div>
+          <div class="g07-laps"><span class="g07-x1" data-layout-allow-overlap>×1</span><span class="g07-x2" data-layout-allow-overlap>×2</span></div>
+        </div>
+        <div class="fs-sig"><span class="fs-sig-name">د. فاطمة السقا</span><span class="fs-sig-tag">قصة نجاح من العيادة</span></div>
+        <div class="fs-grain"></div>
+      </div>
+      <script>
+        (function () {
+          const C = __CUES__;
+          const D = __DUR__;
+          const q = (s) => document.querySelector("#g07-root " + s);
+          const l1 = q(".g07-lap1"), l2 = q(".g07-lap2");
+          const L1 = l1.getTotalLength(), L2 = l2.getTotalLength();
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo(q(".g07-rule"), { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "power3.out" }, 0);
+          tl.fromTo(q(".fs-top"), { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.26, ease: "power2.out" }, 0.02);
+          tl.fromTo(q(".g07-pre"), { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.28, ease: "power3.out" }, 0);
+          tl.fromTo(q(".g07-n1"), { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.28, ease: "power3.out" }, 0.04);
+          tl.fromTo(q(".g07-unit"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, 0.12);
+          tl.fromTo(q(".g07-or"), { opacity: 0 }, { opacity: 1, duration: 0.2 }, C.n2 - 0.2);
+          tl.fromTo(q(".g07-n2"), { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.28, ease: "power3.out" }, C.n2 - 0.06);
+          tl.fromTo(q(".g07-day"), { yPercent: 105 }, { yPercent: 0, duration: 0.32, ease: "power3.out" }, C.day - 0.06);
+          tl.fromTo(q(".g07-track"), { opacity: 0, scale: 0.96, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1, duration: 0.36, ease: "power3.out" }, 0.1);
+          tl.fromTo(q(".g07-club"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.28, ease: "power2.out" }, C.club - 0.06);
+          tl.fromTo(l1, { strokeDasharray: L1, strokeDashoffset: L1 }, { strokeDashoffset: 0, duration: Math.max(0.5, C.lap1 + 0.25 - C.club), ease: "power1.inOut" }, C.club);
+          tl.fromTo(q(".g07-x1"), { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(1.6)" }, C.lap1);
+          tl.fromTo(l2, { strokeDasharray: L2, strokeDashoffset: L2 }, { strokeDashoffset: 0, duration: 0.5, ease: "power1.inOut" }, C.lap2 - 0.05);
+          tl.fromTo(q(".g07-x2"), { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(1.6)" }, C.lap2 + 0.05);
+          tl.fromTo(q(".g07-ghost"), { x: 0 }, { x: 50, duration: D, ease: "none" }, 0);
+          window.__timelines["g07-track"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

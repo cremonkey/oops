@@ -1,0 +1,2141 @@
+{
+ "source": "../rawreel.mp4",
+ "engine": "ElevenLabs Scribe v1 (eleven_scribe_v1), language ara (p=0.966); manually reviewed",
+ "language": "ar-EG",
+ "duration": 85.057,
+ "words": [
+  {
+   "text": "الفيديو",
+   "start": 0.4,
+   "end": 0.8,
+   "type": "word"
+  },
+  {
+   "text": "ده",
+   "start": 0.84,
+   "end": 0.94,
+   "type": "word"
+  },
+  {
+   "text": "مختلف",
+   "start": 1.0,
+   "end": 1.64,
+   "type": "word"
+  },
+  {
+   "text": "عشان",
+   "start": 1.72,
+   "end": 1.94,
+   "type": "word"
+  },
+  {
+   "text": "إحنا",
+   "start": 2.0,
+   "end": 2.2,
+   "type": "word"
+  },
+  {
+   "text": "هنحكي",
+   "start": 2.24,
+   "end": 2.68,
+   "type": "word"
+  },
+  {
+   "text": "فيه",
+   "start": 2.74,
+   "end": 3.06,
+   "type": "word"
+  },
+  {
+   "text": "حدوتة",
+   "start": 3.7,
+   "end": 4.66,
+   "type": "word",
+   "note": "ASR 'حدودة' -> Egyptian 'حدوتة' (tale)"
+  },
+  {
+   "text": "أو",
+   "start": 4.7,
+   "end": 4.94,
+   "type": "word"
+  },
+  {
+   "text": "قصة",
+   "start": 5.02,
+   "end": 5.36,
+   "type": "word"
+  },
+  {
+   "text": "نجاح",
+   "start": 5.42,
+   "end": 5.74,
+   "type": "word"
+  },
+  {
+   "text": "في",
+   "start": 5.82,
+   "end": 5.88,
+   "type": "word"
+  },
+  {
+   "text": "عيادتنا.",
+   "start": 5.94,
+   "end": 6.54,
+   "type": "word"
+  },
+  {
+   "text": "عم",
+   "start": 7.18,
+   "end": 7.3,
+   "type": "word"
+  },
+  {
+   "text": "حسن",
+   "start": 7.44,
+   "end": 7.88,
+   "type": "word"
+  },
+  {
+   "text": "كان",
+   "start": 8.44,
+   "end": 8.78,
+   "type": "word"
+  },
+  {
+   "text": "عنده",
+   "start": 8.84,
+   "end": 9.12,
+   "type": "word"
+  },
+  {
+   "text": "55",
+   "start": 9.16,
+   "end": 9.96,
+   "type": "word"
+  },
+  {
+   "text": "سنة",
+   "start": 10.02,
+   "end": 10.32,
+   "type": "word"
+  },
+  {
+   "text": "مريض",
+   "start": 10.62,
+   "end": 11.08,
+   "type": "word"
+  },
+  {
+   "text": "دخل",
+   "start": 11.14,
+   "end": 11.38,
+   "type": "word"
+  },
+  {
+   "text": "لنا",
+   "start": 11.4,
+   "end": 11.56,
+   "type": "word"
+  },
+  {
+   "text": "العيادة",
+   "start": 11.58,
+   "end": 12.16,
+   "type": "word"
+  },
+  {
+   "text": "Pre-",
+   "start": 12.7,
+   "end": 12.88,
+   "type": "word",
+   "note": "English medical term, said as 'pre diabetic'"
+  },
+  {
+   "text": "diabetic",
+   "start": 12.92,
+   "end": 13.6,
+   "type": "word",
+   "note": "English medical term"
+  },
+  {
+   "text": "عنده",
+   "start": 13.74,
+   "end": 13.92,
+   "type": "word"
+  },
+  {
+   "text": "مقاومة",
+   "start": 13.96,
+   "end": 14.34,
+   "type": "word"
+  },
+  {
+   "text": "إنسولين.",
+   "start": 14.4,
+   "end": 15.0,
+   "type": "word"
+  },
+  {
+   "text": "كان",
+   "start": 15.36,
+   "end": 15.52,
+   "type": "word"
+  },
+  {
+   "text": "عنده",
+   "start": 15.58,
+   "end": 15.88,
+   "type": "word"
+  },
+  {
+   "text": "أمل",
+   "start": 15.96,
+   "end": 16.3,
+   "type": "word"
+  },
+  {
+   "text": "واحد",
+   "start": 16.379,
+   "end": 16.78,
+   "type": "word"
+  },
+  {
+   "text": "بس",
+   "start": 16.86,
+   "end": 17.7,
+   "type": "word"
+  },
+  {
+   "text": "إن",
+   "start": 17.76,
+   "end": 17.9,
+   "type": "word"
+  },
+  {
+   "text": "هو",
+   "start": 17.96,
+   "end": 18.14,
+   "type": "word"
+  },
+  {
+   "text": "يعرف",
+   "start": 18.2,
+   "end": 18.54,
+   "type": "word"
+  },
+  {
+   "text": "يربط",
+   "start": 18.58,
+   "end": 18.84,
+   "type": "word"
+  },
+  {
+   "text": "الجزمة.",
+   "start": 18.88,
+   "end": 19.48,
+   "type": "word"
+  },
+  {
+   "text": "ليه؟",
+   "start": 19.56,
+   "end": 19.9,
+   "type": "word"
+  },
+  {
+   "text": "لأنه",
+   "start": 19.92,
+   "end": 20.14,
+   "type": "word"
+  },
+  {
+   "text": "كان",
+   "start": 20.18,
+   "end": 20.28,
+   "type": "word"
+  },
+  {
+   "text": "عنده",
+   "start": 20.34,
+   "end": 20.54,
+   "type": "word"
+  },
+  {
+   "text": "كرش",
+   "start": 20.6,
+   "end": 20.92,
+   "type": "word"
+  },
+  {
+   "text": "كبير.",
+   "start": 20.98,
+   "end": 21.54,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 21.58,
+   "end": 21.74,
+   "type": "word"
+  },
+  {
+   "text": "قادر",
+   "start": 21.78,
+   "end": 22.04,
+   "type": "word"
+  },
+  {
+   "text": "يوطي",
+   "start": 22.1,
+   "end": 22.42,
+   "type": "word"
+  },
+  {
+   "text": "يربط",
+   "start": 22.46,
+   "end": 22.72,
+   "type": "word"
+  },
+  {
+   "text": "الجزمة.",
+   "start": 22.76,
+   "end": 23.36,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 24.1,
+   "end": 24.22,
+   "type": "word"
+  },
+  {
+   "text": "بيقدر",
+   "start": 24.26,
+   "end": 24.54,
+   "type": "word"
+  },
+  {
+   "text": "يطلع",
+   "start": 24.6,
+   "end": 24.92,
+   "type": "word"
+  },
+  {
+   "text": "السلم.",
+   "start": 24.94,
+   "end": 25.38,
+   "type": "word"
+  },
+  {
+   "text": "بينهج",
+   "start": 25.44,
+   "end": 25.84,
+   "type": "word"
+  },
+  {
+   "text": "بشكل",
+   "start": 25.88,
+   "end": 26.28,
+   "type": "word"
+  },
+  {
+   "text": "قوي.",
+   "start": 26.42,
+   "end": 26.74,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 27.14,
+   "end": 27.26,
+   "type": "word"
+  },
+  {
+   "text": "عارف",
+   "start": 27.32,
+   "end": 27.6,
+   "type": "word"
+  },
+  {
+   "text": "ينام",
+   "start": 27.68,
+   "end": 27.94,
+   "type": "word"
+  },
+  {
+   "text": "عشان",
+   "start": 28.0,
+   "end": 28.26,
+   "type": "word"
+  },
+  {
+   "text": "بيجي",
+   "start": 28.3,
+   "end": 28.58,
+   "type": "word"
+  },
+  {
+   "text": "له",
+   "start": 28.62,
+   "end": 28.8,
+   "type": "word"
+  },
+  {
+   "text": "آآآ",
+   "start": 29.56,
+   "end": 29.68,
+   "type": "filler",
+   "note": "hesitation"
+  },
+  {
+   "text": "اختناق",
+   "start": 30.24,
+   "end": 30.9,
+   "type": "word"
+  },
+  {
+   "text": "أثناء",
+   "start": 30.96,
+   "end": 31.28,
+   "type": "word"
+  },
+  {
+   "text": "النوم.",
+   "start": 31.28,
+   "end": 31.62,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 31.64,
+   "end": 31.72,
+   "type": "word"
+  },
+  {
+   "text": "بيقدر",
+   "start": 31.76,
+   "end": 32.0,
+   "type": "word"
+  },
+  {
+   "text": "ينام",
+   "start": 32.04,
+   "end": 32.299,
+   "type": "word"
+  },
+  {
+   "text": "على",
+   "start": 32.34,
+   "end": 32.46,
+   "type": "word"
+  },
+  {
+   "text": "ضهره",
+   "start": 32.5,
+   "end": 33.3,
+   "type": "word"
+  },
+  {
+   "text": "كمان",
+   "start": 33.38,
+   "end": 33.72,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 33.84,
+   "end": 34.02,
+   "type": "word"
+  },
+  {
+   "text": "بيقدر",
+   "start": 34.08,
+   "end": 34.48,
+   "type": "word"
+  },
+  {
+   "text": "يقف",
+   "start": 34.54,
+   "end": 34.8,
+   "type": "word"
+  },
+  {
+   "text": "يصلي",
+   "start": 34.84,
+   "end": 35.92,
+   "type": "word"
+  },
+  {
+   "text": "وبيقعد",
+   "start": 36.04,
+   "end": 36.34,
+   "type": "word"
+  },
+  {
+   "text": "على",
+   "start": 36.38,
+   "end": 36.56,
+   "type": "word"
+  },
+  {
+   "text": "الكرسي",
+   "start": 36.56,
+   "end": 37.14,
+   "type": "word"
+  },
+  {
+   "text": "وهو",
+   "start": 37.24,
+   "end": 37.48,
+   "type": "word"
+  },
+  {
+   "text": "عنده",
+   "start": 37.54,
+   "end": 37.74,
+   "type": "word"
+  },
+  {
+   "text": "55",
+   "start": 38.1,
+   "end": 38.56,
+   "type": "word"
+  },
+  {
+   "text": "سنة",
+   "start": 38.62,
+   "end": 38.82,
+   "type": "word"
+  },
+  {
+   "text": "وحاسس",
+   "start": 38.94,
+   "end": 39.32,
+   "type": "word"
+  },
+  {
+   "text": "إن",
+   "start": 39.34,
+   "end": 39.44,
+   "type": "word"
+  },
+  {
+   "text": "هو",
+   "start": 39.48,
+   "end": 39.64,
+   "type": "word"
+  },
+  {
+   "text": "عنده",
+   "start": 39.7,
+   "end": 39.9,
+   "type": "word"
+  },
+  {
+   "text": "65",
+   "start": 39.92,
+   "end": 40.76,
+   "type": "word"
+  },
+  {
+   "text": "سنة.",
+   "start": 40.82,
+   "end": 41.02,
+   "type": "word"
+  },
+  {
+   "text": "ده",
+   "start": 41.12,
+   "end": 41.3,
+   "type": "word"
+  },
+  {
+   "text": "عجز",
+   "start": 41.74,
+   "end": 42.16,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 42.56,
+   "end": 42.7,
+   "type": "word"
+  },
+  {
+   "text": "قادر.",
+   "start": 42.74,
+   "end": 43.16,
+   "type": "word"
+  },
+  {
+   "text": "لما",
+   "start": 43.82,
+   "end": 44.08,
+   "type": "word"
+  },
+  {
+   "text": "جينا",
+   "start": 44.14,
+   "end": 44.82,
+   "type": "word"
+  },
+  {
+   "text": "عملنا",
+   "start": 44.94,
+   "end": 45.22,
+   "type": "word"
+  },
+  {
+   "text": "تحاليلنا",
+   "start": 45.26,
+   "end": 45.92,
+   "type": "word"
+  },
+  {
+   "text": "وبدأنا",
+   "start": 46.02,
+   "end": 46.44,
+   "type": "word"
+  },
+  {
+   "text": "رحلتنا",
+   "start": 46.48,
+   "end": 47.12,
+   "type": "word"
+  },
+  {
+   "text": "وقعدنا",
+   "start": 48.08,
+   "end": 48.52,
+   "type": "word"
+  },
+  {
+   "text": "استغرقنا",
+   "start": 48.54,
+   "end": 49.06,
+   "type": "word"
+  },
+  {
+   "text": "من",
+   "start": 49.1,
+   "end": 49.22,
+   "type": "word"
+  },
+  {
+   "text": "3",
+   "start": 49.44,
+   "end": 49.48,
+   "type": "word"
+  },
+  {
+   "text": "ل",
+   "start": 49.52,
+   "end": 49.54,
+   "type": "word"
+  },
+  {
+   "text": "4",
+   "start": 49.88,
+   "end": 49.9,
+   "type": "word"
+  },
+  {
+   "text": "شهور",
+   "start": 49.96,
+   "end": 50.18,
+   "type": "word"
+  },
+  {
+   "text": "في",
+   "start": 50.24,
+   "end": 50.28,
+   "type": "word"
+  },
+  {
+   "text": "رحلتنا",
+   "start": 50.32,
+   "end": 50.9,
+   "type": "word"
+  },
+  {
+   "text": "من",
+   "start": 51.48,
+   "end": 52.04,
+   "type": "word"
+  },
+  {
+   "text": "وزن",
+   "start": 52.28,
+   "end": 52.64,
+   "type": "word"
+  },
+  {
+   "text": "140",
+   "start": 52.98,
+   "end": 53.76,
+   "type": "word"
+  },
+  {
+   "text": "كيلو",
+   "start": 53.82,
+   "end": 54.46,
+   "type": "word"
+  },
+  {
+   "text": "وصلنا",
+   "start": 54.64,
+   "end": 55.12,
+   "type": "word"
+  },
+  {
+   "text": "لحوالي",
+   "start": 55.24,
+   "end": 55.7,
+   "type": "word"
+  },
+  {
+   "text": "87",
+   "start": 55.76,
+   "end": 56.76,
+   "type": "word"
+  },
+  {
+   "text": "كيلو",
+   "start": 56.84,
+   "end": 57.22,
+   "type": "word"
+  },
+  {
+   "text": "أو",
+   "start": 57.28,
+   "end": 57.34,
+   "type": "word"
+  },
+  {
+   "text": "86",
+   "start": 57.36,
+   "end": 58.06,
+   "type": "word"
+  },
+  {
+   "text": "كيلو.",
+   "start": 58.12,
+   "end": 58.5,
+   "type": "word"
+  },
+  {
+   "text": "بقى",
+   "start": 59.92,
+   "end": 60.04,
+   "type": "word"
+  },
+  {
+   "text": "يقف",
+   "start": 60.08,
+   "end": 60.32,
+   "type": "word"
+  },
+  {
+   "text": "يصلي",
+   "start": 60.38,
+   "end": 61.16,
+   "type": "word"
+  },
+  {
+   "text": "كل",
+   "start": 61.22,
+   "end": 61.36,
+   "type": "word"
+  },
+  {
+   "text": "الصلوات",
+   "start": 61.46,
+   "end": 62.14,
+   "type": "word"
+  },
+  {
+   "text": "كل",
+   "start": 62.54,
+   "end": 62.72,
+   "type": "word"
+  },
+  {
+   "text": "الفروض",
+   "start": 62.74,
+   "end": 63.3,
+   "type": "word"
+  },
+  {
+   "text": "بيمشي",
+   "start": 63.66,
+   "end": 64.379,
+   "type": "word"
+  },
+  {
+   "text": "يقدر",
+   "start": 64.44,
+   "end": 64.72,
+   "type": "word"
+  },
+  {
+   "text": "يمشي",
+   "start": 64.8,
+   "end": 65.08,
+   "type": "word"
+  },
+  {
+   "text": "كيلو",
+   "start": 65.14,
+   "end": 65.379,
+   "type": "word"
+  },
+  {
+   "text": "أو",
+   "start": 65.4,
+   "end": 65.48,
+   "type": "word"
+  },
+  {
+   "text": "2",
+   "start": 65.519,
+   "end": 65.72,
+   "type": "word"
+  },
+  {
+   "text": "كيلو",
+   "start": 65.78,
+   "end": 65.94,
+   "type": "word"
+  },
+  {
+   "text": "في",
+   "start": 66.0,
+   "end": 66.06,
+   "type": "word"
+  },
+  {
+   "text": "اليوم",
+   "start": 66.08,
+   "end": 66.32,
+   "type": "word"
+  },
+  {
+   "text": "في",
+   "start": 66.38,
+   "end": 66.46,
+   "type": "word"
+  },
+  {
+   "text": "النادي",
+   "start": 66.48,
+   "end": 67.28,
+   "type": "word"
+  },
+  {
+   "text": "بيلف",
+   "start": 67.34,
+   "end": 67.58,
+   "type": "word"
+  },
+  {
+   "text": "التراك",
+   "start": 67.64,
+   "end": 68.12,
+   "type": "word"
+  },
+  {
+   "text": "مرة",
+   "start": 68.18,
+   "end": 68.44,
+   "type": "word"
+  },
+  {
+   "text": "واتنين.",
+   "start": 68.48,
+   "end": 68.96,
+   "type": "word"
+  },
+  {
+   "text": "كان",
+   "start": 69.46,
+   "end": 69.68,
+   "type": "word"
+  },
+  {
+   "text": "بيبقى",
+   "start": 69.74,
+   "end": 70.94,
+   "type": "word"
+  },
+  {
+   "text": "مش",
+   "start": 71.38,
+   "end": 71.6,
+   "type": "word"
+  },
+  {
+   "text": "بيح--",
+   "start": 72.26,
+   "end": 72.48,
+   "type": "false_start",
+   "note": "false start, abandoned word"
+  },
+  {
+   "text": "بيقول",
+   "start": 72.68,
+   "end": 73.08,
+   "type": "word"
+  },
+  {
+   "text": "هو",
+   "start": 73.12,
+   "end": 73.32,
+   "type": "word"
+  },
+  {
+   "text": "كان",
+   "start": 73.38,
+   "end": 73.52,
+   "type": "word"
+  },
+  {
+   "text": "بيقول",
+   "start": 73.56,
+   "end": 73.78,
+   "type": "word"
+  },
+  {
+   "text": "لي",
+   "start": 73.8,
+   "end": 73.9,
+   "type": "word"
+  },
+  {
+   "text": "كده.",
+   "start": 73.94,
+   "end": 74.14,
+   "type": "word"
+  },
+  {
+   "text": "أنا",
+   "start": 74.2,
+   "end": 74.36,
+   "type": "word"
+  },
+  {
+   "text": "حاسس",
+   "start": 74.42,
+   "end": 74.68,
+   "type": "word"
+  },
+  {
+   "text": "إن",
+   "start": 74.76,
+   "end": 74.8,
+   "type": "word"
+  },
+  {
+   "text": "أنا",
+   "start": 74.8,
+   "end": 74.88,
+   "type": "word"
+  },
+  {
+   "text": "عندي",
+   "start": 74.92,
+   "end": 75.12,
+   "type": "word"
+  },
+  {
+   "text": "45",
+   "start": 75.16,
+   "end": 75.9,
+   "type": "word"
+  },
+  {
+   "text": "سنة",
+   "start": 75.98,
+   "end": 76.22,
+   "type": "word"
+  },
+  {
+   "text": "حياته",
+   "start": 77.88,
+   "end": 78.16,
+   "type": "word"
+  },
+  {
+   "text": "اتغيرت.",
+   "start": 78.16,
+   "end": 78.74,
+   "type": "word"
+  },
+  {
+   "text": "فدي",
+   "start": 79.38,
+   "end": 79.68,
+   "type": "word"
+  },
+  {
+   "text": "كانت",
+   "start": 79.74,
+   "end": 80.0,
+   "type": "word"
+  },
+  {
+   "text": "قصة",
+   "start": 80.06,
+   "end": 80.36,
+   "type": "word"
+  },
+  {
+   "text": "نجاح",
+   "start": 80.42,
+   "end": 80.88,
+   "type": "word"
+  },
+  {
+   "text": "تستحق",
+   "start": 80.96,
+   "end": 81.46,
+   "type": "word"
+  },
+  {
+   "text": "إن",
+   "start": 81.52,
+   "end": 81.6,
+   "type": "word"
+  },
+  {
+   "text": "احنا",
+   "start": 81.64,
+   "end": 81.82,
+   "type": "word"
+  },
+  {
+   "text": "نعرفها",
+   "start": 81.86,
+   "end": 82.32,
+   "type": "word"
+  },
+  {
+   "text": "لكم.",
+   "start": 82.38,
+   "end": 82.64,
+   "type": "word"
+  }
+ ],
+ "edited_words": [
+  {
+   "text": "كان",
+   "start": 0.127,
+   "end": 0.287,
+   "source_start": 15.36,
+   "source_end": 15.52,
+   "segment": "s01"
+  },
+  {
+   "text": "عنده",
+   "start": 0.347,
+   "end": 0.647,
+   "source_start": 15.58,
+   "source_end": 15.88,
+   "segment": "s01"
+  },
+  {
+   "text": "أمل",
+   "start": 0.727,
+   "end": 1.067,
+   "source_start": 15.96,
+   "source_end": 16.3,
+   "segment": "s01"
+  },
+  {
+   "text": "واحد",
+   "start": 1.146,
+   "end": 1.547,
+   "source_start": 16.379,
+   "source_end": 16.78,
+   "segment": "s01"
+  },
+  {
+   "text": "بس",
+   "start": 1.627,
+   "end": 2.467,
+   "source_start": 16.86,
+   "source_end": 17.7,
+   "segment": "s01"
+  },
+  {
+   "text": "إن",
+   "start": 2.527,
+   "end": 2.667,
+   "source_start": 17.76,
+   "source_end": 17.9,
+   "segment": "s01"
+  },
+  {
+   "text": "هو",
+   "start": 2.727,
+   "end": 2.907,
+   "source_start": 17.96,
+   "source_end": 18.14,
+   "segment": "s01"
+  },
+  {
+   "text": "يعرف",
+   "start": 2.967,
+   "end": 3.307,
+   "source_start": 18.2,
+   "source_end": 18.54,
+   "segment": "s01"
+  },
+  {
+   "text": "يربط",
+   "start": 3.347,
+   "end": 3.607,
+   "source_start": 18.58,
+   "source_end": 18.84,
+   "segment": "s01"
+  },
+  {
+   "text": "الجزمة.",
+   "start": 3.647,
+   "end": 4.247,
+   "source_start": 18.88,
+   "source_end": 19.48,
+   "segment": "s01"
+  },
+  {
+   "text": "ليه؟",
+   "start": 4.327,
+   "end": 4.667,
+   "source_start": 19.56,
+   "source_end": 19.9,
+   "segment": "s01"
+  },
+  {
+   "text": "لأنه",
+   "start": 4.687,
+   "end": 4.907,
+   "source_start": 19.92,
+   "source_end": 20.14,
+   "segment": "s01"
+  },
+  {
+   "text": "كان",
+   "start": 4.947,
+   "end": 5.047,
+   "source_start": 20.18,
+   "source_end": 20.28,
+   "segment": "s01"
+  },
+  {
+   "text": "عنده",
+   "start": 5.107,
+   "end": 5.307,
+   "source_start": 20.34,
+   "source_end": 20.54,
+   "segment": "s01"
+  },
+  {
+   "text": "كرش",
+   "start": 5.367,
+   "end": 5.687,
+   "source_start": 20.6,
+   "source_end": 20.92,
+   "segment": "s01"
+  },
+  {
+   "text": "كبير.",
+   "start": 5.747,
+   "end": 6.307,
+   "source_start": 20.98,
+   "source_end": 21.54,
+   "segment": "s01"
+  },
+  {
+   "text": "عم",
+   "start": 6.513,
+   "end": 6.633,
+   "source_start": 7.18,
+   "source_end": 7.3,
+   "segment": "s02"
+  },
+  {
+   "text": "حسن",
+   "start": 6.773,
+   "end": 7.213,
+   "source_start": 7.44,
+   "source_end": 7.88,
+   "segment": "s02"
+  },
+  {
+   "text": "كان",
+   "start": 7.273,
+   "end": 7.613,
+   "source_start": 8.44,
+   "source_end": 8.78,
+   "segment": "s03"
+  },
+  {
+   "text": "عنده",
+   "start": 7.673,
+   "end": 7.953,
+   "source_start": 8.84,
+   "source_end": 9.12,
+   "segment": "s03"
+  },
+  {
+   "text": "55",
+   "start": 7.993,
+   "end": 8.793,
+   "source_start": 9.16,
+   "source_end": 9.96,
+   "segment": "s03"
+  },
+  {
+   "text": "سنة",
+   "start": 8.853,
+   "end": 9.153,
+   "source_start": 10.02,
+   "source_end": 10.32,
+   "segment": "s03"
+  },
+  {
+   "text": "مريض",
+   "start": 9.42,
+   "end": 9.88,
+   "source_start": 10.62,
+   "source_end": 11.08,
+   "segment": "s04"
+  },
+  {
+   "text": "دخل",
+   "start": 9.94,
+   "end": 10.18,
+   "source_start": 11.14,
+   "source_end": 11.38,
+   "segment": "s04"
+  },
+  {
+   "text": "لنا",
+   "start": 10.2,
+   "end": 10.36,
+   "source_start": 11.4,
+   "source_end": 11.56,
+   "segment": "s04"
+  },
+  {
+   "text": "العيادة",
+   "start": 10.38,
+   "end": 10.96,
+   "source_start": 11.58,
+   "source_end": 12.16,
+   "segment": "s04"
+  },
+  {
+   "text": "Pre-",
+   "start": 11.233,
+   "end": 11.413,
+   "source_start": 12.7,
+   "source_end": 12.88,
+   "segment": "s05"
+  },
+  {
+   "text": "diabetic",
+   "start": 11.453,
+   "end": 12.133,
+   "source_start": 12.92,
+   "source_end": 13.6,
+   "segment": "s05"
+  },
+  {
+   "text": "عنده",
+   "start": 12.273,
+   "end": 12.453,
+   "source_start": 13.74,
+   "source_end": 13.92,
+   "segment": "s05"
+  },
+  {
+   "text": "مقاومة",
+   "start": 12.493,
+   "end": 12.873,
+   "source_start": 13.96,
+   "source_end": 14.34,
+   "segment": "s05"
+  },
+  {
+   "text": "إنسولين.",
+   "start": 12.933,
+   "end": 13.533,
+   "source_start": 14.4,
+   "source_end": 15.0,
+   "segment": "s05"
+  },
+  {
+   "text": "مش",
+   "start": 13.7,
+   "end": 13.82,
+   "source_start": 24.1,
+   "source_end": 24.22,
+   "segment": "s06"
+  },
+  {
+   "text": "بيقدر",
+   "start": 13.86,
+   "end": 14.14,
+   "source_start": 24.26,
+   "source_end": 24.54,
+   "segment": "s06"
+  },
+  {
+   "text": "يطلع",
+   "start": 14.2,
+   "end": 14.52,
+   "source_start": 24.6,
+   "source_end": 24.92,
+   "segment": "s06"
+  },
+  {
+   "text": "السلم.",
+   "start": 14.54,
+   "end": 14.98,
+   "source_start": 24.94,
+   "source_end": 25.38,
+   "segment": "s06"
+  },
+  {
+   "text": "بينهج",
+   "start": 15.04,
+   "end": 15.44,
+   "source_start": 25.44,
+   "source_end": 25.84,
+   "segment": "s06"
+  },
+  {
+   "text": "بشكل",
+   "start": 15.48,
+   "end": 15.88,
+   "source_start": 25.88,
+   "source_end": 26.28,
+   "segment": "s06"
+  },
+  {
+   "text": "قوي.",
+   "start": 16.02,
+   "end": 16.34,
+   "source_start": 26.42,
+   "source_end": 26.74,
+   "segment": "s06"
+  },
+  {
+   "text": "مش",
+   "start": 16.607,
+   "end": 16.727,
+   "source_start": 27.14,
+   "source_end": 27.26,
+   "segment": "s07"
+  },
+  {
+   "text": "عارف",
+   "start": 16.787,
+   "end": 17.067,
+   "source_start": 27.32,
+   "source_end": 27.6,
+   "segment": "s07"
+  },
+  {
+   "text": "ينام",
+   "start": 17.147,
+   "end": 17.407,
+   "source_start": 27.68,
+   "source_end": 27.94,
+   "segment": "s07"
+  },
+  {
+   "text": "عشان",
+   "start": 17.467,
+   "end": 17.727,
+   "source_start": 28.0,
+   "source_end": 28.26,
+   "segment": "s07"
+  },
+  {
+   "text": "بيجي",
+   "start": 17.767,
+   "end": 18.047,
+   "source_start": 28.3,
+   "source_end": 28.58,
+   "segment": "s07"
+  },
+  {
+   "text": "له",
+   "start": 18.087,
+   "end": 18.267,
+   "source_start": 28.62,
+   "source_end": 28.8,
+   "segment": "s07"
+  },
+  {
+   "text": "اختناق",
+   "start": 18.507,
+   "end": 19.167,
+   "source_start": 30.24,
+   "source_end": 30.9,
+   "segment": "s08"
+  },
+  {
+   "text": "أثناء",
+   "start": 19.227,
+   "end": 19.547,
+   "source_start": 30.96,
+   "source_end": 31.28,
+   "segment": "s08"
+  },
+  {
+   "text": "النوم.",
+   "start": 19.547,
+   "end": 19.887,
+   "source_start": 31.28,
+   "source_end": 31.62,
+   "segment": "s08"
+  },
+  {
+   "text": "مش",
+   "start": 20.0,
+   "end": 20.087,
+   "source_start": 33.84,
+   "source_end": 34.02,
+   "segment": "s09"
+  },
+  {
+   "text": "بيقدر",
+   "start": 20.147,
+   "end": 20.547,
+   "source_start": 34.08,
+   "source_end": 34.48,
+   "segment": "s09"
+  },
+  {
+   "text": "يقف",
+   "start": 20.607,
+   "end": 20.867,
+   "source_start": 34.54,
+   "source_end": 34.8,
+   "segment": "s09"
+  },
+  {
+   "text": "يصلي",
+   "start": 20.907,
+   "end": 21.987,
+   "source_start": 34.84,
+   "source_end": 35.92,
+   "segment": "s09"
+  },
+  {
+   "text": "وبيقعد",
+   "start": 22.107,
+   "end": 22.407,
+   "source_start": 36.04,
+   "source_end": 36.34,
+   "segment": "s09"
+  },
+  {
+   "text": "على",
+   "start": 22.447,
+   "end": 22.627,
+   "source_start": 36.38,
+   "source_end": 36.56,
+   "segment": "s09"
+  },
+  {
+   "text": "الكرسي",
+   "start": 22.627,
+   "end": 23.207,
+   "source_start": 36.56,
+   "source_end": 37.14,
+   "segment": "s09"
+  },
+  {
+   "text": "وهو",
+   "start": 23.307,
+   "end": 23.547,
+   "source_start": 37.24,
+   "source_end": 37.48,
+   "segment": "s09"
+  },
+  {
+   "text": "عنده",
+   "start": 23.607,
+   "end": 23.807,
+   "source_start": 37.54,
+   "source_end": 37.74,
+   "segment": "s09"
+  },
+  {
+   "text": "55",
+   "start": 24.167,
+   "end": 24.627,
+   "source_start": 38.1,
+   "source_end": 38.56,
+   "segment": "s09"
+  },
+  {
+   "text": "سنة",
+   "start": 24.687,
+   "end": 24.887,
+   "source_start": 38.62,
+   "source_end": 38.82,
+   "segment": "s09"
+  },
+  {
+   "text": "وحاسس",
+   "start": 25.007,
+   "end": 25.387,
+   "source_start": 38.94,
+   "source_end": 39.32,
+   "segment": "s09"
+  },
+  {
+   "text": "إن",
+   "start": 25.407,
+   "end": 25.507,
+   "source_start": 39.34,
+   "source_end": 39.44,
+   "segment": "s09"
+  },
+  {
+   "text": "هو",
+   "start": 25.547,
+   "end": 25.707,
+   "source_start": 39.48,
+   "source_end": 39.64,
+   "segment": "s09"
+  },
+  {
+   "text": "عنده",
+   "start": 25.767,
+   "end": 25.967,
+   "source_start": 39.7,
+   "source_end": 39.9,
+   "segment": "s09"
+  },
+  {
+   "text": "65",
+   "start": 25.987,
+   "end": 26.827,
+   "source_start": 39.92,
+   "source_end": 40.76,
+   "segment": "s09"
+  },
+  {
+   "text": "سنة.",
+   "start": 26.887,
+   "end": 27.087,
+   "source_start": 40.82,
+   "source_end": 41.02,
+   "segment": "s09"
+  },
+  {
+   "text": "ده",
+   "start": 27.187,
+   "end": 27.367,
+   "source_start": 41.12,
+   "source_end": 41.3,
+   "segment": "s09"
+  },
+  {
+   "text": "عجز",
+   "start": 27.807,
+   "end": 28.227,
+   "source_start": 41.74,
+   "source_end": 42.16,
+   "segment": "s09"
+  },
+  {
+   "text": "مش",
+   "start": 28.627,
+   "end": 28.767,
+   "source_start": 42.56,
+   "source_end": 42.7,
+   "segment": "s09"
+  },
+  {
+   "text": "قادر.",
+   "start": 28.807,
+   "end": 29.227,
+   "source_start": 42.74,
+   "source_end": 43.16,
+   "segment": "s09"
+  },
+  {
+   "text": "لما",
+   "start": 29.387,
+   "end": 29.647,
+   "source_start": 43.82,
+   "source_end": 44.08,
+   "segment": "s10"
+  },
+  {
+   "text": "جينا",
+   "start": 29.707,
+   "end": 30.387,
+   "source_start": 44.14,
+   "source_end": 44.82,
+   "segment": "s10"
+  },
+  {
+   "text": "عملنا",
+   "start": 30.507,
+   "end": 30.787,
+   "source_start": 44.94,
+   "source_end": 45.22,
+   "segment": "s10"
+  },
+  {
+   "text": "تحاليلنا",
+   "start": 30.827,
+   "end": 31.487,
+   "source_start": 45.26,
+   "source_end": 45.92,
+   "segment": "s10"
+  },
+  {
+   "text": "وبدأنا",
+   "start": 31.587,
+   "end": 32.007,
+   "source_start": 46.02,
+   "source_end": 46.44,
+   "segment": "s10"
+  },
+  {
+   "text": "رحلتنا",
+   "start": 32.047,
+   "end": 32.687,
+   "source_start": 46.48,
+   "source_end": 47.12,
+   "segment": "s10"
+  },
+  {
+   "text": "وقعدنا",
+   "start": 32.833,
+   "end": 33.253,
+   "source_start": 48.08,
+   "source_end": 48.52,
+   "segment": "s11"
+  },
+  {
+   "text": "استغرقنا",
+   "start": 33.273,
+   "end": 33.793,
+   "source_start": 48.54,
+   "source_end": 49.06,
+   "segment": "s11"
+  },
+  {
+   "text": "من",
+   "start": 33.833,
+   "end": 33.953,
+   "source_start": 49.1,
+   "source_end": 49.22,
+   "segment": "s11"
+  },
+  {
+   "text": "3",
+   "start": 34.173,
+   "end": 34.213,
+   "source_start": 49.44,
+   "source_end": 49.48,
+   "segment": "s11"
+  },
+  {
+   "text": "ل",
+   "start": 34.253,
+   "end": 34.273,
+   "source_start": 49.52,
+   "source_end": 49.54,
+   "segment": "s11"
+  },
+  {
+   "text": "4",
+   "start": 34.613,
+   "end": 34.633,
+   "source_start": 49.88,
+   "source_end": 49.9,
+   "segment": "s11"
+  },
+  {
+   "text": "شهور",
+   "start": 34.693,
+   "end": 34.913,
+   "source_start": 49.96,
+   "source_end": 50.18,
+   "segment": "s11"
+  },
+  {
+   "text": "في",
+   "start": 34.973,
+   "end": 35.013,
+   "source_start": 50.24,
+   "source_end": 50.28,
+   "segment": "s11"
+  },
+  {
+   "text": "رحلتنا",
+   "start": 35.053,
+   "end": 35.633,
+   "source_start": 50.32,
+   "source_end": 50.9,
+   "segment": "s11"
+  },
+  {
+   "text": "من",
+   "start": 35.88,
+   "end": 36.44,
+   "source_start": 51.48,
+   "source_end": 52.04,
+   "segment": "s12"
+  },
+  {
+   "text": "وزن",
+   "start": 36.68,
+   "end": 37.04,
+   "source_start": 52.28,
+   "source_end": 52.64,
+   "segment": "s12"
+  },
+  {
+   "text": "140",
+   "start": 37.38,
+   "end": 38.16,
+   "source_start": 52.98,
+   "source_end": 53.76,
+   "segment": "s12"
+  },
+  {
+   "text": "كيلو",
+   "start": 38.22,
+   "end": 38.86,
+   "source_start": 53.82,
+   "source_end": 54.46,
+   "segment": "s12"
+  },
+  {
+   "text": "وصلنا",
+   "start": 39.04,
+   "end": 39.52,
+   "source_start": 54.64,
+   "source_end": 55.12,
+   "segment": "s12"
+  },
+  {
+   "text": "لحوالي",
+   "start": 39.64,
+   "end": 40.1,
+   "source_start": 55.24,
+   "source_end": 55.7,
+   "segment": "s12"
+  },
+  {
+   "text": "87",
+   "start": 40.16,
+   "end": 41.16,
+   "source_start": 55.76,
+   "source_end": 56.76,
+   "segment": "s12"
+  },
+  {
+   "text": "كيلو",
+   "start": 41.24,
+   "end": 41.62,
+   "source_start": 56.84,
+   "source_end": 57.22,
+   "segment": "s12"
+  },
+  {
+   "text": "أو",
+   "start": 41.68,
+   "end": 41.74,
+   "source_start": 57.28,
+   "source_end": 57.34,
+   "segment": "s12"
+  },
+  {
+   "text": "86",
+   "start": 41.76,
+   "end": 42.46,
+   "source_start": 57.36,
+   "source_end": 58.06,
+   "segment": "s12"
+  },
+  {
+   "text": "كيلو.",
+   "start": 42.52,
+   "end": 42.9,
+   "source_start": 58.12,
+   "source_end": 58.5,
+   "segment": "s12"
+  },
+  {
+   "text": "بقى",
+   "start": 43.187,
+   "end": 43.307,
+   "source_start": 59.92,
+   "source_end": 60.04,
+   "segment": "s13"
+  },
+  {
+   "text": "يقف",
+   "start": 43.347,
+   "end": 43.587,
+   "source_start": 60.08,
+   "source_end": 60.32,
+   "segment": "s13"
+  },
+  {
+   "text": "يصلي",
+   "start": 43.647,
+   "end": 44.427,
+   "source_start": 60.38,
+   "source_end": 61.16,
+   "segment": "s13"
+  },
+  {
+   "text": "كل",
+   "start": 44.487,
+   "end": 44.627,
+   "source_start": 61.22,
+   "source_end": 61.36,
+   "segment": "s13"
+  },
+  {
+   "text": "الصلوات",
+   "start": 44.727,
+   "end": 45.407,
+   "source_start": 61.46,
+   "source_end": 62.14,
+   "segment": "s13"
+  },
+  {
+   "text": "كل",
+   "start": 45.807,
+   "end": 45.987,
+   "source_start": 62.54,
+   "source_end": 62.72,
+   "segment": "s13"
+  },
+  {
+   "text": "الفروض",
+   "start": 46.007,
+   "end": 46.567,
+   "source_start": 62.74,
+   "source_end": 63.3,
+   "segment": "s13"
+  },
+  {
+   "text": "بيمشي",
+   "start": 46.86,
+   "end": 47.579,
+   "source_start": 63.66,
+   "source_end": 64.379,
+   "segment": "s14"
+  },
+  {
+   "text": "يقدر",
+   "start": 47.64,
+   "end": 47.92,
+   "source_start": 64.44,
+   "source_end": 64.72,
+   "segment": "s14"
+  },
+  {
+   "text": "يمشي",
+   "start": 48.0,
+   "end": 48.28,
+   "source_start": 64.8,
+   "source_end": 65.08,
+   "segment": "s14"
+  },
+  {
+   "text": "كيلو",
+   "start": 48.34,
+   "end": 48.579,
+   "source_start": 65.14,
+   "source_end": 65.379,
+   "segment": "s14"
+  },
+  {
+   "text": "أو",
+   "start": 48.6,
+   "end": 48.68,
+   "source_start": 65.4,
+   "source_end": 65.48,
+   "segment": "s14"
+  },
+  {
+   "text": "2",
+   "start": 48.719,
+   "end": 48.92,
+   "source_start": 65.519,
+   "source_end": 65.72,
+   "segment": "s14"
+  },
+  {
+   "text": "كيلو",
+   "start": 48.98,
+   "end": 49.14,
+   "source_start": 65.78,
+   "source_end": 65.94,
+   "segment": "s14"
+  },
+  {
+   "text": "في",
+   "start": 49.2,
+   "end": 49.26,
+   "source_start": 66.0,
+   "source_end": 66.06,
+   "segment": "s14"
+  },
+  {
+   "text": "اليوم",
+   "start": 49.28,
+   "end": 49.52,
+   "source_start": 66.08,
+   "source_end": 66.32,
+   "segment": "s14"
+  },
+  {
+   "text": "في",
+   "start": 49.58,
+   "end": 49.66,
+   "source_start": 66.38,
+   "source_end": 66.46,
+   "segment": "s14"
+  },
+  {
+   "text": "النادي",
+   "start": 49.68,
+   "end": 50.48,
+   "source_start": 66.48,
+   "source_end": 67.28,
+   "segment": "s14"
+  },
+  {
+   "text": "بيلف",
+   "start": 50.54,
+   "end": 50.78,
+   "source_start": 67.34,
+   "source_end": 67.58,
+   "segment": "s14"
+  },
+  {
+   "text": "التراك",
+   "start": 50.84,
+   "end": 51.32,
+   "source_start": 67.64,
+   "source_end": 68.12,
+   "segment": "s14"
+  },
+  {
+   "text": "مرة",
+   "start": 51.38,
+   "end": 51.64,
+   "source_start": 68.18,
+   "source_end": 68.44,
+   "segment": "s14"
+  },
+  {
+   "text": "واتنين.",
+   "start": 51.68,
+   "end": 52.16,
+   "source_start": 68.48,
+   "source_end": 68.96,
+   "segment": "s14"
+  },
+  {
+   "text": "هو",
+   "start": 52.387,
+   "end": 52.587,
+   "source_start": 73.12,
+   "source_end": 73.32,
+   "segment": "s15"
+  },
+  {
+   "text": "كان",
+   "start": 52.647,
+   "end": 52.787,
+   "source_start": 73.38,
+   "source_end": 73.52,
+   "segment": "s15"
+  },
+  {
+   "text": "بيقول",
+   "start": 52.827,
+   "end": 53.047,
+   "source_start": 73.56,
+   "source_end": 73.78,
+   "segment": "s15"
+  },
+  {
+   "text": "لي",
+   "start": 53.067,
+   "end": 53.167,
+   "source_start": 73.8,
+   "source_end": 73.9,
+   "segment": "s15"
+  },
+  {
+   "text": "كده.",
+   "start": 53.207,
+   "end": 53.407,
+   "source_start": 73.94,
+   "source_end": 74.14,
+   "segment": "s15"
+  },
+  {
+   "text": "أنا",
+   "start": 53.467,
+   "end": 53.627,
+   "source_start": 74.2,
+   "source_end": 74.36,
+   "segment": "s15"
+  },
+  {
+   "text": "حاسس",
+   "start": 53.687,
+   "end": 53.947,
+   "source_start": 74.42,
+   "source_end": 74.68,
+   "segment": "s15"
+  },
+  {
+   "text": "إن",
+   "start": 54.027,
+   "end": 54.067,
+   "source_start": 74.76,
+   "source_end": 74.8,
+   "segment": "s15"
+  },
+  {
+   "text": "أنا",
+   "start": 54.067,
+   "end": 54.147,
+   "source_start": 74.8,
+   "source_end": 74.88,
+   "segment": "s15"
+  },
+  {
+   "text": "عندي",
+   "start": 54.187,
+   "end": 54.387,
+   "source_start": 74.92,
+   "source_end": 75.12,
+   "segment": "s15"
+  },
+  {
+   "text": "45",
+   "start": 54.427,
+   "end": 55.167,
+   "source_start": 75.16,
+   "source_end": 75.9,
+   "segment": "s15"
+  },
+  {
+   "text": "سنة",
+   "start": 55.247,
+   "end": 55.487,
+   "source_start": 75.98,
+   "source_end": 76.22,
+   "segment": "s15"
+  },
+  {
+   "text": "حياته",
+   "start": 55.78,
+   "end": 56.06,
+   "source_start": 77.88,
+   "source_end": 78.16,
+   "segment": "s16"
+  },
+  {
+   "text": "اتغيرت.",
+   "start": 56.06,
+   "end": 56.64,
+   "source_start": 78.16,
+   "source_end": 78.74,
+   "segment": "s16"
+  },
+  {
+   "text": "فدي",
+   "start": 56.913,
+   "end": 57.213,
+   "source_start": 79.38,
+   "source_end": 79.68,
+   "segment": "s17"
+  },
+  {
+   "text": "كانت",
+   "start": 57.273,
+   "end": 57.533,
+   "source_start": 79.74,
+   "source_end": 80.0,
+   "segment": "s17"
+  },
+  {
+   "text": "قصة",
+   "start": 57.593,
+   "end": 57.893,
+   "source_start": 80.06,
+   "source_end": 80.36,
+   "segment": "s17"
+  },
+  {
+   "text": "نجاح",
+   "start": 57.953,
+   "end": 58.413,
+   "source_start": 80.42,
+   "source_end": 80.88,
+   "segment": "s17"
+  },
+  {
+   "text": "تستحق",
+   "start": 58.493,
+   "end": 58.993,
+   "source_start": 80.96,
+   "source_end": 81.46,
+   "segment": "s17"
+  },
+  {
+   "text": "إن",
+   "start": 59.053,
+   "end": 59.133,
+   "source_start": 81.52,
+   "source_end": 81.6,
+   "segment": "s17"
+  },
+  {
+   "text": "احنا",
+   "start": 59.173,
+   "end": 59.353,
+   "source_start": 81.64,
+   "source_end": 81.82,
+   "segment": "s17"
+  },
+  {
+   "text": "نعرفها",
+   "start": 59.393,
+   "end": 59.853,
+   "source_start": 81.86,
+   "source_end": 82.32,
+   "segment": "s17"
+  },
+  {
+   "text": "لكم.",
+   "start": 59.913,
+   "end": 60.173,
+   "source_start": 82.38,
+   "source_end": 82.64,
+   "segment": "s17"
+  }
+ ]
+}
