@@ -1,0 +1,8 @@
+# Client footage and derived media stay local (not pushed)
+assets/*.mp4
+assets/*.wav
+work/
+node_modules/
+.hyperframes/
+renders/
+*.mp4
