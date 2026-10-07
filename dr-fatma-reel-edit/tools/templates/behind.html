@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+/*__BRAND__*/
+        #behind-root { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+        .bh { position: absolute; left: 40px; right: 40px; top: 250px; height: 440px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; direction: rtl; opacity: 0; }
+        .bh-kicker { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 60px; line-height: 1.15; color: var(--ink-soft); letter-spacing: -0.01em; }
+        .bh-main { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 236px; line-height: 1.02; letter-spacing: -0.03em; white-space: nowrap; }
+        .bh-teal { color: var(--teal); }
+        .bh-ink { color: var(--ink); }
+        .bh-warm { color: var(--warm-ink); }
+      </style>
+      <div id="behind-root" data-composition-id="behind" data-width="1080" data-height="1920"><div id="behind-stack"></div></div>
+      <script>
+        (function () {
+          const ITEMS = __ITEMS__;
+          const stack = document.getElementById("behind-stack");
+          const tl = gsap.timeline({ paused: true });
+          ITEMS.forEach((b) => {
+            const box = document.createElement("div");
+            box.className = "bh";
+            box.id = "behind-" + b.id;
+            const k = document.createElement("div");
+            k.className = "bh-kicker";
+            k.textContent = b.kicker;
+            const m = document.createElement("div");
+            m.className = "bh-main bh-" + b.tone;
+            m.textContent = b.main;
+            m.style.fontSize = (b.main.length > 7 ? 190 : 236) + "px";
+            box.appendChild(k);
+            box.appendChild(m);
+            if (b.dx) box.style.left = 40 + b.dx + "px", box.style.right = 40 - b.dx + "px";
+            stack.appendChild(box);
+            const t0 = b.start + b.at;
+            const end = b.start + b.duration;
+            tl.set(box, { opacity: 1 }, t0);
+            tl.fromTo(k, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.22, ease: "power2.out", immediateRender: false }, t0);
+            tl.fromTo(m, { opacity: 0, y: 90, scale: 1.06 }, { opacity: 1, y: 0, scale: 1, duration: 0.42, ease: "power3.out", immediateRender: false }, t0 + 0.06);
+            tl.fromTo(m, { x: 0 }, { x: -18, duration: Math.max(0.2, end - t0), ease: "none", immediateRender: false }, t0);
+            tl.set(box, { opacity: 0 }, end);
+          });
+          window.__timelines["behind"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

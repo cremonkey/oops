@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="UTF-8"></head>
+  <body>
+    <template>
+      <style>
+/*__BRAND__*/
+        #g01-root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
+        #g01-root .g01-ghost { top: 300px; right: -80px; font-size: 760px; }
+        #g01-root .g01-text { position: absolute; left: 90px; right: 90px; top: 560px; text-align: center; }
+        #g01-root .g01-pre { font-weight: 700; font-size: 74px; color: var(--ink-soft); line-height: 1.2; }
+        #g01-root .g01-main { font-weight: 900; font-size: 150px; color: var(--ink); line-height: 1.15; letter-spacing: -0.02em; white-space: nowrap; }
+        #g01-root .g01-main b { color: var(--teal); font-weight: 900; }
+        #g01-root .g01-lace { position: absolute; left: 0; top: 1010px; width: 1080px; height: 520px; overflow: visible; }
+        #g01-root .g01-quote { position: absolute; left: 90px; right: 90px; top: 1480px; text-align: center; font-weight: 600; font-size: 40px; color: var(--ink-soft); }
+      </style>
+      <div data-hf-id="hf-nvcb" id="g01-root" data-composition-id="g01-hope" data-width="1080" data-height="1920">
+        <div data-hf-id="hf-y66s" class="fs-paper"><div data-hf-id="hf-nji6" class="fs-grid"></div><div data-hf-id="hf-c15h" data-layout-ignore="" aria-hidden="true" class="fs-ghost g01-ghost">أمل</div></div>
+        <div data-hf-id="hf-hxnj" class="fs-top"><div data-hf-id="hf-3t89" class="fs-eyebrow"><span data-hf-id="hf-v51y" class="fs-dot"></span>أمله الوحيد</div><div data-hf-id="hf-rcez" class="fs-meta">CASE FILE · 01</div></div>
+        <div data-hf-id="hf-wyl1" class="fs-rule g01-rule"></div>
+        <div data-hf-id="hf-p0ft" class="g01-text fs-ar">
+          <span data-hf-id="hf-tef5" class="fs-mask"><span data-hf-id="hf-z4ry" class="fs-line g01-pre">إنه يعرف</span></span>
+          <span data-hf-id="hf-slzp" class="fs-mask"><span data-hf-id="hf-pazx" class="fs-line g01-main">يربط <b data-hf-id="hf-b1ou">الجزمة</b></span></span>
+        </div>
+        <svg data-hf-id="hf-v5u6" class="g01-lace" viewBox="0 0 1080 520" fill="none">
+          <path data-hf-id="hf-j603" class="g01-pa" d="M1120,250 C960,190 860,330 690,250 C600,208 640,96 742,112 C842,128 806,262 556,256" stroke="#167493" stroke-width="13" stroke-linecap="round" />
+          <path data-hf-id="hf-xldx" class="g01-pb" d="M556,256 C356,250 268,120 372,104 C468,90 520,210 470,262 C392,342 210,250 -40,300" stroke="#167493" stroke-width="13" stroke-linecap="round" />
+          <circle data-hf-id="hf-pwoj" class="g01-knot" cx="548" cy="256" r="22" fill="#0E566D" />
+        </svg>
+        <div data-hf-id="hf-3zp5" class="g01-quote fs-ar">«كان عنده أمل واحد بس»</div>
+        <div data-hf-id="hf-6osx" class="fs-sig"><span data-hf-id="hf-sn8d" class="fs-sig-name">د. فاطمة السقا</span><span data-hf-id="hf-8xcd" class="fs-sig-tag">قصة نجاح من العيادة</span></div>
+        <div data-hf-id="hf-au0n" class="fs-grain"></div>
+      </div>
+      <script>
+        (function () {
+          const C = __CUES__;
+          const D = __DUR__;
+          const q = (s) => document.querySelector("#g01-root " + s);
+          const pa = q(".g01-pa"), pb = q(".g01-pb");
+          const la = pa.getTotalLength(), lb = pb.getTotalLength();
+          const tl = gsap.timeline({ paused: true });
+          tl.fromTo(q(".g01-rule"), { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "power3.out" }, 0);
+          tl.fromTo(q(".fs-top"), { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.26, ease: "power2.out" }, 0.02);
+          tl.fromTo(q(".g01-pre"), { yPercent: 105 }, { yPercent: 0, duration: 0.3, ease: "power3.out" }, 0);
+          tl.fromTo(q(".g01-main"), { yPercent: 105 }, { yPercent: 0, duration: 0.36, ease: "power3.out" }, 0.08);
+          tl.fromTo(pa, { strokeDasharray: la, strokeDashoffset: la }, { strokeDashoffset: 0, duration: Math.max(0.5, C.noun - 0.1), ease: "power1.inOut" }, 0);
+          tl.fromTo(pb, { strokeDasharray: lb, strokeDashoffset: lb }, { strokeDashoffset: 0, duration: Math.max(0.4, D - C.noun), ease: "power2.out" }, Math.max(0.4, C.noun - 0.1));
+          tl.fromTo(q(".g01-knot"), { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.22, ease: "back.out(1.6)" }, C.noun);
+          tl.fromTo(q(".g01-quote"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }, 0.3);
+          tl.fromTo(q(".g01-ghost"), { x: 0 }, { x: -40, duration: D, ease: "none" }, 0);
+          tl.fromTo(q(".g01-text"), { scale: 1 }, { scale: 1.025, duration: D, ease: "none" }, 0);
+          window.__timelines["g01-hope"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>
