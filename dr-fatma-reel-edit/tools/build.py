@@ -102,22 +102,24 @@ def W(i, off=-0.05):
 
 WINDOWS = [
     dict(kind="A", start=0.0, crop=dict(push=[1.00, 1.12, 0.72])),
-    dict(kind="G", start=W(33), scene="g01-hope"),
+    dict(kind="G", start=W(33), scene="r1-shoelace"),
     dict(kind="A", start=W(38, -0.06), crop=dict(set=1.00, punch=[42, 1.08, 0.28])),
     dict(kind="A", start=seg_start("s02"), crop=dict(set=1.06)),
     dict(kind="A", start=seg_start("s03"), crop=dict(set=1.00)),
     dict(kind="G", start=seg_start("s04"), scene="g02-patient"),
-    dict(kind="A", start=seg_start("s06"), crop=dict(set=1.08)),
+    dict(kind="G", start=seg_start("s06"), scene="r2-stairs"),
     dict(kind="G", start=W(53), scene="g03-limits"),
+    dict(kind="G", start=W(56, -0.05), scene="r3-sleep"),
     dict(kind="A", start=seg_start("s09"), crop=dict(drift=[1.00, 1.04])),
     dict(kind="G", start=W(79), scene="g04-age"),
     dict(kind="A", start=W(89), crop=dict(set=1.15)),
     dict(kind="A", start=seg_start("s10"), crop=dict(drift=[1.00, 1.04])),
+    dict(kind="G", start=W(95, -0.05), scene="r4-lab"),
     dict(kind="G", start=seg_start("s11"), scene="g05-journey"),
     dict(kind="A", start=seg_start("s12"), crop=dict(set=1.10)),
     dict(kind="G", start=W(112), scene="g06-weight"),
     dict(kind="A", start=seg_start("s13"), crop=dict(push=[1.00, 1.09, 0.85])),
-    dict(kind="A", start=seg_start("s14"), crop=dict(set=1.06)),
+    dict(kind="G", start=seg_start("s14"), scene="r5-walk"),
     dict(kind="G", start=W(129), scene="g07-track"),
     dict(kind="A", start=seg_start("s15"), crop=dict(set=1.00)),
     dict(kind="G", start=W(151), scene="g08-age45"),
@@ -175,15 +177,24 @@ def local(scene, i, key="start", off=0.0):
     win = next(w for w in WINDOWS if w.get("scene") == scene)
     return round(wout(i, key) - win["start"] + off, 3)
 
+# licensed Magnific/Freepik stock footage (real footage, no generation) — see BROLL.md
+BROLL = {
+    "r1-shoelace": ("assets/broll/r1_shoelace.mp4", "أمله الوحيد", "يربط الجزمة", 36),
+    "r2-stairs": ("assets/broll/r2_stairs.mp4", "مش بيقدر", "يطلع السلم", 51),
+    "r3-sleep": ("assets/broll/r3_sleep.mp4", "مش عارف ينام", "اختناق أثناء النوم", 63),
+    "r4-lab": ("assets/broll/r4_lab.mp4", "لما جينا", "عملنا تحاليلنا", 95),
+    "r5-walk": ("assets/broll/r5_walk.mp4", "بقى", "يقدر يمشي", 127),
+}
+
 CUES = {
-    "g01-hope": {"lace": 0.0, "word": local("g01-hope", 36), "noun": local("g01-hope", 37)},
     "g02-patient": {"row1": 0.12, "row2": local("g02-patient", 23), "row3": local("g02-patient", 26), "key": local("g02-patient", 27)},
-    "g03-limits": {"row1": 0.0, "row2": 0.18, "row3": local("g03-limits", 58), "row3sub": local("g03-limits", 63)},
+    "g03-limits": {"row1": 0.0, "row2": 0.18, "row3": 9.0, "row3sub": 9.0},  # row 3 is now the sleep B-roll
     "g04-age": {"age": local("g04-age", 81), "feltLabel": local("g04-age", 83), "felt": local("g04-age", 87)},
     "g05-journey": {"path": 0.0, "n3": local("g05-journey", 102), "n4": local("g05-journey", 104), "months": local("g05-journey", 105)},
     "g06-weight": {"count": 0.0, "land": local("g06-weight", 114), "alt": local("g06-weight", 117)},
     "g07-track": {"n2": local("g07-track", 131), "day": local("g07-track", 134), "club": local("g07-track", 136), "lap1": local("g07-track", 139), "lap2": local("g07-track", 140)},
     "g08-age45": {"felt": local("g08-age45", 156)},
+    **{k: {"text": local(k, v[3])} for k, v in BROLL.items()},
     "cta": {"word": round(wout(167) - CTA_START, 3), "end": round(wout(168, "end") - CTA_START, 3)},
 }
 
@@ -205,6 +216,9 @@ CHUNKS = [  # (first word, last word, highlight word or None, tone)
 ]
 CHUNKS.sort(key=lambda c: wout(c[0]))
 caps = []
+def in_graphic(t):
+    return any(w["kind"] == "G" and w["start"] - 1e-3 <= t < w["end"] - 1e-3 for w in WINDOWS)
+CHUNKS = [c for c in CHUNKS if not in_graphic(fq(wout(c[0]) - 0.04))]  # B-roll / scenes carry their own type
 for k, (a, b, hl, tone) in enumerate(CHUNKS):
     start = fq(wout(a) - 0.04)
     end_natural = wout(b, "end") + 0.30
@@ -228,10 +242,9 @@ for w in WINDOWS:
     if w["kind"] == "G":
         SFX.append(("whoosh", fq(w["start"] - 0.02), 0.20))
 for scene, keys, snd, vol in [
-    ("g01-hope", ["noun"], "lock", 0.22),
     ("g02-patient", ["row2", "row3"], "tick", 0.20),
     ("g02-patient", ["key"], "lock", 0.18),
-    ("g03-limits", ["row2", "row3"], "tick", 0.20),
+    ("g03-limits", ["row2"], "tick", 0.20),
     ("g04-age", ["felt"], "lock", 0.22),
     ("g05-journey", ["months"], "lock", 0.20),
     ("g06-weight", ["land"], "lock", 0.24),
@@ -311,7 +324,14 @@ def render_template(name, dest, cues, duration, extra=None):
     open(dest, "w").write(html)
 
 for w in WINDOWS:
-    if w["kind"] == "G":
+    if w["kind"] != "G":
+        continue
+    if w["scene"] in BROLL:
+        src, kicker, main, _ = BROLL[w["scene"]]
+        sid = w["scene"].split("-")[0]
+        render_template("broll.html", f"compositions/{w['scene']}.html", CUES[w["scene"]], w["duration"],
+                        {"__SID__": sid, "__SCENE__": w["scene"], "__SRC__": src, "__KICKER__": kicker, "__MAIN__": main})
+    else:
         render_template(f"{w['scene']}.html", f"compositions/{w['scene']}.html", CUES[w["scene"]], w["duration"])
 render_template("cta.html", "compositions/cta.html", CUES["cta"], fq(TOTAL - CTA_START))
 render_template("behind.html", "compositions/behind.html", {"total": TOTAL}, TOTAL,
@@ -356,7 +376,8 @@ for w in WINDOWS:
             d = round(en - t, 3)
         else:
             t = fq(max(st, wout(anchor) - 0.04))
-        times.append((t, sc, d, ease))
+        if t < en - 0.05:  # keys that fall inside a following cutaway are dropped
+            times.append((t, sc, d, ease))
     cam.append(f'tl.set(CAMS, {{ scale: {s0} }}, {st});')
     prev = s0
     for k, (t, sc, d, ease) in enumerate(times):

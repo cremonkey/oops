@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head><meta charset="UTF-8"></head>
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
@@ -40,63 +40,43 @@
 .fs-mask { overflow: hidden; display: block; padding: 0.06em 0 0.12em; }
 .fs-line { display: block; will-change: transform; }
 
-        #g03-root { position: absolute; inset: 0; overflow: hidden; background: var(--cream); }
-        #g03-root .g03-ghost { top: 1120px; left: -40px; font-size: 520px; }
-        #g03-root .g03-title { position: absolute; right: 90px; left: 90px; top: 300px; direction: rtl; }
-        #g03-root .g03-h { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 168px; color: var(--ink); line-height: 1.1; letter-spacing: -0.02em; display: inline-block; }
-        #g03-root .g03-under { position: absolute; right: 0; top: 196px; width: 460px; height: 14px; border-radius: 7px; background: var(--warm); transform-origin: 100% 50%; }
-        #g03-root .g03-list { position: absolute; left: 90px; right: 90px; top: 640px; direction: rtl; }
-        #g03-root .g03-row { display: flex; align-items: center; gap: 40px; height: 250px; border-bottom: 3px solid var(--paper-dark); }
-        #g03-root .g03-icon { width: 156px; height: 156px; border-radius: 34px; background: var(--paper); flex: none; display: flex; align-items: center; justify-content: center; }
-        #g03-root .g03-icon svg { width: 96px; height: 96px; }
-        #g03-root .g03-txt { flex: 1; display: flex; flex-direction: column; }
-        #g03-root .g03-main { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 80px; color: var(--ink); line-height: 1.12; }
-        #g03-root .g03-sub { font-family: "Cairo", sans-serif; font-weight: 600; font-size: 42px; color: var(--ink-soft); line-height: 1.3; }
-        #g03-root .g03-x { width: 84px; height: 84px; border-radius: 50%; background: var(--warm-soft); flex: none; display: flex; align-items: center; justify-content: center; }
+        #r2-root { position: absolute; inset: 0; overflow: hidden; background: #172328; }
+        #r2-root .rb-cam { position: absolute; inset: 0; transform-origin: 50% 45%; }
+        #r2-root .rb-cam video { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; }
+        #r2-root .rb-shade { position: absolute; left: 0; right: 0; top: 980px; bottom: 0; background: linear-gradient(180deg, rgba(23, 35, 40, 0) 0%, rgba(23, 35, 40, 0.55) 38%, rgba(23, 35, 40, 0.78) 100%); }
+        #r2-root .rb-top { position: absolute; left: 0; right: 0; top: 0; height: 320px; background: linear-gradient(180deg, rgba(23, 35, 40, 0.45) 0%, rgba(23, 35, 40, 0) 100%); }
+        #r2-root .rb-tag { position: absolute; top: 160px; right: 90px; direction: rtl; font-family: "Cairo", sans-serif; font-weight: 700; font-size: 28px; color: rgba(255, 253, 248, 0.86); display: flex; align-items: center; gap: 12px; }
+        #r2-root .rb-tag i { width: 12px; height: 12px; border-radius: 50%; background: var(--teal-soft); display: block; }
+        #r2-root .rb-text { position: absolute; left: 90px; right: 90px; top: 1250px; direction: rtl; text-align: right; }
+        #r2-root .rb-kicker { font-family: "Cairo", sans-serif; font-weight: 800; font-size: 54px; line-height: 1.25; color: rgba(255, 253, 248, 0.9); }
+        #r2-root .rb-main { font-family: "Cairo", sans-serif; font-weight: 900; font-size: 118px; line-height: 1.1; color: var(--caption); letter-spacing: -0.02em; white-space: nowrap; }
+        #r2-root .rb-bar { width: 220px; height: 12px; border-radius: 6px; background: var(--teal); margin: 18px 0 0 auto; transform-origin: 100% 50%; }
       </style>
-      <div data-hf-id="hf-b1fh" id="g03-root" data-composition-id="g03-limits" data-width="1080" data-height="1920">
-        <div data-hf-id="hf-y66s" class="fs-paper"><div data-hf-id="hf-nji6" class="fs-grid"></div><div data-hf-id="hf-xzp9" data-layout-ignore="" aria-hidden="true" class="fs-ghost g03-ghost">قبل</div></div>
-        <div data-hf-id="hf-hxnj" class="fs-top"><div data-hf-id="hf-319b" class="fs-eyebrow"><span data-hf-id="hf-v51y" class="fs-dot"></span>قبل الرحلة</div><div data-hf-id="hf-qjsx" class="fs-meta">CASE FILE · 03</div></div>
-        <div data-hf-id="hf-kdcz" class="fs-rule g03-rule"></div>
-        <div data-hf-id="hf-h3o9" class="g03-title"><span data-hf-id="hf-tef5" class="fs-mask"><span data-hf-id="hf-ae30" class="fs-line g03-h">مش قادر</span></span><div data-hf-id="hf-27v1" class="g03-under"></div></div>
-        <div data-hf-id="hf-nlh5" class="g03-list">
-          <div data-hf-id="hf-5ej3" class="g03-row g03-r1">
-            <div data-hf-id="hf-auf2" class="g03-icon"><svg data-hf-id="hf-qh1f" viewBox="0 0 96 96" fill="none" stroke="#172328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path data-hf-id="hf-x1s9" d="M10 82 H30 V64 H50 V46 H70 V28 H88" /></svg></div>
-            <div data-hf-id="hf-y3vf" class="g03-txt"><span data-hf-id="hf-678g" class="g03-main">يطلع السلم</span><span data-hf-id="hf-lim7" class="g03-sub">مش بيقدر</span></div>
-            <div data-hf-id="hf-26pf" class="g03-x"><svg data-hf-id="hf-snce" viewBox="0 0 40 40" width="40" height="40"><path data-hf-id="hf-5svz" d="M10 10 L30 30 M30 10 L10 30" stroke="#172328" stroke-width="6" stroke-linecap="round" /></svg></div>
-          </div>
-          <div data-hf-id="hf-uj1g" class="g03-row g03-r2">
-            <div data-hf-id="hf-xyea" class="g03-icon"><svg data-hf-id="hf-jgrb" viewBox="0 0 96 96" fill="none" stroke="#172328" stroke-width="7" stroke-linecap="round"><path data-hf-id="hf-73w8" d="M12 36 H62 C74 36 78 22 68 18" /><path data-hf-id="hf-al81" d="M12 54 H80 C90 54 92 70 82 74" /><path data-hf-id="hf-huyt" d="M12 72 H44" /></svg></div>
-            <div data-hf-id="hf-dmxn" class="g03-txt"><span data-hf-id="hf-ibfy" class="g03-main">بينهج</span><span data-hf-id="hf-j4xd" class="g03-sub">بشكل قوي</span></div>
-            <div data-hf-id="hf-k9g3" class="g03-x"><svg data-hf-id="hf-pdte" viewBox="0 0 40 40" width="40" height="40"><path data-hf-id="hf-uqnz" d="M10 10 L30 30 M30 10 L10 30" stroke="#172328" stroke-width="6" stroke-linecap="round" /></svg></div>
-          </div>
-          <div data-hf-id="hf-xib1" class="g03-row g03-r3">
-            <div data-hf-id="hf-ycpb" class="g03-icon"><svg data-hf-id="hf-ygjn" viewBox="0 0 96 96" fill="none" stroke="#172328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path data-hf-id="hf-qlhx" d="M62 14 C40 18 28 36 30 54 C32 72 50 84 70 80 C78 78 84 74 88 68 C66 70 48 54 50 34 C51 26 55 19 62 14 Z" /></svg></div>
-            <div data-hf-id="hf-d8mm" class="g03-txt"><span data-hf-id="hf-wegv" class="g03-main">ينام</span><span data-hf-id="hf-dhc6" class="g03-sub g03-sub3">اختناق أثناء النوم</span></div>
-            <div data-hf-id="hf-jv52" class="g03-x"><svg data-hf-id="hf-ps4f" viewBox="0 0 40 40" width="40" height="40"><path data-hf-id="hf-uccy" d="M10 10 L30 30 M30 10 L10 30" stroke="#172328" stroke-width="6" stroke-linecap="round" /></svg></div>
-          </div>
+      <div id="r2-root" data-composition-id="r2-stairs" data-width="1080" data-height="1920">
+        <div class="rb-cam"><video id="r2-v" class="clip" src="assets/broll/r2_stairs.mp4" data-start="0" data-duration="1.3667" data-media-start="0" data-track-index="0" muted playsinline></video></div>
+        <div class="rb-top"></div>
+        <div class="rb-shade"></div>
+        <div class="rb-tag"><i></i>مشهد تمثيلي</div>
+        <div class="rb-text">
+          <div class="fs-mask"><div class="fs-line rb-kicker" data-layout-allow-overflow>مش بيقدر</div></div>
+          <div class="fs-mask"><div class="fs-line rb-main" data-layout-allow-overflow>يطلع السلم</div></div>
+          <div class="rb-bar"></div>
         </div>
-        <div data-hf-id="hf-6osx" class="fs-sig"><span data-hf-id="hf-sn8d" class="fs-sig-name">د. فاطمة السقا</span><span data-hf-id="hf-8xcd" class="fs-sig-tag">قصة نجاح من العيادة</span></div>
-        <div data-hf-id="hf-au0n" class="fs-grain"></div>
       </div>
       <script>
         (function () {
-          const C = {"row1": 0.0, "row2": 0.18, "row3": 9.0, "row3sub": 9.0};
-          const D = 1.5667;
-          const q = (s) => document.querySelector("#g03-root " + s);
+          const C = {"text": 0.567};
+          const D = 1.3667;
+          const q = (s) => document.querySelector("#r2-root " + s);
+          const main = q(".rb-main");
+          if (main.textContent.length > 12) main.style.fontSize = "92px";
           const tl = gsap.timeline({ paused: true });
-          tl.fromTo(q(".g03-rule"), { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "power3.out" }, 0);
-          tl.fromTo(q(".fs-top"), { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.26, ease: "power2.out" }, 0.02);
-          tl.fromTo(q(".g03-h"), { yPercent: 105 }, { yPercent: 0, duration: 0.34, ease: "power3.out" }, 0);
-          tl.fromTo(q(".g03-under"), { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.inOut" }, 0.22);
-          [[".g03-r1", C.row1], [".g03-r2", C.row2], [".g03-r3", C.row3]].forEach(([sel, at]) => {
-            tl.fromTo(q(sel), { x: 70, opacity: 0 }, { x: 0, opacity: 1, duration: 0.32, ease: "power3.out" }, at + 0.06);
-            tl.fromTo(q(sel + " .g03-x"), { scale: 0.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.2, ease: "back.out(1.5)" }, at + 0.32);
-          });
-          tl.fromTo(q(".g03-sub3"), { opacity: 0, x: 24 }, { opacity: 1, x: 0, duration: 0.26, ease: "power2.out" }, C.row3sub - 0.04);
-          tl.fromTo(q(".g03-ghost"), { x: 0 }, { x: 60, duration: D, ease: "none" }, 0);
-          tl.fromTo(q(".g03-list"), { y: 0 }, { y: -14, duration: D, ease: "none" }, 0);
-          window.__timelines["g03-limits"] = tl;
+          tl.fromTo(q(".rb-cam"), { scale: 1.0 }, { scale: 1.07, duration: D, ease: "none" }, 0);
+          tl.fromTo(q(".rb-tag"), { opacity: 0 }, { opacity: 1, duration: 0.25 }, 0.05);
+          tl.fromTo(q(".rb-kicker"), { yPercent: 105 }, { yPercent: 0, duration: 0.3, ease: "power3.out" }, Math.max(0, C.text - 0.25));
+          tl.fromTo(q(".rb-main"), { yPercent: 105 }, { yPercent: 0, duration: 0.34, ease: "power3.out" }, Math.max(0.06, C.text - 0.1));
+          tl.fromTo(q(".rb-bar"), { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.inOut" }, Math.max(0.12, C.text + 0.05));
+          window.__timelines["r2-stairs"] = tl;
         })();
       </script>
     </template>

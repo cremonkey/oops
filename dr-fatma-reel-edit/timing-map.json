@@ -299,7 +299,7 @@
   {
    "kind": "G",
    "start": 2.4667,
-   "scene": "g01-hope",
+   "scene": "r1-shoelace",
    "end": 4.2667,
    "duration": 1.8
   },
@@ -380,21 +380,9 @@
    "duration": 4.3333
   },
   {
-   "kind": "A",
+   "kind": "G",
    "start": 13.6333,
-   "crop": {
-    "zoom": [
-     1.04,
-     [
-      [
-       52,
-       1.16,
-       0.3,
-       "power3.out"
-      ]
-     ]
-    ]
-   },
+   "scene": "r2-stairs",
    "end": 15.0,
    "duration": 1.3667
   },
@@ -402,8 +390,15 @@
    "kind": "G",
    "start": 15.0,
    "scene": "g03-limits",
+   "end": 16.5667,
+   "duration": 1.5667
+  },
+  {
+   "kind": "G",
+   "start": 16.5667,
+   "scene": "r3-sleep",
    "end": 20.0,
-   "duration": 5.0
+   "duration": 3.4333
   },
   {
    "kind": "A",
@@ -490,8 +485,15 @@
      ]
     ]
    },
+   "end": 30.4667,
+   "duration": 1.1667
+  },
+  {
+   "kind": "G",
+   "start": 30.4667,
+   "scene": "r4-lab",
    "end": 32.8333,
-   "duration": 3.5333
+   "duration": 2.3666
   },
   {
    "kind": "G",
@@ -558,21 +560,9 @@
    "duration": 3.6667
   },
   {
-   "kind": "A",
+   "kind": "G",
    "start": 46.7667,
-   "crop": {
-    "zoom": [
-     1.1,
-     [
-      [
-       127,
-       1.0,
-       0.7,
-       "power2.inOut"
-      ]
-     ]
-    ]
-   },
+   "scene": "r5-walk",
    "end": 48.3,
    "duration": 1.5333
   },
@@ -733,11 +723,6 @@
   }
  ],
  "scene_cues": {
-  "g01-hope": {
-   "lace": 0.0,
-   "word": 0.88,
-   "noun": 1.18
-  },
   "g02-patient": {
    "row1": 0.12,
    "row2": 1.933,
@@ -747,8 +732,8 @@
   "g03-limits": {
    "row1": 0.0,
    "row2": 0.18,
-   "row3": 2.147,
-   "row3sub": 3.507
+   "row3": 9.0,
+   "row3sub": 9.0
   },
   "g04-age": {
    "age": 0.9,
@@ -776,6 +761,21 @@
   "g08-age45": {
    "felt": 0.994
   },
+  "r1-shoelace": {
+   "text": 0.88
+  },
+  "r2-stairs": {
+   "text": 0.567
+  },
+  "r3-sleep": {
+   "text": 1.94
+  },
+  "r4-lab": {
+   "text": 0.04
+  },
+  "r5-walk": {
+   "text": 0.873
+  },
   "cta": {
    "word": 0.46,
    "end": 1.24
@@ -786,11 +786,6 @@
    "sound": "whoosh",
    "at": 2.4333,
    "volume": 0.2
-  },
-  {
-   "sound": "lock",
-   "at": 3.6333,
-   "volume": 0.22
   },
   {
    "sound": "whoosh",
@@ -814,6 +809,11 @@
   },
   {
    "sound": "whoosh",
+   "at": 13.6,
+   "volume": 0.2
+  },
+  {
+   "sound": "whoosh",
    "at": 14.9667,
    "volume": 0.2
   },
@@ -823,8 +823,8 @@
    "volume": 0.2
   },
   {
-   "sound": "tick",
-   "at": 17.1333,
+   "sound": "whoosh",
+   "at": 16.5333,
    "volume": 0.2
   },
   {
@@ -836,6 +836,11 @@
    "sound": "lock",
    "at": 26.0,
    "volume": 0.22
+  },
+  {
+   "sound": "whoosh",
+   "at": 30.4333,
+   "volume": 0.2
   },
   {
    "sound": "whoosh",
@@ -856,6 +861,11 @@
    "sound": "lock",
    "at": 40.1667,
    "volume": 0.24
+  },
+  {
+   "sound": "whoosh",
+   "at": 46.7333,
+   "volume": 0.2
   },
   {
    "sound": "whoosh",

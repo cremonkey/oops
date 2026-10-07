@@ -74,7 +74,7 @@ Crop states are a scale on the non-timed `#cam` wrapper, origin 50% 30% (eyes/ch
 
 **Text behind Dr. Fatma** (user request). Six phrases sit on the wall layer, and a local u2net subject matte (`tools/make_mattes.py`, frame-exact, never uploaded) rides the same camera above them, so her head overlaps their lower edge: «كان عنده · أمل واحد», «مش بيقدر يقف · يصلي», «ده · عجز» (offset so the dot of ج is never hidden), «من وزن · 140 كيلو», «بقى يقف يصلي · كل الفروض», «حياته · اتغيرت».
 
-**B-roll** (requested from Magnific stock, existing footage only, no generation). Blocked: the Magnific/Freepik file CDN `videocdn.cdnpk.net` is denied by this environment's network policy, so no clip has been placed yet.
+**B-roll** (Magnific stock, existing real footage only, no generation). Five cutaways (see `BROLL.md`): shoelace → replaces the hook scene at 2.47–4.27; stairs 13.63–15.00; sleep 16.57–20.00 (the limitations list now shows two rows then cuts to the sleep clip); lab 30.47–32.83; track walkers 46.77–48.30 leading into the track scene. Each has the spoken phrase as a headline and a «مشهد تمثيلي» tag. Mix now: Dr. Fatma 45.1% · B-roll 18.8% · motion graphics 36.1%. Captions are suppressed inside cutaways (the headline carries the phrase).
 
 ## Removed source ranges
 
