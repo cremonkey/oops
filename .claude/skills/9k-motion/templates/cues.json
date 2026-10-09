@@ -1,0 +1,17 @@
+{
+  "dur": 10,
+  "bpm": 120,
+  "music": true,
+  "root": 57,
+  "sfx": [
+    { "t": 0.0, "type": "type", "text": "Ismail9k", "cps": 14 },
+    { "t": 1.07, "type": "type", "count": 8, "cps": 24, "gain": 0.6 },
+    { "t": 1.4, "type": "type", "text": "9k", "cps": 14 },
+    { "t": 2.6, "type": "whoosh" },
+    { "t": 2.6, "type": "type", "text": "Design systems", "cps": 22, "gain": 0.7 },
+    { "t": 3.9, "type": "click" },
+    { "t": 5.2, "type": "pop" },
+    { "t": 7.8, "type": "thump" },
+    { "t": 8.9, "type": "ding" }
+  ]
+}

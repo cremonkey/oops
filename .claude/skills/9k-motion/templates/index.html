@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>9k film</title>
+<!-- Fonts are local (npm @fontsource) so headless renders never depend on the network -->
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-sans/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-sans/600.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-sans/700.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-serif/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-serif/700.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-mono/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-mono/600.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-sans-arabic/400.css">
+<link rel="stylesheet" href="node_modules/@fontsource/ibm-plex-sans-arabic/700.css">
+<style>html,body{margin:0;background:#000}canvas{display:block}</style>
+<canvas id="c"></canvas>
+<script src="lib/motion.js"></script>
+<script src="lib/brand.js"></script>
+<script>
+// ---- format & options from the URL: index.html?w=1080&h=1920&theme=dark&dir=ltr&alpha=0
+const q = new URLSearchParams(location.search);
+const W = +q.get('w') || 1080, H = +q.get('h') || 1920;
+const THEME = q.get('theme') || 'dark', DIR = q.get('dir') || 'ltr', ALPHA = q.get('alpha') === '1';
+const DUR = 10; // seconds — keep in sync with docs/shotlist.md
+const cv = document.getElementById('c'); cv.width = W; cv.height = H;
+const g = cv.getContext('2d');
+const { clamp, lerp, sp, tween, typed } = M;
+const portrait = H > W, rem = (n) => B.rem(n);
+// Layout against W/H, never fixed pixels, so every format re-renders from one timeline.
+const pad = () => Math.min(W, H) * 0.08;
+
+// ---- scenes: one object per shot, t is local to the shot -----------------
+// This sample shows the 9k vocabulary. Replace it with the approved shot list.
+const SCENES = [
+  { from: 0, to: 2.6, draw(t) {                       // hook: wordmark types itself, then retypes to 9k
+      B.glow(g, t, 'end');
+      B.wordmark(g, t, W / 2, H / 2, { size: rem(3.2), align: 'center', hold: 0.5 });
+  }},
+  { from: 2.6, to: 5.2, draw(t) {                     // kinetic headline: typed line + orange underline on a spring
+      B.glow(g, t + 2.6, 'top-end');
+      const size = rem(portrait ? 3.4 : 3), x = pad(), y = H * 0.42;
+      B.font(g, 700, size, 'sans'); g.fillStyle = B.F.theme.text; g.textAlign = 'start';
+      g.fillText(typed('Design systems', t, 22), B.sx(x), y);
+      B.font(g, 400, size, 'serif'); g.fillStyle = B.F.theme.primaryText;
+      g.fillText(typed('that ship.', t - 0.75, 22), B.sx(x), y + size * 1.2);
+      const u = sp(t - 1.3, 'snappy'), uw = Math.min(W - 2 * x, size * 7) * u;
+      g.fillStyle = B.C.accent; g.fillRect(DIR === 'rtl' ? W - x - uw : x, y + size * 1.55, uw, rem(0.25));
+      B.badge(g, 'design systems', B.sx(x), y - size * 1.9, { variant: 'tag', size: rem(1.1) });
+  }},
+  { from: 5.2, to: 7.8, draw(t) {                     // proof: feature panel rises on a spring, stat counts up
+      const s = sp(t, 'default'), pw = Math.min(W - 2 * pad(), rem(26)), ph = rem(15);
+      const x = (W - pw) / 2, y = H / 2 - ph / 2 + (1 - s) * rem(3);
+      g.save(); g.globalAlpha = clamp(t * 5);
+      B.panel(g, x, y, pw, ph, { variant: 'feature' });
+      const n = Math.round(480 * tween(t, 0.2, 1.2));
+      const cx = DIR === 'rtl' ? x + pw - rem(2) : x + rem(2);   // content starts at the panel's logical start
+      B.badge(g, 'Open source', cx, y + rem(2), { variant: 'outline', size: rem(1) });
+      B.stat(g, `${n}k+`, 'monthly downloads', cx, y + rem(10), { size: rem(6) });
+      g.restore();
+  }},
+  { from: 7.8, to: 10, draw(t) {                      // end card: green band, Nino reacts, bare 9k
+      B.frame(g, W, H, { theme: 'green', dir: DIR });
+      const wipe = sp(t, 'heavy'); g.fillStyle = B.C.primary; g.fillRect(0, H * (1 - wipe), W, H * wipe);
+      const size = rem(portrait ? 7 : 6);
+      B.nino(g, W / 2 - size / 2, H / 2 - size * 1.35 + (1 - sp(t - 0.25, 'playful')) * rem(6), size, { expression: t > 1.1 ? 'happy' : 'idle', t, colors: { body: B.C.white } }); // green body vanishes on the band
+      B.font(g, 700, rem(3.5), 'mono'); g.fillStyle = B.C.white; g.textAlign = 'center';
+      g.fillText(typed('9k', t - 0.6, 10), W / 2, H / 2 + rem(2.5));
+  }},
+];
+
+function draw(t) {
+  B.frame(g, W, H, { theme: THEME, dir: DIR });
+  B.background(g, ALPHA);
+  for (const s of SCENES) if (t >= s.from && t < s.to) s.draw(t - s.from);
+  if (!ALPHA) B.grain(g, t, 0.045);
+}
+
+window.DUR = DUR;
+window.seek = (t) => { draw(t); return true; };
+window.ready = B.loadFonts();
+
+// Live preview in a normal browser; off during headless render
+if (!navigator.webdriver) window.ready.then(() => {
+  const t0 = performance.now();
+  (function loop() { draw(((performance.now() - t0) / 1000) % DUR); requestAnimationFrame(loop); })();
+});
+</script>
