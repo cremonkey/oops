@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "9k-montage": {
+      "source": "ismail9k/motion",
+      "sourceType": "github",
+      "skillPath": "skills/9k-montage/SKILL.md",
+      "computedHash": "69989de93cfa8c903406cf47b822d71c39ceb1e5e2896ef40559d72f94e2af0e"
+    },
+    "9k-motion": {
+      "source": "ismail9k/motion",
+      "sourceType": "github",
+      "skillPath": "skills/9k-motion/SKILL.md",
+      "computedHash": "da6e36fa506ee09d665f0698da77c08a0e91a4ebc3e8a8764f0764dc4840c5c3"
+    }
+  }
+}

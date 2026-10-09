@@ -1,0 +1,12 @@
+{
+  "_doc": "Schema: references/edit-spec.md. cut.* is SOURCE time; everything else is OUTPUT time (work/transcript.cut.md).",
+  "format": { "w": 1080, "h": 1920, "fps": 30 },
+  "dir": "rtl",
+  "theme": "dark",
+  "cut": { "maxPause": 0.35, "padIn": 0.06, "padOut": 0.12, "drop": [] },
+  "camera": { "auto": true, "base": 1.0, "punch": 1.12, "focus": [0.5, 0.3], "keys": [] },
+  "captions": { "style": "word", "maxWords": 4, "fixes": {}, "keywords": [], "hide": [] },
+  "graphics": [],
+  "grade": { "contrast": 1.04, "saturation": 1.05 },
+  "audio": { "lufs": -14, "voice": { "clean": true }, "sfx": { "auto": true, "gain": 1 }, "cues": [], "extra": [], "music": null }
+}
